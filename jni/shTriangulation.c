@@ -29,13 +29,186 @@
 #include "shPaint.h"
 #include "shTriangulation.h"
 
-
 /*-----------------------------------------------------------
  * Triangulate a cancave polygon 
  *-----------------------------------------------------------*/
+int monotone_check(SHVertex *vertices, int nvertices)
+{
+	int i, j, k;
+	int leftmost_vertex = 0;
+	int rightmost_vertex = 0;
+	SHVector2 leftmost, rightmost, tmp;
+	leftmost.x = vertices[0].point.x;
+	rightmost.x = vertices[0].point.x;
+	
+	//Find the leftmost & rightmost vertices in the path
+	for(i = 1; i < nvertices; i++){
+		if(vertices[i].point.x < leftmost.x) {
+			leftmost.x = vertices[i].point.x;
+			leftmost_vertex = i;
+		}
+		else if(vertices[i].point.x > rightmost.x) {
+			rightmost.x = vertices[i].point.x;
+			rightmost_vertex = i;
+		}
+	}
 
+	i = leftmost_vertex;
+	tmp.x = vertices[i--].point.x;
+	while(i != rightmost_vertex){
+		if(vertices[i].point.x <= tmp.x)
+			return 0;
+		tmp.x = vertices[i].point.x;
+		i = (i + nvertices -1) % nvertices;
+	} 
+
+	i = leftmost_vertex;
+        tmp.x = vertices[i++].point.x;
+	while(i != rightmost_vertex){
+
+		if(vertices[i].point.x <= tmp.x)
+                        return 0;
+        tmp.x = vertices[i].point.x;
+        i = (i + 1) % nvertices;
+    }
+	return 1;
+}
+ 
+ int LeftOnRight(SHVector2 a, SHVector2 b, SHVector2 c )
+{
+	float area = a.x*b.y - a.y*b.x +
+		     a.y*c.x - a.x*c.y +
+		     b.x*c.y - c.x*b.y;
+	if(area>0)		return 0;//left
+	else if (area=0)	return 2;//on the line
+	else 			return 1;//right
+}
+ 
+ void shMonoTriangulation(SHVertex *vertices, int nvertices, SHVector2 *triangles, int ntriangles)
+{
+	//LOGD("Monotone polygon triangulation");
+	// * Not finish yet
+	int i, j, k;
+	int leftmost_vertex = 0;
+	int rightmost_vertex = 0;
+	SHVector2 leftmost, rightmost, privious, next;
+	leftmost.x = vertices[0].point.x;
+	rightmost.x = vertices[0].point.x;
+	
+	//Find the leftmost & rightmost vertices in the path
+	for(i = 1; i < nvertices; i++){
+		if(vertices[i].point.x < leftmost.x) {
+			leftmost.x = vertices[i].point.x;
+			leftmost_vertex = i;
+		}
+		else if(vertices[i].point.x > rightmost.x) {
+			rightmost.x = vertices[i].point.x;
+			rightmost_vertex = i;
+		}
+	}
+
+	int *chain = (int*)malloc(nvertices * sizeof(int));
+	next = vertices[(leftmost_vertex + 1) % nvertices].point;
+	privious = vertices[(leftmost_vertex + nvertices -1) % nvertices].point;
+	int clockwise = next.y > privious.y? 1: 0;
+	
+	// 0:upper chain  1:lower chain  2:start  3:end
+	for(i=0; i<nvertices; i++){
+		chain[i] = 0;
+	}
+	i = leftmost_vertex;
+	while(i != rightmost_vertex){
+		chain[i] = 1;
+		if(clockwise)	i = (i + nvertices -1) % nvertices;
+		else		i = (i + 1) % nvertices;
+	} 
+	chain[leftmost_vertex] = 2;
+	chain[rightmost_vertex] = 3;
+	
+	int *sort = (int*)malloc(nvertices * sizeof(int));
+	sort[0] = leftmost_vertex;
+	int p1, p2;
+
+	p1 = (leftmost_vertex+1) % nvertices;
+	p2 = (leftmost_vertex + nvertices -1) % nvertices;
+	i = 1;
+	while(i<nvertices){
+		if(vertices[p1].point.x < vertices[p2].point.x){
+			sort[i] = p1;
+			p1 = (p1==nvertices -1)? 0: p1+1;
+		}
+		else{
+			sort[i] = p2;
+			p2 = (p2==0)? nvertices-1: p2-1;
+		}
+		i++;
+	}
+
+	//starting tiangulation
+	//int *tri = triangles;
+	j = 0;
+	int *stack = (int*)malloc(nvertices * sizeof(int));
+	int top, current;
+	SHVector2 v1, v2, v3;
+	stack[0] = sort[0];
+	stack[1] = sort[1];
+	top = 1;
+	for(i=2; i<nvertices; i++){
+
+		current = sort[i];
+		if(chain[current] != chain[ stack[top] ]){
+			k = stack[top];
+			while(top!=0){
+				triangles[j*3] = vertices[current].point;
+				triangles[j*3 + 1] = vertices[stack[top]].point;
+				triangles[j*3 + 2] = vertices[stack[top-1]].point;
+				top--;
+				j++;
+			}
+			stack[0] = k;
+			stack[1] = current;
+			top = 1;
+		}
+		else{
+			v1 = vertices[stack[top-1]].point;
+			v2 = vertices[stack[top]].point;
+			v3 = vertices[current].point;
+			
+			if( (chain[ stack[top] ]==0&& LeftOnRight(v1, v2, v3)==0)  ||  (chain[stack[top]]==1&& LeftOnRight(v1, v2, v3)==1)){
+				stack[top+1] = current;
+				top++;
+			}
+			else if(LeftOnRight(v1, v2, v3)==2){
+                           	stack[top+1] = current;
+	                     	top++;
+			}
+			else{
+				do{
+					
+					triangles[j*3] = vertices[current].point;
+					triangles[j*3 + 1] = vertices[stack[top]].point;
+					triangles[j*3 + 2] = vertices[stack[top-1]].point;
+					top--;
+					j++;
+
+					if(top==0)	break;
+
+					v1 = vertices[stack[top-1]].point;
+					v2 = vertices[stack[top]].point;
+				}while( !((chain[ stack[top] ]==0&& LeftOnRight(v1, v2, v3)==0)  ||  (chain[stack[top]]==1&& LeftOnRight(v1, v2, v3)==1)) );
+				stack[top+1] = current;
+				top++;
+			}
+		}
+	}
+	free(chain);
+	free(sort);
+	free(stack);
+}
+  
 void shTriangulation(SHVertex *vertices, int nvertices, SHVector2 *triangles, int ntriangles)
 {
+	//LOGD("Ear-clipping triangulation");
 	SHVector2 current, left, right, internal;
 	SHVector2 s1, s2, s3;
 	int *plunk;
@@ -124,7 +297,6 @@ void shTriangulation(SHVertex *vertices, int nvertices, SHVector2 *triangles, in
 	free(plunk);
 }
 
-
 /*-----------------------------------------------------------
  * Draws the subdivided vertices to from a polygon in the OpenGL mode given
  * (this could be VG_TRIANGLE_FAN or VG_LINE_STRIP).
@@ -140,7 +312,6 @@ void shDrawPolygon(SHPath *p, GLenum mode)
 	int i;
 	int ntris; // number of triangles
 	SHVertex *vertices;
-
 	glEnableClientState(GL_VERTEX_ARRAY);
 	while (start < p->vertices.size) {
 		size = p->vertices.items[start].flags;
@@ -152,12 +323,18 @@ void shDrawPolygon(SHPath *p, GLenum mode)
 			vertices[i].point.x = p->vertices.items[start + i].point.x;
 			vertices[i].point.y = p->vertices.items[start + i].point.y;
 		}
-		shTriangulation(vertices, size, temp, ntris);
+		shMonoTriangulation(vertices, size, temp, ntris);
+		/*
+		if(monotone_check(vertices, size)){
+			shMonoTriangulation(vertices, size, temp, ntris);
+		}
+		else{
+			shTriangulation(vertices, size, temp, ntris);
+		}*/
 		// Draw the triangluated subsegment
 		glVertexPointer(2, GL_FLOAT, sizeof(SHVector2), temp);
 		glDrawArrays(GL_TRIANGLES, 0, 3 * ntris);
 		free(temp);
-		free(vertices);
 		start += size;
 	}
 	glDisableClientState(GL_VERTEX_ARRAY);
