@@ -138,6 +138,8 @@ VG_API_CALL VGPath vgCreatePath(VGint pathFormat,
                                 VGint coordCapacityHint,
                                 VGbitfield capabilities)
 {
+
+	LOGD("shPath.c:: 142, vgCreatePath()");
   SHPath *p = NULL;
   VG_GETCONTEXT(VG_INVALID_HANDLE);
   

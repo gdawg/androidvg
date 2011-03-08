@@ -84,7 +84,6 @@ class DemoGLSurfaceView extends GLSurfaceView {
 		mRenderer.setHeight(height);
 
 		Log.d(LOG_TAG, "(w,h)=(" + width + "," + height + ")");
-		//this.setRenderMode(RENDERMODE_WHEN_DIRTY);
 	}
 
 	public boolean onTouchEvent(final MotionEvent event) {

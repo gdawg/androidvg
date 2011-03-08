@@ -37,12 +37,12 @@ import android.view.View.OnLongClickListener;
 
 
 public class TigerVG extends Activity {
-
-
+	static final String LOG_TAG = "TigerVG";
 
 	/** Called when the activity is first created. */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+
 		super.onCreate(savedInstanceState);
 
 		DisplayMetrics metrics = new DisplayMetrics();
@@ -51,7 +51,11 @@ public class TigerVG extends Activity {
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 
+
+
 		mGLView = new DemoGLSurfaceView(this, metrics.widthPixels, metrics.heightPixels);
+		Log.d(LOG_TAG, "After DemoGLSurfaceView");
+
 		setContentView(mGLView);
 	}
 
@@ -125,6 +129,7 @@ class DemoGLSurfaceView extends GLSurfaceView implements OnLongClickListener {
 }
 
 class DemoRenderer implements GLSurfaceView.Renderer {
+	static final String LOG_TAG = "TigerVG";
 
 	private int width;
 	private int height;
@@ -137,6 +142,8 @@ class DemoRenderer implements GLSurfaceView.Renderer {
 	public void onSurfaceCreated(GL10 gl, EGLConfig config) {
 		nativeStart(width, height);
 	}
+
+
 
 	public void onSurfaceChanged(GL10 gl, int w, int h) {
 	}

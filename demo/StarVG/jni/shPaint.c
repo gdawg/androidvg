@@ -23,6 +23,7 @@
 #include "shContext.h"
 #include "shPaint.h"
 #include <stdio.h>
+#include "shTriangulation.h"
 
 #define _ITEM_T SHStop
 #define _ARRAY_T SHStopArray
@@ -447,12 +448,16 @@ int shDrawLinearGradientMesh(SHPaint *p, SHVector2 *min, SHVector2 *max,
   /* Find inverse transformation (back to paint space) */
   invertible = shInvertMatrix(m, &mi);
   if (!invertible || n==0.0f) {
-    
+   
     /* Fill boundbox with color at offset 1 */
     SHColor *c = &p->stops.items[p->stops.size-1].color;
-//shc    glColor4fv((GLfloat*)c); glBegin(GL_QUADS);
-//shc    for (i=0; i<4; ++i) glVertex2fv((GLfloat*)&corners[i]);
-//shc    glEnd();
+    glColor4f(c->r, c->g, c->b, c->a); 
+    shDrawQuad2f( //shc
+		corners[0].x, corners[0].y,
+		corners[1].x, corners[1].y,
+		corners[2].x, corners[2].y,
+		corners[3].x, corners[3].y
+    );
     return 1;
   }
   
@@ -584,12 +589,13 @@ int shDrawRadialGradientMesh(SHPaint *p, SHVector2 *min, SHVector2 *max,
     
     /* Fill boundbox with color at offset 1 */
     SHColor *c = &p->stops.items[p->stops.size-1].color;
-    /*shc
-    glColor4fv((GLfloat*)c); 
-    glBegin(GL_QUADS);
-    for (i=0; i<4; ++i) glVertex2fv((GLfloat*)&corners[i]);
-    glEnd();
-    shc*/
+    glColor4f(c->r, c->g, c->b, c->a); 
+    shDrawQuad2f( //shc
+		corners[0].x, corners[0].y,
+		corners[1].x, corners[1].y,
+		corners[2].x, corners[2].y,
+		corners[3].x, corners[3].y
+    );
     return 1;
   }
   
@@ -750,12 +756,13 @@ int shDrawPatternMesh(SHPaint *p, SHVector2 *min, SHVector2 *max,
     
     /* Fill boundbox with tile fill color */
     SHColor *c = &context->tileFillColor;
-/*shc
-    glColor4fv((GLfloat*)c);
-    glBegin(GL_QUADS);
-    for (i=0; i<4; ++i) glVertex2fv((GLfloat*)&corners[i]);
-    glEnd();
-shc*/
+    glColor4f(c->r, c->g, c->b, c->a);
+    shDrawQuad2f( //shc
+    	corners[0].x, corners[0].y,
+	corners[1].x, corners[1].y,
+	corners[2].x, corners[2].y,
+	corners[3].x, corners[3].y
+    );
     return 1;
   }
   

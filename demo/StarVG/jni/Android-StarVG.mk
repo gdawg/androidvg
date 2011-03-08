@@ -1,4 +1,5 @@
-# Copyright (C) 2010 Shuo-Hung Chen, Hsiao-Mei Lin, Yi-Cheng Chen
+# Copyright (C) 2010 Shuo-Hung Chen, Hsiao-Mei Lin
+# The AndroidVG Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,8 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+# the purpose of this sample is to demonstrate how one can
+# generate two distinct shared libraries and have them both
+# uploaded in
+#
+
 #//////////////////////////////////////////////////////////////////////
-# The OpenVG library will be built statically.
+# The first lib, openvg, which will be built statically.
+
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE    := libopenvg
@@ -30,21 +37,30 @@ LOCAL_SRC_FILES := \
 	shParams.c\
 	shContext.c\
 	shVgu.c \
-	shTriangulation.c \
+	shTriangulation.c\
 	androidvg_openvg_VG11.cpp
+
 LOCAL_LDLIBS    := -lGLESv1_CM -llog
 include $(BUILD_STATIC_LIBRARY)
 
-#///////////////////////////////////////////////////////////////////////
-# The openvg-tiger lib depends on libopenvg.
+
+#//////////////////////////////////////////////////////////////////////
+# The openvg-star lib, which will depend on and include the first one.
+
 include $(CLEAR_VARS)
+#LOCAL_SHARED_LIBRARIES := libutils libandroid-runtime libnativehelper libcutils
 LOCAL_C_INCLUDES := $(JNI_H_INCLUDE)
-LOCAL_MODULE    := libopenvg-tiger
-LOCAL_CFLAGS		:= -O3 -Werror
+LOCAL_MODULE    := libopenvg-star
+LOCAL_CFLAGS    := -O3 -Werror
 LOCAL_SRC_FILES := \
 	app/test.c\
-	app/test_tiger_paths.c\
-	app/test_tiger.c
+	app/test_dash.c
+
 LOCAL_LDLIBS    := -lGLESv1_CM -llog
 LOCAL_STATIC_LIBRARIES := libopenvg
+
 include $(BUILD_SHARED_LIBRARY)
+
+
+
+

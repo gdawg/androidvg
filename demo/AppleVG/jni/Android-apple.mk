@@ -1,4 +1,5 @@
-# Copyright (C) 2010 Shuo-Hung Chen, Hsiao-Mei Lin, Yi-Cheng Chen
+# Copyright (C) 2010 Shuo-Hung Chen, Hsiao-Mei Lin
+# The AndroidVG Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-#//////////////////////////////////////////////////////////////////////
+# ////////////////////////////////////////////////////////////////////
 # The OpenVG library will be built statically.
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
@@ -35,16 +36,16 @@ LOCAL_SRC_FILES := \
 LOCAL_LDLIBS    := -lGLESv1_CM -llog
 include $(BUILD_STATIC_LIBRARY)
 
-#///////////////////////////////////////////////////////////////////////
-# The openvg-tiger lib depends on libopenvg.
+#/////////////////////////////////////////////////////////////////////
+# The openvg-apple lib depends on and includes the libopenvg.
 include $(CLEAR_VARS)
 LOCAL_C_INCLUDES := $(JNI_H_INCLUDE)
-LOCAL_MODULE    := libopenvg-tiger
+#LOCAL_SHARED_LIBRARIES := libutils libandroid-runtime libnativehelper libcutils
+LOCAL_MODULE    := libopenvg-apple
 LOCAL_CFLAGS		:= -O3 -Werror
 LOCAL_SRC_FILES := \
 	app/test.c\
-	app/test_tiger_paths.c\
-	app/test_tiger.c
+  app/test_interpolate.c
 LOCAL_LDLIBS    := -lGLESv1_CM -llog
 LOCAL_STATIC_LIBRARIES := libopenvg
 include $(BUILD_SHARED_LIBRARY)
