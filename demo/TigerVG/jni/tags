@@ -1,0 +1,1829 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABS2	shVectors.h	129;"	d
+ABS3	shVectors.h	130;"	d
+ABS4	shVectors.h	131;"	d
+ADD2	shVectors.h	105;"	d
+ADD2V	shVectors.h	109;"	d
+ADD3	shVectors.h	106;"	d
+ADD3V	shVectors.h	110;"	d
+ADD4	shVectors.h	107;"	d
+ADD4V	shVectors.h	111;"	d
+ANGLE2	shVectors.h	151;"	d
+ANGLE2N	shVectors.h	152;"	d
+APIENTRY	shExtensions.h	28;"	d
+APIENTRYP	shExtensions.h	31;"	d
+ButtonFunc	test.h	/^typedef void (*ButtonFunc)(int button, int state, int x, int y);$/;"	t
+CADD	shImage.h	108;"	d
+CADDC	shImage.h	109;"	d
+CADDCK	shImage.h	111;"	d
+CADDTO	shImage.h	110;"	d
+CDIV	shImage.h	114;"	d
+CMUL	shImage.h	113;"	d
+COL2INTCOORD	shImage.h	148;"	d
+CPREMUL	shImage.h	116;"	d
+CROSS2	shVectors.h	149;"	d
+CSET	shImage.h	101;"	d
+CSETC	shImage.h	102;"	d
+CSTORE_RGBA1D_8	shImage.h	123;"	d
+CSTORE_RGBA1D_F	shImage.h	129;"	d
+CSTORE_RGBA2D_8	shImage.h	135;"	d
+CSTORE_RGBA2D_F	shImage.h	141;"	d
+CSUB	shImage.h	104;"	d
+CSUBC	shImage.h	105;"	d
+CSUBCTO	shImage.h	106;"	d
+CUNPREMUL	shImage.h	117;"	d
+CallbackFunc	test.h	/^typedef void (*CallbackFunc)();$/;"	t
+CleanupFunc	test.h	/^typedef void (*CleanupFunc)();$/;"	t
+DIV2	shVectors.h	125;"	d
+DIV3	shVectors.h	126;"	d
+DIV4	shVectors.h	127;"	d
+DIVMATS	shVectors.h	179;"	d
+DOT2	shVectors.h	145;"	d
+DOT3	shVectors.h	146;"	d
+DOT4	shVectors.h	147;"	d
+DisplayFunc	test.h	/^typedef void (*DisplayFunc)(float interval);$/;"	t
+DragFunc	test.h	/^typedef void (*DragFunc)(int x, int y);$/;"	t
+EQ2	shVectors.h	93;"	d
+EQ2V	shVectors.h	101;"	d
+EQ3	shVectors.h	94;"	d
+EQ3V	shVectors.h	102;"	d
+EQ4	shVectors.h	95;"	d
+EQ4V	shVectors.h	103;"	d
+FIRST_H	first.h	18;"	d
+GL_BGRA	shExtensions.h	35;"	d
+GL_CLAMP_TO_BORDER	shExtensions.h	50;"	d
+GL_CLAMP_TO_EDGE	shExtensions.h	43;"	d
+GL_GLEXT_LEGACY	shDefs.h	170;"	d
+GL_MIRRORED_REPEAT	shExtensions.h	57;"	d
+GL_MULTISAMPLE	shExtensions.h	47;"	d
+GL_TEXTURE0	shExtensions.h	48;"	d
+GL_TEXTURE1	shExtensions.h	49;"	d
+GL_UNSIGNED_INT_8_8_8_8	shExtensions.h	41;"	d
+GL_UNSIGNED_INT_8_8_8_8_REV	shExtensions.h	42;"	d
+GL_UNSIGNED_SHORT_1_5_5_5_REV	shExtensions.h	40;"	d
+GL_UNSIGNED_SHORT_4_4_4_4	shExtensions.h	37;"	d
+GL_UNSIGNED_SHORT_4_4_4_4_REV	shExtensions.h	38;"	d
+GL_UNSIGNED_SHORT_5_5_5_1	shExtensions.h	39;"	d
+GL_UNSIGNED_SHORT_5_6_5	shExtensions.h	36;"	d
+HAVE_DLFCN_H	config.h	5;"	d
+HAVE_INTTYPES_H	config.h	8;"	d
+HAVE_JPEGLIB_H	config.h	11;"	d
+HAVE_LIBM	config.h	14;"	d
+HAVE_MEMORY_H	config.h	17;"	d
+HAVE_STDINT_H	config.h	20;"	d
+HAVE_STDLIB_H	config.h	23;"	d
+HAVE_STRINGS_H	config.h	26;"	d
+HAVE_STRING_H	config.h	29;"	d
+HAVE_SYS_STAT_H	config.h	32;"	d
+HAVE_SYS_TYPES_H	config.h	35;"	d
+HAVE_UNISTD_H	config.h	38;"	d
+IDMAT	shVectors.h	194;"	d
+INT2COLCOORD	shImage.h	147;"	d
+ISZERO2	shVectors.h	97;"	d
+ISZERO3	shVectors.h	98;"	d
+ISZERO4	shVectors.h	99;"	d
+JN	shArrayBase.h	/^SHint JN(_FUNC_T,Find) (_ARRAY_T *a, _ITEM_T item)$/;"	f
+JN	shArrayBase.h	/^_ITEM_T JN(_FUNC_T,At) (_ARRAY_T *a, SHint index)$/;"	f
+JN	shArrayBase.h	/^_ITEM_T JN(_FUNC_T,Back) (_ARRAY_T *a)$/;"	f
+JN	shArrayBase.h	/^_ITEM_T JN(_FUNC_T,Front) (_ARRAY_T *a)$/;"	f
+JN	shArrayBase.h	/^_ITEM_T* JN(_FUNC_T,AtP) (_ARRAY_T *a, SHint index)$/;"	f
+JN	shArrayBase.h	/^_ITEM_T* JN(_FUNC_T,BackP) (_ARRAY_T *a)$/;"	f
+JN	shArrayBase.h	/^_ITEM_T* JN(_FUNC_T,FrontP) (_ARRAY_T *a)$/;"	f
+JN	shArrayBase.h	/^int JN(_FUNC_T,PushBack) (_ARRAY_T *a, _ITEM_T item)$/;"	f
+JN	shArrayBase.h	/^int JN(_FUNC_T,PushBackP) (_ARRAY_T *a, _ITEM_T *item)$/;"	f
+JN	shArrayBase.h	/^int JN(_FUNC_T,Realloc) (_ARRAY_T *a, SHint newsize)$/;"	f
+JN	shArrayBase.h	/^int JN(_FUNC_T,Reserve) (_ARRAY_T *a, SHint newsize)$/;"	f
+JN	shArrayBase.h	/^int JN(_FUNC_T,ReserveAndCopy) (_ARRAY_T *a, SHint newsize)$/;"	f
+JN	shArrayBase.h	/^void JN(_ARRAY_T,_ctor) (_ARRAY_T *a)$/;"	f
+JN	shArrayBase.h	/^void JN(_ARRAY_T,_dtor) (_ARRAY_T *a)$/;"	f
+JN	shArrayBase.h	/^void JN(_FUNC_T,Clear) (_ARRAY_T *a)$/;"	f
+JN	shArrayBase.h	/^void JN(_FUNC_T,PopBack) (_ARRAY_T *a)$/;"	f
+JN	shArrayBase.h	/^void JN(_FUNC_T,RemoveAt) (_ARRAY_T *a, SHint index)$/;"	f
+JN	shArrayBase.h	42;"	d
+Java_com_example_tigervg_TigerVG_start	test_tiger.c	/^Java_com_example_tigervg_TigerVG_start( JNIEnv*  env,$/;"	f
+KeyFunc	test.h	/^typedef void (*KeyFunc)(unsigned char key, int x, int y);$/;"	t
+LOGD	test_tiger.c	12;"	d	file:
+LOG_TAG	test_tiger.c	11;"	d	file:
+LT_OBJDIR	config.h	42;"	d
+MUL2	shVectors.h	121;"	d
+MUL3	shVectors.h	122;"	d
+MUL4	shVectors.h	123;"	d
+MULMATMAT	shVectors.h	185;"	d
+MULMATS	shVectors.h	173;"	d
+MoveFunc	test.h	/^typedef void (*MoveFunc)(int x, int y);$/;"	t
+NORM2	shVectors.h	137;"	d
+NORM3	shVectors.h	138;"	d
+NORM4	shVectors.h	139;"	d
+NORMALIZE2	shVectors.h	141;"	d
+NORMALIZE3	shVectors.h	142;"	d
+NORMALIZE4	shVectors.h	143;"	d
+NORMSQ2	shVectors.h	133;"	d
+NORMSQ3	shVectors.h	134;"	d
+NORMSQ4	shVectors.h	135;"	d
+OFFSET2V	shVectors.h	154;"	d
+OFFSET3V	shVectors.h	155;"	d
+OFFSET4V	shVectors.h	156;"	d
+OPENVG_VERSION_1_0_1	openvg.h	24;"	d
+OVG_SH_blend_dst_atop	openvg.h	622;"	d
+OVG_SH_blend_dst_out	openvg.h	620;"	d
+OVG_SH_blend_src_atop	openvg.h	621;"	d
+OVG_SH_blend_src_out	openvg.h	619;"	d
+PACKAGE	config.h	45;"	d
+PACKAGE_BUGREPORT	config.h	48;"	d
+PACKAGE_NAME	config.h	51;"	d
+PACKAGE_STRING	config.h	54;"	d
+PACKAGE_TARNAME	config.h	57;"	d
+PACKAGE_URL	config.h	60;"	d
+PACKAGE_VERSION	config.h	63;"	d
+PFVOID	shExtensions.c	/^typedef void (*PFVOID)();$/;"	t	file:
+PI	shDefs.h	130;"	d
+ROTATEMATL	shVectors.h	232;"	d
+ROTATEMATR	shVectors.h	239;"	d
+ReshapeFunc	test.h	/^typedef void (*ReshapeFunc)(int w, int h);$/;"	t
+SCALEMATL	shVectors.h	208;"	d
+SCALEMATR	shVectors.h	214;"	d
+SET2	shVectors.h	85;"	d
+SET2V	shVectors.h	89;"	d
+SET3	shVectors.h	86;"	d
+SET3V	shVectors.h	90;"	d
+SET4	shVectors.h	87;"	d
+SET4V	shVectors.h	91;"	d
+SETMAT	shVectors.h	162;"	d
+SETMATMAT	shVectors.h	167;"	d
+SHArc	shPath.h	/^} SHArc;$/;"	t	typeref:struct:__anon42
+SHColor	shImage.h	/^} SHColor;$/;"	t	typeref:struct:__anon36
+SHColor_ctor	shImage.c	/^void SHColor_ctor(SHColor *c)$/;"	f
+SHColor_dtor	shImage.c	/^void SHColor_dtor(SHColor *c) {$/;"	f
+SHCubic	shPath.h	/^} SHCubic;$/;"	t	typeref:struct:__anon41
+SHEARMATL	shVectors.h	220;"	d
+SHEARMATR	shVectors.h	226;"	d
+SHImage	shImage.h	/^} SHImage;$/;"	t	typeref:struct:__anon37
+SHImageFormatDesc	shImage.h	/^} SHImageFormatDesc;$/;"	t	typeref:struct:__anon35
+SHImage_ctor	shImage.c	/^void SHImage_ctor(SHImage *i)$/;"	f
+SHImage_dtor	shImage.c	/^void SHImage_dtor(SHImage *i)$/;"	f
+SHMatrix3x3	shVectors.h	/^} SHMatrix3x3;$/;"	t	typeref:struct:__anon48
+SHMatrix3x3_ctor	shVectors.c	/^void SHMatrix3x3_ctor(SHMatrix3x3 *mt)$/;"	f
+SHMatrix3x3_dtor	shVectors.c	/^void SHMatrix3x3_dtor(SHMatrix3x3 *mt)$/;"	f
+SHPaint	shPaint.h	/^} SHPaint;$/;"	t	typeref:struct:__anon39
+SHPaint_ctor	shPaint.c	/^void SHPaint_ctor(SHPaint *p)$/;"	f
+SHPaint_dtor	shPaint.c	/^void SHPaint_dtor(SHPaint *p)$/;"	f
+SHPath	shPath.h	/^typedef struct SHPath$/;"	s
+SHPath	shPath.h	/^} SHPath;$/;"	t	typeref:struct:SHPath
+SHPath_ctor	shPath.c	/^void SHPath_ctor(SHPath *p)$/;"	f
+SHPath_dtor	shPath.c	/^void SHPath_dtor(SHPath *p)$/;"	f
+SHQuad	shPath.h	/^} SHQuad;$/;"	t	typeref:struct:__anon40
+SHRectangle	shVectors.h	/^} SHRectangle;$/;"	t	typeref:struct:__anon47
+SHRectangle_ctor	shVectors.c	/^void SHRectangle_ctor(SHRectangle *r) {$/;"	f
+SHRectangle_dtor	shVectors.c	/^void SHRectangle_dtor(SHRectangle *r) {$/;"	f
+SHResourceType	shContext.h	/^} SHResourceType;$/;"	t	typeref:enum:__anon32
+SHStop	shPaint.h	/^} SHStop;$/;"	t	typeref:struct:__anon38
+SHVector2	shVectors.h	/^} SHVector2;$/;"	t	typeref:struct:__anon44
+SHVector2_ctor	shVectors.c	/^void SHVector2_ctor(SHVector2 *v) {$/;"	f
+SHVector2_dtor	shVectors.c	/^void SHVector2_dtor(SHVector2 *v) {$/;"	f
+SHVector3	shVectors.h	/^} SHVector3;$/;"	t	typeref:struct:__anon45
+SHVector3_ctor	shVectors.c	/^void SHVector3_ctor(SHVector3 *v) {$/;"	f
+SHVector3_dtor	shVectors.c	/^void SHVector3_dtor(SHVector3 *v) {$/;"	f
+SHVector4	shVectors.h	/^} SHVector4;$/;"	t	typeref:struct:__anon46
+SHVector4_ctor	shVectors.c	/^void SHVector4_ctor(SHVector4 *v) {$/;"	f
+SHVector4_dtor	shVectors.c	/^void SHVector4_dtor(SHVector4 *v) {$/;"	f
+SHVertex	shPath.h	/^} SHVertex;$/;"	t	typeref:struct:__anon43
+SH_ABS	shDefs.h	133;"	d
+SH_ACOS	shDefs.h	112;"	d
+SH_ASIN	shDefs.h	113;"	d
+SH_ASSERT	shDefs.h	117;"	d
+SH_ATAN	shDefs.h	114;"	d
+SH_CEIL	shDefs.h	116;"	d
+SH_CLAMP	shDefs.h	138;"	d
+SH_COS	shDefs.h	110;"	d
+SH_DEG2RAD	shDefs.h	131;"	d
+SH_DEINITOBJ	shDefs.h	142;"	d
+SH_DELETEOBJ	shDefs.h	143;"	d
+SH_EXPONENT_BITS	shDefs.h	90;"	d
+SH_FLOOR	shDefs.h	115;"	d
+SH_GETCONTEXT	shContext.h	155;"	d
+SH_GRADIENT_TEX_COORDSIZE	shDefs.h	159;"	d
+SH_GRADIENT_TEX_SIZE	shDefs.h	158;"	d
+SH_GRADIENT_TEX_SIZE	shPaint.h	58;"	d
+SH_INITOBJ	shDefs.h	141;"	d
+SH_ISNAN	shDefs.h	120;"	d
+SH_ISNAN	shDefs.h	122;"	d
+SH_ISNAN	shDefs.h	124;"	d
+SH_MANTISSA_BITS	shDefs.h	89;"	d
+SH_MAX	shDefs.h	134;"	d
+SH_MAX_COLOR_RAMP_STOPS	shDefs.h	153;"	d
+SH_MAX_DASH_COUNT	shDefs.h	148;"	d
+SH_MAX_EXPONENT	shDefs.h	94;"	d
+SH_MAX_FLOAT_BITS	shDefs.h	98;"	d
+SH_MAX_IMAGE_BYTES	shDefs.h	152;"	d
+SH_MAX_IMAGE_HEIGHT	shDefs.h	150;"	d
+SH_MAX_IMAGE_PIXELS	shDefs.h	151;"	d
+SH_MAX_IMAGE_WIDTH	shDefs.h	149;"	d
+SH_MAX_INT	shDefs.h	86;"	d
+SH_MAX_MANTISSA	shDefs.h	96;"	d
+SH_MAX_RECURSE_DEPTH	shDefs.h	156;"	d
+SH_MAX_SCISSOR_RECTS	shDefs.h	147;"	d
+SH_MAX_VERTICES	shDefs.h	155;"	d
+SH_MIN	shDefs.h	135;"	d
+SH_MIN_INT	shDefs.h	87;"	d
+SH_NEARZERO	shDefs.h	136;"	d
+SH_NEWOBJ	shDefs.h	140;"	d
+SH_NO_RETVAL	shContext.h	153;"	d
+SH_PATH_MAX_BYTES	shPath.c	68;"	d	file:
+SH_PATH_MAX_COORDS	shPath.c	58;"	d	file:
+SH_PATH_MAX_COORDS_PROCESSED	shPath.c	59;"	d	file:
+SH_PGLACTIVETEXTURE	shExtensions.h	/^ typedef void (APIENTRYP SH_PGLACTIVETEXTURE) (GLenum);$/;"	t
+SH_PGLMULTITEXCOORD1F	shExtensions.h	/^ typedef void (APIENTRYP SH_PGLMULTITEXCOORD1F) (GLenum, GLfloat);$/;"	t
+SH_PGLMULTITEXCOORD2F	shExtensions.h	/^ typedef void (APIENTRYP SH_PGLMULTITEXCOORD2F) (GLenum, GLfloat, GLfloat);$/;"	t
+SH_PROCESS_CENTRALIZE_ARCS	shPath.c	655;"	d	file:
+SH_PROCESS_CENTRALIZE_ARCS	shPath.h	107;"	d
+SH_PROCESS_REPAIR_ENDS	shPath.c	656;"	d	file:
+SH_PROCESS_REPAIR_ENDS	shPath.h	108;"	d
+SH_PROCESS_SIMPLIFY_CURVES	shPath.c	654;"	d	file:
+SH_PROCESS_SIMPLIFY_CURVES	shPath.h	106;"	d
+SH_PROCESS_SIMPLIFY_LINES	shPath.c	653;"	d	file:
+SH_PROCESS_SIMPLIFY_LINES	shPath.h	105;"	d
+SH_RAD2DEG	shDefs.h	132;"	d
+SH_RESOURCE_IMAGE	shContext.h	/^  SH_RESOURCE_IMAGE     = 3$/;"	e	enum:__anon32
+SH_RESOURCE_INVALID	shContext.h	/^  SH_RESOURCE_INVALID   = 0,$/;"	e	enum:__anon32
+SH_RESOURCE_PAINT	shContext.h	/^  SH_RESOURCE_PAINT     = 2,$/;"	e	enum:__anon32
+SH_RESOURCE_PATH	shContext.h	/^  SH_RESOURCE_PATH      = 1,$/;"	e	enum:__anon32
+SH_RETURN	shContext.h	159;"	d
+SH_RETURN_ERR	shContext.h	162;"	d
+SH_RETURN_ERR_IF	shContext.h	165;"	d
+SH_SEGMENT_TYPE_COUNT	shPath.h	61;"	d
+SH_SIN	shDefs.h	111;"	d
+SH_SQRT	shDefs.h	109;"	d
+SH_SWAP	shDefs.h	137;"	d
+SH_VERTEX_FLAG_CLOSE	shPath.h	59;"	d
+SH_VERTEX_FLAG_SEGEND	shPath.h	60;"	d
+SHfloat	shDefs.h	82;"	d
+SHfloat32	shDefs.h	/^typedef float       SHfloat32;$/;"	t
+SHfloatint	shDefs.h	/^} SHfloatint;$/;"	t	typeref:union:__anon34
+SHint	shDefs.h	80;"	d
+SHint16	shDefs.h	/^typedef int16_t     SHint16;$/;"	t
+SHint32	shDefs.h	/^typedef int32_t     SHint32;$/;"	t
+SHint8	shDefs.h	/^typedef int8_t      SHint8;$/;"	t
+SHuint	shDefs.h	81;"	d
+SHuint16	shDefs.h	/^typedef uint16_t    SHuint16;$/;"	t
+SHuint32	shDefs.h	/^typedef uint32_t    SHuint32;$/;"	t
+SHuint8	shDefs.h	/^typedef uint8_t     SHuint8;$/;"	t
+SIZEOF_VOID_P	config.h	66;"	d
+STDC_HEADERS	config.h	69;"	d
+SUB2	shVectors.h	113;"	d
+SUB2V	shVectors.h	117;"	d
+SUB3	shVectors.h	114;"	d
+SUB3V	shVectors.h	118;"	d
+SUB4	shVectors.h	115;"	d
+SUB4V	shVectors.h	119;"	d
+SegmentFunc	shPath.h	/^typedef void (*SegmentFunc) (SHPath *p, VGPathSegment segment,$/;"	t
+SpecialKeyFunc	test.h	/^typedef void (*SpecialKeyFunc)(int key, int x, int y);$/;"	t
+TEST_CALLBACK_BUTTON	test.h	/^    TEST_CALLBACK_BUTTON       = 4,$/;"	e	enum:__anon49
+TEST_CALLBACK_CLEANUP	test.h	/^    TEST_CALLBACK_CLEANUP      = 7$/;"	e	enum:__anon49
+TEST_CALLBACK_COUNT	test.h	20;"	d
+TEST_CALLBACK_DISPLAY	test.h	/^    TEST_CALLBACK_DISPLAY      = 0,$/;"	e	enum:__anon49
+TEST_CALLBACK_DRAG	test.h	/^    TEST_CALLBACK_DRAG         = 6,$/;"	e	enum:__anon49
+TEST_CALLBACK_KEY	test.h	/^    TEST_CALLBACK_KEY          = 2,$/;"	e	enum:__anon49
+TEST_CALLBACK_MOVE	test.h	/^    TEST_CALLBACK_MOVE         = 5,$/;"	e	enum:__anon49
+TEST_CALLBACK_RESHAPE	test.h	/^    TEST_CALLBACK_RESHAPE      = 1,$/;"	e	enum:__anon49
+TEST_CALLBACK_SPECIALKEY	test.h	/^    TEST_CALLBACK_SPECIALKEY   = 3,$/;"	e	enum:__anon49
+TRANSFORM2	shVectors.h	250;"	d
+TRANSFORM2DIR	shVectors.h	257;"	d
+TRANSFORM2DIRTO	shVectors.h	253;"	d
+TRANSFORM2TO	shVectors.h	246;"	d
+TRANSLATEMATL	shVectors.h	196;"	d
+TRANSLATEMATR	shVectors.h	202;"	d
+TestCallbackType	test.h	/^} TestCallbackType;$/;"	t	typeref:enum:__anon49
+USE_GL	test.c	2;"	d	file:
+USE_GL	test_tiger.c	2;"	d	file:
+VAL	shArrayBase.h	41;"	d
+VERSION	config.h	72;"	d
+VGBlendMode	openvg.h	/^} VGBlendMode;$/;"	t	typeref:enum:__anon27
+VGCapStyle	openvg.h	/^} VGCapStyle;$/;"	t	typeref:enum:__anon14
+VGColorRampSpreadMode	openvg.h	/^} VGColorRampSpreadMode;$/;"	t	typeref:enum:__anon20
+VGContext	shContext.h	/^} VGContext;$/;"	t	typeref:struct:__anon33
+VGContext_ctor	shContext.c	/^void VGContext_ctor(VGContext *c)$/;"	f
+VGContext_dtor	shContext.c	/^void VGContext_dtor(VGContext *c)$/;"	f
+VGErrorCode	openvg.h	/^} VGErrorCode;$/;"	t	typeref:enum:__anon2
+VGFillRule	openvg.h	/^} VGFillRule;$/;"	t	typeref:enum:__anon16
+VGHandle	openvg.h	/^typedef void * VGHandle;$/;"	t
+VGHardwareQueryResult	openvg.h	/^} VGHardwareQueryResult;$/;"	t	typeref:enum:__anon29
+VGHardwareQueryType	openvg.h	/^} VGHardwareQueryType;$/;"	t	typeref:enum:__anon28
+VGImage	openvg.h	/^typedef VGHandle VGImage;$/;"	t
+VGImageChannel	openvg.h	/^} VGImageChannel;$/;"	t	typeref:enum:__anon26
+VGImageFormat	openvg.h	/^} VGImageFormat;$/;"	t	typeref:enum:__anon22
+VGImageMode	openvg.h	/^} VGImageMode;$/;"	t	typeref:enum:__anon25
+VGImageParamType	openvg.h	/^} VGImageParamType;$/;"	t	typeref:enum:__anon24
+VGImageQuality	openvg.h	/^} VGImageQuality;$/;"	t	typeref:enum:__anon23
+VGJoinStyle	openvg.h	/^} VGJoinStyle;$/;"	t	typeref:enum:__anon15
+VGMaskOperation	openvg.h	/^} VGMaskOperation;$/;"	t	typeref:enum:__anon7
+VGMatrixMode	openvg.h	/^} VGMatrixMode;$/;"	t	typeref:enum:__anon6
+VGPaint	openvg.h	/^typedef VGHandle VGPaint;$/;"	t
+VGPaintMode	openvg.h	/^} VGPaintMode;$/;"	t	typeref:enum:__anon17
+VGPaintParamType	openvg.h	/^} VGPaintParamType;$/;"	t	typeref:enum:__anon18
+VGPaintType	openvg.h	/^} VGPaintType;$/;"	t	typeref:enum:__anon19
+VGParamType	openvg.h	/^} VGParamType;$/;"	t	typeref:enum:__anon3
+VGPath	openvg.h	/^typedef VGHandle VGPath;$/;"	t
+VGPathAbsRel	openvg.h	/^} VGPathAbsRel;$/;"	t	typeref:enum:__anon9
+VGPathCapabilities	openvg.h	/^} VGPathCapabilities;$/;"	t	typeref:enum:__anon12
+VGPathCommand	openvg.h	/^} VGPathCommand;$/;"	t	typeref:enum:__anon11
+VGPathDatatype	openvg.h	/^} VGPathDatatype;$/;"	t	typeref:enum:__anon8
+VGPathParamType	openvg.h	/^} VGPathParamType;$/;"	t	typeref:enum:__anon13
+VGPathSegment	openvg.h	/^} VGPathSegment;$/;"	t	typeref:enum:__anon10
+VGPixelLayout	openvg.h	/^} VGPixelLayout;$/;"	t	typeref:enum:__anon5
+VGRenderingQuality	openvg.h	/^} VGRenderingQuality;$/;"	t	typeref:enum:__anon4
+VGStringID	openvg.h	/^} VGStringID;$/;"	t	typeref:enum:__anon30
+VGTilingMode	openvg.h	/^} VGTilingMode;$/;"	t	typeref:enum:__anon21
+VGUArcType	vgu.h	/^} VGUArcType;$/;"	t	typeref:enum:__anon51
+VGUErrorCode	vgu.h	/^} VGUErrorCode;$/;"	t	typeref:enum:__anon50
+VGU_API_CALL	vgu.h	29;"	d
+VGU_ARC_CHORD	vgu.h	/^  VGU_ARC_CHORD                                = 0xF101,$/;"	e	enum:__anon51
+VGU_ARC_OPEN	vgu.h	/^  VGU_ARC_OPEN                                 = 0xF100,$/;"	e	enum:__anon51
+VGU_ARC_PIE	vgu.h	/^  VGU_ARC_PIE                                  = 0xF102$/;"	e	enum:__anon51
+VGU_BAD_HANDLE_ERROR	vgu.h	/^  VGU_BAD_HANDLE_ERROR                         = 0xF000,$/;"	e	enum:__anon50
+VGU_BAD_WARP_ERROR	vgu.h	/^  VGU_BAD_WARP_ERROR                           = 0xF004$/;"	e	enum:__anon50
+VGU_ILLEGAL_ARGUMENT_ERROR	vgu.h	/^  VGU_ILLEGAL_ARGUMENT_ERROR                   = 0xF001,$/;"	e	enum:__anon50
+VGU_NO_ERROR	vgu.h	/^  VGU_NO_ERROR                                 = 0,$/;"	e	enum:__anon50
+VGU_OUT_OF_MEMORY_ERROR	vgu.h	/^  VGU_OUT_OF_MEMORY_ERROR                      = 0xF002,$/;"	e	enum:__anon50
+VGU_PATH_CAPABILITY_ERROR	vgu.h	/^  VGU_PATH_CAPABILITY_ERROR                    = 0xF003,$/;"	e	enum:__anon50
+VGU_VERSION_1_0	vgu.h	25;"	d
+VGU_VERSION_1_0_1	vgu.h	26;"	d
+VG_ABSOLUTE	openvg.h	/^  VG_ABSOLUTE                                 = 0,$/;"	e	enum:__anon9
+VG_ALPHA	openvg.h	/^  VG_ALPHA                                    = (1 << 0)$/;"	e	enum:__anon26
+VG_API_CALL	openvg.h	411;"	d
+VG_API_CALL	openvg.h	413;"	d
+VG_API_CALL	openvg.h	416;"	d
+VG_API_EXPORT	shContext.c	21;"	d	file:
+VG_API_EXPORT	shExtensions.c	21;"	d	file:
+VG_API_EXPORT	shGeometry.c	21;"	d	file:
+VG_API_EXPORT	shImage.c	21;"	d	file:
+VG_API_EXPORT	shPaint.c	21;"	d	file:
+VG_API_EXPORT	shParams.c	21;"	d	file:
+VG_API_EXPORT	shPath.c	21;"	d	file:
+VG_API_EXPORT	shPipeline.c	21;"	d	file:
+VG_API_EXPORT	shVgu.c	21;"	d	file:
+VG_A_8	openvg.h	/^  VG_A_8                                      = 11,$/;"	e	enum:__anon22
+VG_BAD_HANDLE_ERROR	openvg.h	/^  VG_BAD_HANDLE_ERROR                         = 0x1000,$/;"	e	enum:__anon2
+VG_BLEND_ADDITIVE	openvg.h	/^  VG_BLEND_ADDITIVE                           = 0x2009,$/;"	e	enum:__anon27
+VG_BLEND_DARKEN	openvg.h	/^  VG_BLEND_DARKEN                             = 0x2007,$/;"	e	enum:__anon27
+VG_BLEND_DST_ATOP_SH	openvg.h	/^  VG_BLEND_DST_ATOP_SH                        = 0x200D$/;"	e	enum:__anon27
+VG_BLEND_DST_IN	openvg.h	/^  VG_BLEND_DST_IN                             = 0x2004,$/;"	e	enum:__anon27
+VG_BLEND_DST_OUT_SH	openvg.h	/^  VG_BLEND_DST_OUT_SH                         = 0x200B,$/;"	e	enum:__anon27
+VG_BLEND_DST_OVER	openvg.h	/^  VG_BLEND_DST_OVER                           = 0x2002,$/;"	e	enum:__anon27
+VG_BLEND_LIGHTEN	openvg.h	/^  VG_BLEND_LIGHTEN                            = 0x2008,$/;"	e	enum:__anon27
+VG_BLEND_MODE	openvg.h	/^  VG_BLEND_MODE                               = 0x1104,$/;"	e	enum:__anon3
+VG_BLEND_MULTIPLY	openvg.h	/^  VG_BLEND_MULTIPLY                           = 0x2005,$/;"	e	enum:__anon27
+VG_BLEND_SCREEN	openvg.h	/^  VG_BLEND_SCREEN                             = 0x2006,$/;"	e	enum:__anon27
+VG_BLEND_SRC	openvg.h	/^  VG_BLEND_SRC                                = 0x2000,$/;"	e	enum:__anon27
+VG_BLEND_SRC_ATOP_SH	openvg.h	/^  VG_BLEND_SRC_ATOP_SH                        = 0x200C,$/;"	e	enum:__anon27
+VG_BLEND_SRC_IN	openvg.h	/^  VG_BLEND_SRC_IN                             = 0x2003,$/;"	e	enum:__anon27
+VG_BLEND_SRC_OUT_SH	openvg.h	/^  VG_BLEND_SRC_OUT_SH                         = 0x200A,$/;"	e	enum:__anon27
+VG_BLEND_SRC_OVER	openvg.h	/^  VG_BLEND_SRC_OVER                           = 0x2001,$/;"	e	enum:__anon27
+VG_BLUE	openvg.h	/^  VG_BLUE                                     = (1 << 1),$/;"	e	enum:__anon26
+VG_BW_1	openvg.h	/^  VG_BW_1                                     = 12,$/;"	e	enum:__anon22
+VG_CAP_BUTT	openvg.h	/^  VG_CAP_BUTT                                 = 0x1700,$/;"	e	enum:__anon14
+VG_CAP_ROUND	openvg.h	/^  VG_CAP_ROUND                                = 0x1701,$/;"	e	enum:__anon14
+VG_CAP_SQUARE	openvg.h	/^  VG_CAP_SQUARE                               = 0x1702$/;"	e	enum:__anon14
+VG_CLEAR_COLOR	openvg.h	/^  VG_CLEAR_COLOR                              = 0x1121,$/;"	e	enum:__anon3
+VG_CLEAR_MASK	openvg.h	/^  VG_CLEAR_MASK                               = 0x1500,$/;"	e	enum:__anon7
+VG_CLOSE_PATH	openvg.h	/^  VG_CLOSE_PATH                               = ( 0 << 1),$/;"	e	enum:__anon10
+VG_COLOR_RAMP_SPREAD_PAD	openvg.h	/^  VG_COLOR_RAMP_SPREAD_PAD                    = 0x1C00,$/;"	e	enum:__anon20
+VG_COLOR_RAMP_SPREAD_REFLECT	openvg.h	/^  VG_COLOR_RAMP_SPREAD_REFLECT                = 0x1C02$/;"	e	enum:__anon20
+VG_COLOR_RAMP_SPREAD_REPEAT	openvg.h	/^  VG_COLOR_RAMP_SPREAD_REPEAT                 = 0x1C01,$/;"	e	enum:__anon20
+VG_CUBIC_TO	openvg.h	/^  VG_CUBIC_TO                                 = ( 6 << 1),$/;"	e	enum:__anon10
+VG_CUBIC_TO_ABS	openvg.h	/^  VG_CUBIC_TO_ABS                             = VG_CUBIC_TO   | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_CUBIC_TO_REL	openvg.h	/^  VG_CUBIC_TO_REL                             = VG_CUBIC_TO   | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_DRAW_IMAGE_MULTIPLY	openvg.h	/^  VG_DRAW_IMAGE_MULTIPLY                      = 0x1F01,$/;"	e	enum:__anon25
+VG_DRAW_IMAGE_NORMAL	openvg.h	/^  VG_DRAW_IMAGE_NORMAL                        = 0x1F00,$/;"	e	enum:__anon25
+VG_DRAW_IMAGE_STENCIL	openvg.h	/^  VG_DRAW_IMAGE_STENCIL                       = 0x1F02$/;"	e	enum:__anon25
+VG_EVEN_ODD	openvg.h	/^  VG_EVEN_ODD                                 = 0x1900,$/;"	e	enum:__anon16
+VG_EXTENSIONS	openvg.h	/^  VG_EXTENSIONS                               = 0x2303$/;"	e	enum:__anon30
+VG_FALSE	openvg.h	/^  VG_FALSE = 0,$/;"	e	enum:__anon1
+VG_FILL_MASK	openvg.h	/^  VG_FILL_MASK                                = 0x1501,$/;"	e	enum:__anon7
+VG_FILL_PATH	openvg.h	/^  VG_FILL_PATH                                = (1 << 1)$/;"	e	enum:__anon17
+VG_FILL_RULE	openvg.h	/^  VG_FILL_RULE                                = 0x1101,$/;"	e	enum:__anon3
+VG_FILTER_CHANNEL_MASK	openvg.h	/^  VG_FILTER_CHANNEL_MASK                      = 0x1152,$/;"	e	enum:__anon3
+VG_FILTER_FORMAT_LINEAR	openvg.h	/^  VG_FILTER_FORMAT_LINEAR                     = 0x1150,$/;"	e	enum:__anon3
+VG_FILTER_FORMAT_PREMULTIPLIED	openvg.h	/^  VG_FILTER_FORMAT_PREMULTIPLIED              = 0x1151,$/;"	e	enum:__anon3
+VG_GETCONTEXT	shContext.h	136;"	d
+VG_GREEN	openvg.h	/^  VG_GREEN                                    = (1 << 2),$/;"	e	enum:__anon26
+VG_HARDWARE_ACCELERATED	openvg.h	/^  VG_HARDWARE_ACCELERATED                     = 0x2200,$/;"	e	enum:__anon29
+VG_HARDWARE_UNACCELERATED	openvg.h	/^  VG_HARDWARE_UNACCELERATED                   = 0x2201$/;"	e	enum:__anon29
+VG_HLINE_TO	openvg.h	/^  VG_HLINE_TO                                 = ( 3 << 1),$/;"	e	enum:__anon10
+VG_HLINE_TO_ABS	openvg.h	/^  VG_HLINE_TO_ABS                             = VG_HLINE_TO   | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_HLINE_TO_REL	openvg.h	/^  VG_HLINE_TO_REL                             = VG_HLINE_TO   | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_ILLEGAL_ARGUMENT_ERROR	openvg.h	/^  VG_ILLEGAL_ARGUMENT_ERROR                   = 0x1001,$/;"	e	enum:__anon2
+VG_IMAGE_FORMAT	openvg.h	/^  VG_IMAGE_FORMAT                             = 0x1E00,$/;"	e	enum:__anon24
+VG_IMAGE_FORMAT_QUERY	openvg.h	/^  VG_IMAGE_FORMAT_QUERY                       = 0x2100,$/;"	e	enum:__anon28
+VG_IMAGE_HEIGHT	openvg.h	/^  VG_IMAGE_HEIGHT                             = 0x1E02$/;"	e	enum:__anon24
+VG_IMAGE_IN_USE_ERROR	openvg.h	/^  VG_IMAGE_IN_USE_ERROR                       = 0x1006,$/;"	e	enum:__anon2
+VG_IMAGE_MODE	openvg.h	/^  VG_IMAGE_MODE                               = 0x1105,$/;"	e	enum:__anon3
+VG_IMAGE_QUALITY	openvg.h	/^  VG_IMAGE_QUALITY                            = 0x1102,$/;"	e	enum:__anon3
+VG_IMAGE_QUALITY_BETTER	openvg.h	/^  VG_IMAGE_QUALITY_BETTER                     = (1 << 2)$/;"	e	enum:__anon23
+VG_IMAGE_QUALITY_FASTER	openvg.h	/^  VG_IMAGE_QUALITY_FASTER                     = (1 << 1),$/;"	e	enum:__anon23
+VG_IMAGE_QUALITY_NONANTIALIASED	openvg.h	/^  VG_IMAGE_QUALITY_NONANTIALIASED             = (1 << 0),$/;"	e	enum:__anon23
+VG_IMAGE_WIDTH	openvg.h	/^  VG_IMAGE_WIDTH                              = 0x1E01,$/;"	e	enum:__anon24
+VG_INTERSECT_MASK	openvg.h	/^  VG_INTERSECT_MASK                           = 0x1504,$/;"	e	enum:__anon7
+VG_INVALID_HANDLE	openvg.h	50;"	d
+VG_JOIN_BEVEL	openvg.h	/^  VG_JOIN_BEVEL                               = 0x1802$/;"	e	enum:__anon15
+VG_JOIN_MITER	openvg.h	/^  VG_JOIN_MITER                               = 0x1800,$/;"	e	enum:__anon15
+VG_JOIN_ROUND	openvg.h	/^  VG_JOIN_ROUND                               = 0x1801,$/;"	e	enum:__anon15
+VG_LCCWARC_TO	openvg.h	/^  VG_LCCWARC_TO                               = (11 << 1),$/;"	e	enum:__anon10
+VG_LCCWARC_TO_ABS	openvg.h	/^  VG_LCCWARC_TO_ABS                           = VG_LCCWARC_TO | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_LCCWARC_TO_REL	openvg.h	/^  VG_LCCWARC_TO_REL                           = VG_LCCWARC_TO | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_LCWARC_TO	openvg.h	/^  VG_LCWARC_TO                                = (12 << 1)$/;"	e	enum:__anon10
+VG_LCWARC_TO_ABS	openvg.h	/^  VG_LCWARC_TO_ABS                            = VG_LCWARC_TO  | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_LCWARC_TO_REL	openvg.h	/^  VG_LCWARC_TO_REL                            = VG_LCWARC_TO  | VG_RELATIVE$/;"	e	enum:__anon11
+VG_LINE_TO	openvg.h	/^  VG_LINE_TO                                  = ( 2 << 1),$/;"	e	enum:__anon10
+VG_LINE_TO_ABS	openvg.h	/^  VG_LINE_TO_ABS                              = VG_LINE_TO    | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_LINE_TO_REL	openvg.h	/^  VG_LINE_TO_REL                              = VG_LINE_TO    | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_MASKING	openvg.h	/^  VG_MASKING                                  = 0x1130,$/;"	e	enum:__anon3
+VG_MATRIX_FILL_PAINT_TO_USER	openvg.h	/^  VG_MATRIX_FILL_PAINT_TO_USER                = 0x1402,$/;"	e	enum:__anon6
+VG_MATRIX_IMAGE_USER_TO_SURFACE	openvg.h	/^  VG_MATRIX_IMAGE_USER_TO_SURFACE             = 0x1401,$/;"	e	enum:__anon6
+VG_MATRIX_MODE	openvg.h	/^  VG_MATRIX_MODE                              = 0x1100,$/;"	e	enum:__anon3
+VG_MATRIX_PATH_USER_TO_SURFACE	openvg.h	/^  VG_MATRIX_PATH_USER_TO_SURFACE              = 0x1400,$/;"	e	enum:__anon6
+VG_MATRIX_STROKE_PAINT_TO_USER	openvg.h	/^  VG_MATRIX_STROKE_PAINT_TO_USER              = 0x1403$/;"	e	enum:__anon6
+VG_MAXINT	openvg.h	45;"	d
+VG_MAXSHORT	openvg.h	44;"	d
+VG_MAX_COLOR_RAMP_STOPS	openvg.h	/^  VG_MAX_COLOR_RAMP_STOPS                     = 0x1164,$/;"	e	enum:__anon3
+VG_MAX_DASH_COUNT	openvg.h	/^  VG_MAX_DASH_COUNT                           = 0x1161,$/;"	e	enum:__anon3
+VG_MAX_FLOAT	openvg.h	/^  VG_MAX_FLOAT                                = 0x1169,$/;"	e	enum:__anon3
+VG_MAX_GAUSSIAN_STD_DEVIATION	openvg.h	/^  VG_MAX_GAUSSIAN_STD_DEVIATION               = 0x116A$/;"	e	enum:__anon3
+VG_MAX_IMAGE_BYTES	openvg.h	/^  VG_MAX_IMAGE_BYTES                          = 0x1168,$/;"	e	enum:__anon3
+VG_MAX_IMAGE_HEIGHT	openvg.h	/^  VG_MAX_IMAGE_HEIGHT                         = 0x1166,$/;"	e	enum:__anon3
+VG_MAX_IMAGE_PIXELS	openvg.h	/^  VG_MAX_IMAGE_PIXELS                         = 0x1167,$/;"	e	enum:__anon3
+VG_MAX_IMAGE_WIDTH	openvg.h	/^  VG_MAX_IMAGE_WIDTH                          = 0x1165,$/;"	e	enum:__anon3
+VG_MAX_KERNEL_SIZE	openvg.h	/^  VG_MAX_KERNEL_SIZE                          = 0x1162,$/;"	e	enum:__anon3
+VG_MAX_SCISSOR_RECTS	openvg.h	/^  VG_MAX_SCISSOR_RECTS                        = 0x1160,$/;"	e	enum:__anon3
+VG_MAX_SEPARABLE_KERNEL_SIZE	openvg.h	/^  VG_MAX_SEPARABLE_KERNEL_SIZE                = 0x1163,$/;"	e	enum:__anon3
+VG_MOVE_TO	openvg.h	/^  VG_MOVE_TO                                  = ( 1 << 1),$/;"	e	enum:__anon10
+VG_MOVE_TO_ABS	openvg.h	/^  VG_MOVE_TO_ABS                              = VG_MOVE_TO    | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_MOVE_TO_REL	openvg.h	/^  VG_MOVE_TO_REL                              = VG_MOVE_TO    | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_NON_ZERO	openvg.h	/^  VG_NON_ZERO                                 = 0x1901$/;"	e	enum:__anon16
+VG_NO_CONTEXT_ERROR	openvg.h	/^  VG_NO_CONTEXT_ERROR                         = 0x1007$/;"	e	enum:__anon2
+VG_NO_ERROR	openvg.h	/^  VG_NO_ERROR                                 = 0,$/;"	e	enum:__anon2
+VG_NO_RETVAL	shContext.h	134;"	d
+VG_OUT_OF_MEMORY_ERROR	openvg.h	/^  VG_OUT_OF_MEMORY_ERROR                      = 0x1002,$/;"	e	enum:__anon2
+VG_PAINT_COLOR	openvg.h	/^  VG_PAINT_COLOR                              = 0x1A01,$/;"	e	enum:__anon18
+VG_PAINT_COLOR_RAMP_PREMULTIPLIED	openvg.h	/^  VG_PAINT_COLOR_RAMP_PREMULTIPLIED           = 0x1A07,$/;"	e	enum:__anon18
+VG_PAINT_COLOR_RAMP_SPREAD_MODE	openvg.h	/^  VG_PAINT_COLOR_RAMP_SPREAD_MODE             = 0x1A02,$/;"	e	enum:__anon18
+VG_PAINT_COLOR_RAMP_STOPS	openvg.h	/^  VG_PAINT_COLOR_RAMP_STOPS                   = 0x1A03,$/;"	e	enum:__anon18
+VG_PAINT_LINEAR_GRADIENT	openvg.h	/^  VG_PAINT_LINEAR_GRADIENT                    = 0x1A04,$/;"	e	enum:__anon18
+VG_PAINT_PATTERN_TILING_MODE	openvg.h	/^  VG_PAINT_PATTERN_TILING_MODE                = 0x1A06$/;"	e	enum:__anon18
+VG_PAINT_RADIAL_GRADIENT	openvg.h	/^  VG_PAINT_RADIAL_GRADIENT                    = 0x1A05,$/;"	e	enum:__anon18
+VG_PAINT_TYPE	openvg.h	/^  VG_PAINT_TYPE                               = 0x1A00,$/;"	e	enum:__anon18
+VG_PAINT_TYPE_COLOR	openvg.h	/^  VG_PAINT_TYPE_COLOR                         = 0x1B00,$/;"	e	enum:__anon19
+VG_PAINT_TYPE_LINEAR_GRADIENT	openvg.h	/^  VG_PAINT_TYPE_LINEAR_GRADIENT               = 0x1B01,$/;"	e	enum:__anon19
+VG_PAINT_TYPE_PATTERN	openvg.h	/^  VG_PAINT_TYPE_PATTERN                       = 0x1B03$/;"	e	enum:__anon19
+VG_PAINT_TYPE_RADIAL_GRADIENT	openvg.h	/^  VG_PAINT_TYPE_RADIAL_GRADIENT               = 0x1B02,$/;"	e	enum:__anon19
+VG_PATH_BIAS	openvg.h	/^  VG_PATH_BIAS                                = 0x1603,$/;"	e	enum:__anon13
+VG_PATH_CAPABILITY_ALL	openvg.h	/^  VG_PATH_CAPABILITY_ALL                      = (1 << 12) - 1$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_APPEND_FROM	openvg.h	/^  VG_PATH_CAPABILITY_APPEND_FROM              = (1 <<  0),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_APPEND_TO	openvg.h	/^  VG_PATH_CAPABILITY_APPEND_TO                = (1 <<  1),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_ERROR	openvg.h	/^  VG_PATH_CAPABILITY_ERROR                    = 0x1003,$/;"	e	enum:__anon2
+VG_PATH_CAPABILITY_INTERPOLATE_FROM	openvg.h	/^  VG_PATH_CAPABILITY_INTERPOLATE_FROM         = (1 <<  5),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_INTERPOLATE_TO	openvg.h	/^  VG_PATH_CAPABILITY_INTERPOLATE_TO           = (1 <<  6),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_MODIFY	openvg.h	/^  VG_PATH_CAPABILITY_MODIFY                   = (1 <<  2),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_PATH_BOUNDS	openvg.h	/^  VG_PATH_CAPABILITY_PATH_BOUNDS              = (1 << 10),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_PATH_LENGTH	openvg.h	/^  VG_PATH_CAPABILITY_PATH_LENGTH              = (1 <<  7),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_PATH_TRANSFORMED_BOUNDS	openvg.h	/^  VG_PATH_CAPABILITY_PATH_TRANSFORMED_BOUNDS  = (1 << 11),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_POINT_ALONG_PATH	openvg.h	/^  VG_PATH_CAPABILITY_POINT_ALONG_PATH         = (1 <<  8),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_TANGENT_ALONG_PATH	openvg.h	/^  VG_PATH_CAPABILITY_TANGENT_ALONG_PATH       = (1 <<  9),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_TRANSFORM_FROM	openvg.h	/^  VG_PATH_CAPABILITY_TRANSFORM_FROM           = (1 <<  3),$/;"	e	enum:__anon12
+VG_PATH_CAPABILITY_TRANSFORM_TO	openvg.h	/^  VG_PATH_CAPABILITY_TRANSFORM_TO             = (1 <<  4),$/;"	e	enum:__anon12
+VG_PATH_DATATYPE	openvg.h	/^  VG_PATH_DATATYPE                            = 0x1601,$/;"	e	enum:__anon13
+VG_PATH_DATATYPE_F	openvg.h	/^  VG_PATH_DATATYPE_F                          =  3$/;"	e	enum:__anon8
+VG_PATH_DATATYPE_QUERY	openvg.h	/^  VG_PATH_DATATYPE_QUERY                      = 0x2101$/;"	e	enum:__anon28
+VG_PATH_DATATYPE_S_16	openvg.h	/^  VG_PATH_DATATYPE_S_16                       =  1,$/;"	e	enum:__anon8
+VG_PATH_DATATYPE_S_32	openvg.h	/^  VG_PATH_DATATYPE_S_32                       =  2,$/;"	e	enum:__anon8
+VG_PATH_DATATYPE_S_8	openvg.h	/^  VG_PATH_DATATYPE_S_8                        =  0,$/;"	e	enum:__anon8
+VG_PATH_FORMAT	openvg.h	/^  VG_PATH_FORMAT                              = 0x1600,$/;"	e	enum:__anon13
+VG_PATH_FORMAT_STANDARD	openvg.h	152;"	d
+VG_PATH_NUM_COORDS	openvg.h	/^  VG_PATH_NUM_COORDS                          = 0x1605$/;"	e	enum:__anon13
+VG_PATH_NUM_SEGMENTS	openvg.h	/^  VG_PATH_NUM_SEGMENTS                        = 0x1604,$/;"	e	enum:__anon13
+VG_PATH_SCALE	openvg.h	/^  VG_PATH_SCALE                               = 0x1602,$/;"	e	enum:__anon13
+VG_PIXEL_LAYOUT	openvg.h	/^  VG_PIXEL_LAYOUT                             = 0x1140,$/;"	e	enum:__anon3
+VG_PIXEL_LAYOUT_BGR_HORIZONTAL	openvg.h	/^  VG_PIXEL_LAYOUT_BGR_HORIZONTAL              = 0x1304$/;"	e	enum:__anon5
+VG_PIXEL_LAYOUT_BGR_VERTICAL	openvg.h	/^  VG_PIXEL_LAYOUT_BGR_VERTICAL                = 0x1302,$/;"	e	enum:__anon5
+VG_PIXEL_LAYOUT_RGB_HORIZONTAL	openvg.h	/^  VG_PIXEL_LAYOUT_RGB_HORIZONTAL              = 0x1303,$/;"	e	enum:__anon5
+VG_PIXEL_LAYOUT_RGB_VERTICAL	openvg.h	/^  VG_PIXEL_LAYOUT_RGB_VERTICAL                = 0x1301,$/;"	e	enum:__anon5
+VG_PIXEL_LAYOUT_UNKNOWN	openvg.h	/^  VG_PIXEL_LAYOUT_UNKNOWN                     = 0x1300,$/;"	e	enum:__anon5
+VG_QUAD_TO	openvg.h	/^  VG_QUAD_TO                                  = ( 5 << 1),$/;"	e	enum:__anon10
+VG_QUAD_TO_ABS	openvg.h	/^  VG_QUAD_TO_ABS                              = VG_QUAD_TO    | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_QUAD_TO_REL	openvg.h	/^  VG_QUAD_TO_REL                              = VG_QUAD_TO    | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_RED	openvg.h	/^  VG_RED                                      = (1 << 3),$/;"	e	enum:__anon26
+VG_RELATIVE	openvg.h	/^  VG_RELATIVE                                 = 1$/;"	e	enum:__anon9
+VG_RENDERER	openvg.h	/^  VG_RENDERER                                 = 0x2301,$/;"	e	enum:__anon30
+VG_RENDERING_QUALITY	openvg.h	/^  VG_RENDERING_QUALITY                        = 0x1103,$/;"	e	enum:__anon3
+VG_RENDERING_QUALITY_BETTER	openvg.h	/^  VG_RENDERING_QUALITY_BETTER                 = 0x1202  \/* Default *\/$/;"	e	enum:__anon4
+VG_RENDERING_QUALITY_FASTER	openvg.h	/^  VG_RENDERING_QUALITY_FASTER                 = 0x1201,$/;"	e	enum:__anon4
+VG_RENDERING_QUALITY_NONANTIALIASED	openvg.h	/^  VG_RENDERING_QUALITY_NONANTIALIASED         = 0x1200,$/;"	e	enum:__anon4
+VG_RETURN	shContext.h	140;"	d
+VG_RETURN_ERR	shContext.h	143;"	d
+VG_RETURN_ERR_IF	shContext.h	146;"	d
+VG_SCCWARC_TO	openvg.h	/^  VG_SCCWARC_TO                               = ( 9 << 1),$/;"	e	enum:__anon10
+VG_SCCWARC_TO_ABS	openvg.h	/^  VG_SCCWARC_TO_ABS                           = VG_SCCWARC_TO | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_SCCWARC_TO_REL	openvg.h	/^  VG_SCCWARC_TO_REL                           = VG_SCCWARC_TO | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_SCISSORING	openvg.h	/^  VG_SCISSORING                               = 0x1131,$/;"	e	enum:__anon3
+VG_SCISSOR_RECTS	openvg.h	/^  VG_SCISSOR_RECTS                            = 0x1106,$/;"	e	enum:__anon3
+VG_SCREEN_LAYOUT	openvg.h	/^  VG_SCREEN_LAYOUT                            = 0x1141,$/;"	e	enum:__anon3
+VG_SCUBIC_TO	openvg.h	/^  VG_SCUBIC_TO                                = ( 8 << 1),$/;"	e	enum:__anon10
+VG_SCUBIC_TO_ABS	openvg.h	/^  VG_SCUBIC_TO_ABS                            = VG_SCUBIC_TO  | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_SCUBIC_TO_REL	openvg.h	/^  VG_SCUBIC_TO_REL                            = VG_SCUBIC_TO  | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_SCWARC_TO	openvg.h	/^  VG_SCWARC_TO                                = (10 << 1),$/;"	e	enum:__anon10
+VG_SCWARC_TO_ABS	openvg.h	/^  VG_SCWARC_TO_ABS                            = VG_SCWARC_TO  | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_SCWARC_TO_REL	openvg.h	/^  VG_SCWARC_TO_REL                            = VG_SCWARC_TO  | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_SET_MASK	openvg.h	/^  VG_SET_MASK                                 = 0x1502,$/;"	e	enum:__anon7
+VG_SQUAD_TO	openvg.h	/^  VG_SQUAD_TO                                 = ( 7 << 1),$/;"	e	enum:__anon10
+VG_SQUAD_TO_ABS	openvg.h	/^  VG_SQUAD_TO_ABS                             = VG_SQUAD_TO   | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_SQUAD_TO_REL	openvg.h	/^  VG_SQUAD_TO_REL                             = VG_SQUAD_TO   | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_STROKE_CAP_STYLE	openvg.h	/^  VG_STROKE_CAP_STYLE                         = 0x1111,$/;"	e	enum:__anon3
+VG_STROKE_DASH_PATTERN	openvg.h	/^  VG_STROKE_DASH_PATTERN                      = 0x1114,$/;"	e	enum:__anon3
+VG_STROKE_DASH_PHASE	openvg.h	/^  VG_STROKE_DASH_PHASE                        = 0x1115,$/;"	e	enum:__anon3
+VG_STROKE_DASH_PHASE_RESET	openvg.h	/^  VG_STROKE_DASH_PHASE_RESET                  = 0x1116,$/;"	e	enum:__anon3
+VG_STROKE_JOIN_STYLE	openvg.h	/^  VG_STROKE_JOIN_STYLE                        = 0x1112,$/;"	e	enum:__anon3
+VG_STROKE_LINE_WIDTH	openvg.h	/^  VG_STROKE_LINE_WIDTH                        = 0x1110,$/;"	e	enum:__anon3
+VG_STROKE_MITER_LIMIT	openvg.h	/^  VG_STROKE_MITER_LIMIT                       = 0x1113,$/;"	e	enum:__anon3
+VG_STROKE_PATH	openvg.h	/^  VG_STROKE_PATH                              = (1 << 0),$/;"	e	enum:__anon17
+VG_SUBTRACT_MASK	openvg.h	/^  VG_SUBTRACT_MASK                            = 0x1505$/;"	e	enum:__anon7
+VG_TILE_FILL	openvg.h	/^  VG_TILE_FILL                                = 0x1D00,$/;"	e	enum:__anon21
+VG_TILE_FILL_COLOR	openvg.h	/^  VG_TILE_FILL_COLOR                          = 0x1120,$/;"	e	enum:__anon3
+VG_TILE_PAD	openvg.h	/^  VG_TILE_PAD                                 = 0x1D01,$/;"	e	enum:__anon21
+VG_TILE_REFLECT	openvg.h	/^  VG_TILE_REFLECT                             = 0x1D03$/;"	e	enum:__anon21
+VG_TILE_REPEAT	openvg.h	/^  VG_TILE_REPEAT                              = 0x1D02,$/;"	e	enum:__anon21
+VG_TRUE	openvg.h	/^  VG_TRUE  = 1$/;"	e	enum:__anon1
+VG_UNION_MASK	openvg.h	/^  VG_UNION_MASK                               = 0x1503,$/;"	e	enum:__anon7
+VG_UNSUPPORTED_IMAGE_FORMAT_ERROR	openvg.h	/^  VG_UNSUPPORTED_IMAGE_FORMAT_ERROR           = 0x1004,$/;"	e	enum:__anon2
+VG_UNSUPPORTED_PATH_FORMAT_ERROR	openvg.h	/^  VG_UNSUPPORTED_PATH_FORMAT_ERROR            = 0x1005,$/;"	e	enum:__anon2
+VG_VENDOR	openvg.h	/^  VG_VENDOR                                   = 0x2300,$/;"	e	enum:__anon30
+VG_VERSION	openvg.h	/^  VG_VERSION                                  = 0x2302,$/;"	e	enum:__anon30
+VG_VLINE_TO	openvg.h	/^  VG_VLINE_TO                                 = ( 4 << 1),$/;"	e	enum:__anon10
+VG_VLINE_TO_ABS	openvg.h	/^  VG_VLINE_TO_ABS                             = VG_VLINE_TO   | VG_ABSOLUTE,$/;"	e	enum:__anon11
+VG_VLINE_TO_REL	openvg.h	/^  VG_VLINE_TO_REL                             = VG_VLINE_TO   | VG_RELATIVE,$/;"	e	enum:__anon11
+VG_lABGR_8888	openvg.h	/^  VG_lABGR_8888                               =  8 | (1 << 6) | (1 << 7),$/;"	e	enum:__anon22
+VG_lABGR_8888_PRE	openvg.h	/^  VG_lABGR_8888_PRE                           =  9 | (1 << 6) | (1 << 7)$/;"	e	enum:__anon22
+VG_lARGB_8888	openvg.h	/^  VG_lARGB_8888                               =  8 | (1 << 6),$/;"	e	enum:__anon22
+VG_lARGB_8888_PRE	openvg.h	/^  VG_lARGB_8888_PRE                           =  9 | (1 << 6),$/;"	e	enum:__anon22
+VG_lBGRA_8888	openvg.h	/^  VG_lBGRA_8888                               =  8 | (1 << 7),$/;"	e	enum:__anon22
+VG_lBGRA_8888_PRE	openvg.h	/^  VG_lBGRA_8888_PRE                           =  9 | (1 << 7),$/;"	e	enum:__anon22
+VG_lBGRX_8888	openvg.h	/^  VG_lBGRX_8888                               =  7 | (1 << 7),$/;"	e	enum:__anon22
+VG_lL_8	openvg.h	/^  VG_lL_8                                     = 10,$/;"	e	enum:__anon22
+VG_lRGBA_8888	openvg.h	/^  VG_lRGBA_8888                               =  8,$/;"	e	enum:__anon22
+VG_lRGBA_8888_PRE	openvg.h	/^  VG_lRGBA_8888_PRE                           =  9,$/;"	e	enum:__anon22
+VG_lRGBX_8888	openvg.h	/^  VG_lRGBX_8888                               =  7,$/;"	e	enum:__anon22
+VG_lXBGR_8888	openvg.h	/^  VG_lXBGR_8888                               =  7 | (1 << 6) | (1 << 7),$/;"	e	enum:__anon22
+VG_lXRGB_8888	openvg.h	/^  VG_lXRGB_8888                               =  7 | (1 << 6),$/;"	e	enum:__anon22
+VG_sABGR_1555	openvg.h	/^  VG_sABGR_1555                               =  4 | (1 << 6) | (1 << 7),$/;"	e	enum:__anon22
+VG_sABGR_4444	openvg.h	/^  VG_sABGR_4444                               =  5 | (1 << 6) | (1 << 7),$/;"	e	enum:__anon22
+VG_sABGR_8888	openvg.h	/^  VG_sABGR_8888                               =  1 | (1 << 6) | (1 << 7),$/;"	e	enum:__anon22
+VG_sABGR_8888_PRE	openvg.h	/^  VG_sABGR_8888_PRE                           =  2 | (1 << 6) | (1 << 7),$/;"	e	enum:__anon22
+VG_sARGB_1555	openvg.h	/^  VG_sARGB_1555                               =  4 | (1 << 6),$/;"	e	enum:__anon22
+VG_sARGB_4444	openvg.h	/^  VG_sARGB_4444                               =  5 | (1 << 6),$/;"	e	enum:__anon22
+VG_sARGB_8888	openvg.h	/^  VG_sARGB_8888                               =  1 | (1 << 6),$/;"	e	enum:__anon22
+VG_sARGB_8888_PRE	openvg.h	/^  VG_sARGB_8888_PRE                           =  2 | (1 << 6),$/;"	e	enum:__anon22
+VG_sBGRA_4444	openvg.h	/^  VG_sBGRA_4444                               =  5 | (1 << 7),$/;"	e	enum:__anon22
+VG_sBGRA_5551	openvg.h	/^  VG_sBGRA_5551                               =  4 | (1 << 7),$/;"	e	enum:__anon22
+VG_sBGRA_8888	openvg.h	/^  VG_sBGRA_8888                               =  1 | (1 << 7),$/;"	e	enum:__anon22
+VG_sBGRA_8888_PRE	openvg.h	/^  VG_sBGRA_8888_PRE                           =  2 | (1 << 7),$/;"	e	enum:__anon22
+VG_sBGRX_8888	openvg.h	/^  VG_sBGRX_8888                               =  0 | (1 << 7),$/;"	e	enum:__anon22
+VG_sBGR_565	openvg.h	/^  VG_sBGR_565                                 =  3 | (1 << 7),$/;"	e	enum:__anon22
+VG_sL_8	openvg.h	/^  VG_sL_8                                     =  6,$/;"	e	enum:__anon22
+VG_sRGBA_4444	openvg.h	/^  VG_sRGBA_4444                               =  5,$/;"	e	enum:__anon22
+VG_sRGBA_5551	openvg.h	/^  VG_sRGBA_5551                               =  4,$/;"	e	enum:__anon22
+VG_sRGBA_8888	openvg.h	/^  VG_sRGBA_8888                               =  1,$/;"	e	enum:__anon22
+VG_sRGBA_8888_PRE	openvg.h	/^  VG_sRGBA_8888_PRE                           =  2,$/;"	e	enum:__anon22
+VG_sRGBX_8888	openvg.h	/^  VG_sRGBX_8888                               =  0,$/;"	e	enum:__anon22
+VG_sRGB_565	openvg.h	/^  VG_sRGB_565                                 =  3,$/;"	e	enum:__anon22
+VG_sXBGR_8888	openvg.h	/^  VG_sXBGR_8888                               =  0 | (1 << 6) | (1 << 7),$/;"	e	enum:__anon22
+VG_sXRGB_8888	openvg.h	/^  VG_sXRGB_8888                               =  0 | (1 << 6),$/;"	e	enum:__anon22
+VGbitfield	openvg.h	/^typedef unsigned int        VGbitfield;$/;"	t
+VGboolean	openvg.h	/^} VGboolean;$/;"	t	typeref:enum:__anon1
+VGbyte	openvg.h	/^typedef char                VGbyte;$/;"	t
+VGfloat	openvg.h	/^typedef float               VGfloat;$/;"	t
+VGint	openvg.h	/^typedef int                 VGint;$/;"	t
+VGshort	openvg.h	/^typedef short               VGshort;$/;"	t
+VGubyte	openvg.h	/^typedef unsigned char       VGubyte;$/;"	t
+VGuint	openvg.h	/^typedef unsigned int        VGuint;$/;"	t
+_ARRAY_DECLARE	shArrayBase.h	370;"	d
+_ARRAY_DECLARE	shArrays.h	34;"	d
+_ARRAY_DECLARE	shArrays.h	40;"	d
+_ARRAY_DECLARE	shArrays.h	46;"	d
+_ARRAY_DECLARE	shArrays.h	52;"	d
+_ARRAY_DECLARE	shImage.h	70;"	d
+_ARRAY_DECLARE	shImage.h	94;"	d
+_ARRAY_DECLARE	shPaint.h	38;"	d
+_ARRAY_DECLARE	shPaint.h	66;"	d
+_ARRAY_DECLARE	shPath.h	125;"	d
+_ARRAY_DECLARE	shPath.h	67;"	d
+_ARRAY_DECLARE	shVectors.h	77;"	d
+_ARRAY_DEFINE	shArrayBase.h	369;"	d
+_ARRAY_DEFINE	shArrays.c	30;"	d	file:
+_ARRAY_DEFINE	shArrays.c	36;"	d	file:
+_ARRAY_DEFINE	shArrays.c	42;"	d	file:
+_ARRAY_DEFINE	shArrays.c	49;"	d	file:
+_ARRAY_DEFINE	shImage.c	31;"	d	file:
+_ARRAY_DEFINE	shImage.c	38;"	d	file:
+_ARRAY_DEFINE	shPaint.c	31;"	d	file:
+_ARRAY_DEFINE	shPaint.c	37;"	d	file:
+_ARRAY_DEFINE	shPath.c	32;"	d	file:
+_ARRAY_DEFINE	shPath.c	38;"	d	file:
+_ARRAY_DEFINE	shVectors.c	27;"	d	file:
+_ARRAY_T	shArrayBase.h	/^} _ARRAY_T;$/;"	t	typeref:struct:__anon31
+_ARRAY_T	shArrayBase.h	366;"	d
+_ARRAY_T	shArrays.c	28;"	d	file:
+_ARRAY_T	shArrays.c	34;"	d	file:
+_ARRAY_T	shArrays.c	40;"	d	file:
+_ARRAY_T	shArrays.c	46;"	d	file:
+_ARRAY_T	shArrays.h	32;"	d
+_ARRAY_T	shArrays.h	38;"	d
+_ARRAY_T	shArrays.h	44;"	d
+_ARRAY_T	shArrays.h	50;"	d
+_ARRAY_T	shImage.c	29;"	d	file:
+_ARRAY_T	shImage.c	36;"	d	file:
+_ARRAY_T	shImage.h	68;"	d
+_ARRAY_T	shImage.h	92;"	d
+_ARRAY_T	shPaint.c	28;"	d	file:
+_ARRAY_T	shPaint.c	35;"	d	file:
+_ARRAY_T	shPaint.h	36;"	d
+_ARRAY_T	shPaint.h	64;"	d
+_ARRAY_T	shPath.c	29;"	d	file:
+_ARRAY_T	shPath.c	36;"	d	file:
+_ARRAY_T	shPath.h	123;"	d
+_ARRAY_T	shPath.h	65;"	d
+_ARRAY_T	shVectors.c	24;"	d	file:
+_ARRAY_T	shVectors.h	75;"	d
+_COMPARE_T	shArrayBase.h	368;"	d
+_COMPARE_T	shArrays.c	48;"	d	file:
+_COMPARE_T	shImage.c	32;"	d	file:
+_COMPARE_T	shPaint.c	30;"	d	file:
+_COMPARE_T	shPath.c	31;"	d	file:
+_COMPARE_T	shVectors.c	26;"	d	file:
+_FUNC_T	shArrayBase.h	367;"	d
+_FUNC_T	shArrays.c	29;"	d	file:
+_FUNC_T	shArrays.c	35;"	d	file:
+_FUNC_T	shArrays.c	41;"	d	file:
+_FUNC_T	shArrays.c	47;"	d	file:
+_FUNC_T	shArrays.h	33;"	d
+_FUNC_T	shArrays.h	39;"	d
+_FUNC_T	shArrays.h	45;"	d
+_FUNC_T	shArrays.h	51;"	d
+_FUNC_T	shImage.c	30;"	d	file:
+_FUNC_T	shImage.c	37;"	d	file:
+_FUNC_T	shImage.h	69;"	d
+_FUNC_T	shImage.h	93;"	d
+_FUNC_T	shPaint.c	29;"	d	file:
+_FUNC_T	shPaint.c	36;"	d	file:
+_FUNC_T	shPaint.h	37;"	d
+_FUNC_T	shPaint.h	65;"	d
+_FUNC_T	shPath.c	30;"	d	file:
+_FUNC_T	shPath.c	37;"	d	file:
+_FUNC_T	shPath.h	124;"	d
+_FUNC_T	shPath.h	66;"	d
+_FUNC_T	shVectors.c	25;"	d	file:
+_FUNC_T	shVectors.h	76;"	d
+_ITEM_T	shArrayBase.h	365;"	d
+_ITEM_T	shArrays.c	27;"	d	file:
+_ITEM_T	shArrays.c	33;"	d	file:
+_ITEM_T	shArrays.c	39;"	d	file:
+_ITEM_T	shArrays.c	45;"	d	file:
+_ITEM_T	shArrays.h	31;"	d
+_ITEM_T	shArrays.h	37;"	d
+_ITEM_T	shArrays.h	43;"	d
+_ITEM_T	shArrays.h	49;"	d
+_ITEM_T	shImage.c	28;"	d	file:
+_ITEM_T	shImage.c	35;"	d	file:
+_ITEM_T	shImage.h	67;"	d
+_ITEM_T	shImage.h	91;"	d
+_ITEM_T	shPaint.c	27;"	d	file:
+_ITEM_T	shPaint.c	34;"	d	file:
+_ITEM_T	shPaint.h	35;"	d
+_ITEM_T	shPaint.h	63;"	d
+_ITEM_T	shPath.c	28;"	d	file:
+_ITEM_T	shPath.c	35;"	d	file:
+_ITEM_T	shPath.h	122;"	d
+_ITEM_T	shPath.h	64;"	d
+_ITEM_T	shVectors.c	23;"	d	file:
+_ITEM_T	shVectors.h	74;"	d
+_OPENVG_H	openvg.h	22;"	d
+_VGU_H	vgu.h	21;"	d
+__SHARRAYBASE_H	shArrayBase.h	37;"	d
+__SHARRAYS_H	shArrays.h	26;"	d
+__SHCONTEXT_H	shContext.h	22;"	d
+__SHDEFS_H	shDefs.h	22;"	d
+__SHEXTENSIONS_H	shExtensions.h	22;"	d
+__SHIMAGE_H	shImage.h	22;"	d
+__SHPAINT_H	shPaint.h	22;"	d
+__SHPATH_H	shPath.h	22;"	d
+__SHVECTORS_H	shVectors.h	22;"	d
+a	shImage.h	/^  SHfloat r,g,b,a;$/;"	m	struct:__anon36
+a1	shPath.h	/^  SHfloat a1;$/;"	m	struct:__anon42
+a2	shPath.h	/^  SHfloat a2;$/;"	m	struct:__anon42
+amask	shImage.h	/^  SHuint32 amask;$/;"	m	struct:__anon35
+amax	shImage.h	/^  SHuint8 amax;$/;"	m	struct:__anon35
+ang	test_tiger.c	/^VGfloat ang = 0.0f;$/;"	v
+animate	test_tiger.c	/^int animate = 1;$/;"	v
+ashift	shImage.h	/^  SHuint8 ashift;$/;"	m	struct:__anon35
+b	shImage.h	/^  SHfloat r,g,b,a;$/;"	m	struct:__anon36
+bias	shPath.h	/^  SHfloat bias;$/;"	m	struct:SHPath
+blendMode	shContext.h	/^	VGBlendMode         blendMode;$/;"	m	struct:__anon33
+bmask	shImage.h	/^  SHuint32 bmask;$/;"	m	struct:__anon35
+bmax	shImage.h	/^  SHuint8 bmax;$/;"	m	struct:__anon35
+bshift	shImage.h	/^  SHuint8 bshift;$/;"	m	struct:__anon35
+bytes	shImage.h	/^  SHuint8 bytes;$/;"	m	struct:__anon35
+callbacks	test.c	/^static CallbackFunc callbacks[TEST_CALLBACK_COUNT];$/;"	v	file:
+capacity	shArrayBase.h	/^  SHint32 capacity;$/;"	m	struct:__anon31
+caps	shPath.h	/^  VGbitfield caps;$/;"	m	struct:SHPath
+checkExtension	shExtensions.c	/^static int checkExtension(const char *extensions, const char *name)$/;"	f	file:
+cleanup	test_tiger.c	/^void cleanup()$/;"	f
+clearColor	shContext.h	/^  SHColor           clearColor;$/;"	m	struct:__anon33
+click	test_tiger.c	/^void click(int button, int state, int x, int y)$/;"	f
+clickX	test_tiger.c	/^VGfloat clickX = 0.0f;$/;"	v
+clickY	test_tiger.c	/^VGfloat clickY = 0.0f;$/;"	v
+color	shPaint.h	/^  SHColor color;$/;"	m	struct:__anon38
+color	shPaint.h	/^  SHColor color;$/;"	m	struct:__anon39
+colors	shPaint.h	/^  SHColorArray colors;$/;"	m	struct:__anon39
+commandArrays	test_tiger_paths.c	/^const VGubyte* commandArrays[] = {$/;"	v
+commandCounts	test_tiger_paths.c	/^const VGint commandCounts[] = {$/;"	v
+commands	test_tiger.c	/^const char commands[] =$/;"	v
+commands0	test_tiger_paths.c	/^const VGubyte commands0[] = {$/;"	v
+commands1	test_tiger_paths.c	/^const VGubyte commands1[] = {$/;"	v
+commands10	test_tiger_paths.c	/^const VGubyte commands10[] = {$/;"	v
+commands100	test_tiger_paths.c	/^const VGubyte commands100[] = {$/;"	v
+commands101	test_tiger_paths.c	/^const VGubyte commands101[] = {$/;"	v
+commands102	test_tiger_paths.c	/^const VGubyte commands102[] = {$/;"	v
+commands103	test_tiger_paths.c	/^const VGubyte commands103[] = {$/;"	v
+commands104	test_tiger_paths.c	/^const VGubyte commands104[] = {$/;"	v
+commands105	test_tiger_paths.c	/^const VGubyte commands105[] = {$/;"	v
+commands106	test_tiger_paths.c	/^const VGubyte commands106[] = {$/;"	v
+commands107	test_tiger_paths.c	/^const VGubyte commands107[] = {$/;"	v
+commands108	test_tiger_paths.c	/^const VGubyte commands108[] = {$/;"	v
+commands109	test_tiger_paths.c	/^const VGubyte commands109[] = {$/;"	v
+commands11	test_tiger_paths.c	/^const VGubyte commands11[] = {$/;"	v
+commands110	test_tiger_paths.c	/^const VGubyte commands110[] = {$/;"	v
+commands111	test_tiger_paths.c	/^const VGubyte commands111[] = {$/;"	v
+commands112	test_tiger_paths.c	/^const VGubyte commands112[] = {$/;"	v
+commands113	test_tiger_paths.c	/^const VGubyte commands113[] = {$/;"	v
+commands114	test_tiger_paths.c	/^const VGubyte commands114[] = {$/;"	v
+commands115	test_tiger_paths.c	/^const VGubyte commands115[] = {$/;"	v
+commands116	test_tiger_paths.c	/^const VGubyte commands116[] = {$/;"	v
+commands117	test_tiger_paths.c	/^const VGubyte commands117[] = {$/;"	v
+commands118	test_tiger_paths.c	/^const VGubyte commands118[] = {$/;"	v
+commands119	test_tiger_paths.c	/^const VGubyte commands119[] = {$/;"	v
+commands12	test_tiger_paths.c	/^const VGubyte commands12[] = {$/;"	v
+commands120	test_tiger_paths.c	/^const VGubyte commands120[] = {$/;"	v
+commands121	test_tiger_paths.c	/^const VGubyte commands121[] = {$/;"	v
+commands122	test_tiger_paths.c	/^const VGubyte commands122[] = {$/;"	v
+commands123	test_tiger_paths.c	/^const VGubyte commands123[] = {$/;"	v
+commands124	test_tiger_paths.c	/^const VGubyte commands124[] = {$/;"	v
+commands125	test_tiger_paths.c	/^const VGubyte commands125[] = {$/;"	v
+commands126	test_tiger_paths.c	/^const VGubyte commands126[] = {$/;"	v
+commands127	test_tiger_paths.c	/^const VGubyte commands127[] = {$/;"	v
+commands128	test_tiger_paths.c	/^const VGubyte commands128[] = {$/;"	v
+commands129	test_tiger_paths.c	/^const VGubyte commands129[] = {$/;"	v
+commands13	test_tiger_paths.c	/^const VGubyte commands13[] = {$/;"	v
+commands130	test_tiger_paths.c	/^const VGubyte commands130[] = {$/;"	v
+commands131	test_tiger_paths.c	/^const VGubyte commands131[] = {$/;"	v
+commands132	test_tiger_paths.c	/^const VGubyte commands132[] = {$/;"	v
+commands133	test_tiger_paths.c	/^const VGubyte commands133[] = {$/;"	v
+commands134	test_tiger_paths.c	/^const VGubyte commands134[] = {$/;"	v
+commands135	test_tiger_paths.c	/^const VGubyte commands135[] = {$/;"	v
+commands136	test_tiger_paths.c	/^const VGubyte commands136[] = {$/;"	v
+commands137	test_tiger_paths.c	/^const VGubyte commands137[] = {$/;"	v
+commands138	test_tiger_paths.c	/^const VGubyte commands138[] = {$/;"	v
+commands139	test_tiger_paths.c	/^const VGubyte commands139[] = {$/;"	v
+commands14	test_tiger_paths.c	/^const VGubyte commands14[] = {$/;"	v
+commands140	test_tiger_paths.c	/^const VGubyte commands140[] = {$/;"	v
+commands141	test_tiger_paths.c	/^const VGubyte commands141[] = {$/;"	v
+commands142	test_tiger_paths.c	/^const VGubyte commands142[] = {$/;"	v
+commands143	test_tiger_paths.c	/^const VGubyte commands143[] = {$/;"	v
+commands144	test_tiger_paths.c	/^const VGubyte commands144[] = {$/;"	v
+commands145	test_tiger_paths.c	/^const VGubyte commands145[] = {$/;"	v
+commands146	test_tiger_paths.c	/^const VGubyte commands146[] = {$/;"	v
+commands147	test_tiger_paths.c	/^const VGubyte commands147[] = {$/;"	v
+commands148	test_tiger_paths.c	/^const VGubyte commands148[] = {$/;"	v
+commands149	test_tiger_paths.c	/^const VGubyte commands149[] = {$/;"	v
+commands15	test_tiger_paths.c	/^const VGubyte commands15[] = {$/;"	v
+commands150	test_tiger_paths.c	/^const VGubyte commands150[] = {$/;"	v
+commands151	test_tiger_paths.c	/^const VGubyte commands151[] = {$/;"	v
+commands152	test_tiger_paths.c	/^const VGubyte commands152[] = {$/;"	v
+commands153	test_tiger_paths.c	/^const VGubyte commands153[] = {$/;"	v
+commands154	test_tiger_paths.c	/^const VGubyte commands154[] = {$/;"	v
+commands155	test_tiger_paths.c	/^const VGubyte commands155[] = {$/;"	v
+commands156	test_tiger_paths.c	/^const VGubyte commands156[] = {$/;"	v
+commands157	test_tiger_paths.c	/^const VGubyte commands157[] = {$/;"	v
+commands158	test_tiger_paths.c	/^const VGubyte commands158[] = {$/;"	v
+commands159	test_tiger_paths.c	/^const VGubyte commands159[] = {$/;"	v
+commands16	test_tiger_paths.c	/^const VGubyte commands16[] = {$/;"	v
+commands160	test_tiger_paths.c	/^const VGubyte commands160[] = {$/;"	v
+commands161	test_tiger_paths.c	/^const VGubyte commands161[] = {$/;"	v
+commands162	test_tiger_paths.c	/^const VGubyte commands162[] = {$/;"	v
+commands163	test_tiger_paths.c	/^const VGubyte commands163[] = {$/;"	v
+commands164	test_tiger_paths.c	/^const VGubyte commands164[] = {$/;"	v
+commands165	test_tiger_paths.c	/^const VGubyte commands165[] = {$/;"	v
+commands166	test_tiger_paths.c	/^const VGubyte commands166[] = {$/;"	v
+commands167	test_tiger_paths.c	/^const VGubyte commands167[] = {$/;"	v
+commands168	test_tiger_paths.c	/^const VGubyte commands168[] = {$/;"	v
+commands169	test_tiger_paths.c	/^const VGubyte commands169[] = {$/;"	v
+commands17	test_tiger_paths.c	/^const VGubyte commands17[] = {$/;"	v
+commands170	test_tiger_paths.c	/^const VGubyte commands170[] = {$/;"	v
+commands171	test_tiger_paths.c	/^const VGubyte commands171[] = {$/;"	v
+commands172	test_tiger_paths.c	/^const VGubyte commands172[] = {$/;"	v
+commands173	test_tiger_paths.c	/^const VGubyte commands173[] = {$/;"	v
+commands174	test_tiger_paths.c	/^const VGubyte commands174[] = {$/;"	v
+commands175	test_tiger_paths.c	/^const VGubyte commands175[] = {$/;"	v
+commands176	test_tiger_paths.c	/^const VGubyte commands176[] = {$/;"	v
+commands177	test_tiger_paths.c	/^const VGubyte commands177[] = {$/;"	v
+commands178	test_tiger_paths.c	/^const VGubyte commands178[] = {$/;"	v
+commands179	test_tiger_paths.c	/^const VGubyte commands179[] = {$/;"	v
+commands18	test_tiger_paths.c	/^const VGubyte commands18[] = {$/;"	v
+commands180	test_tiger_paths.c	/^const VGubyte commands180[] = {$/;"	v
+commands181	test_tiger_paths.c	/^const VGubyte commands181[] = {$/;"	v
+commands182	test_tiger_paths.c	/^const VGubyte commands182[] = {$/;"	v
+commands183	test_tiger_paths.c	/^const VGubyte commands183[] = {$/;"	v
+commands184	test_tiger_paths.c	/^const VGubyte commands184[] = {$/;"	v
+commands185	test_tiger_paths.c	/^const VGubyte commands185[] = {$/;"	v
+commands186	test_tiger_paths.c	/^const VGubyte commands186[] = {$/;"	v
+commands187	test_tiger_paths.c	/^const VGubyte commands187[] = {$/;"	v
+commands188	test_tiger_paths.c	/^const VGubyte commands188[] = {$/;"	v
+commands189	test_tiger_paths.c	/^const VGubyte commands189[] = {$/;"	v
+commands19	test_tiger_paths.c	/^const VGubyte commands19[] = {$/;"	v
+commands190	test_tiger_paths.c	/^const VGubyte commands190[] = {$/;"	v
+commands191	test_tiger_paths.c	/^const VGubyte commands191[] = {$/;"	v
+commands192	test_tiger_paths.c	/^const VGubyte commands192[] = {$/;"	v
+commands193	test_tiger_paths.c	/^const VGubyte commands193[] = {$/;"	v
+commands194	test_tiger_paths.c	/^const VGubyte commands194[] = {$/;"	v
+commands195	test_tiger_paths.c	/^const VGubyte commands195[] = {$/;"	v
+commands196	test_tiger_paths.c	/^const VGubyte commands196[] = {$/;"	v
+commands197	test_tiger_paths.c	/^const VGubyte commands197[] = {$/;"	v
+commands198	test_tiger_paths.c	/^const VGubyte commands198[] = {$/;"	v
+commands199	test_tiger_paths.c	/^const VGubyte commands199[] = {$/;"	v
+commands2	test_tiger_paths.c	/^const VGubyte commands2[] = {$/;"	v
+commands20	test_tiger_paths.c	/^const VGubyte commands20[] = {$/;"	v
+commands200	test_tiger_paths.c	/^const VGubyte commands200[] = {$/;"	v
+commands201	test_tiger_paths.c	/^const VGubyte commands201[] = {$/;"	v
+commands202	test_tiger_paths.c	/^const VGubyte commands202[] = {$/;"	v
+commands203	test_tiger_paths.c	/^const VGubyte commands203[] = {$/;"	v
+commands204	test_tiger_paths.c	/^const VGubyte commands204[] = {$/;"	v
+commands205	test_tiger_paths.c	/^const VGubyte commands205[] = {$/;"	v
+commands206	test_tiger_paths.c	/^const VGubyte commands206[] = {$/;"	v
+commands207	test_tiger_paths.c	/^const VGubyte commands207[] = {$/;"	v
+commands208	test_tiger_paths.c	/^const VGubyte commands208[] = {$/;"	v
+commands209	test_tiger_paths.c	/^const VGubyte commands209[] = {$/;"	v
+commands21	test_tiger_paths.c	/^const VGubyte commands21[] = {$/;"	v
+commands210	test_tiger_paths.c	/^const VGubyte commands210[] = {$/;"	v
+commands211	test_tiger_paths.c	/^const VGubyte commands211[] = {$/;"	v
+commands212	test_tiger_paths.c	/^const VGubyte commands212[] = {$/;"	v
+commands213	test_tiger_paths.c	/^const VGubyte commands213[] = {$/;"	v
+commands214	test_tiger_paths.c	/^const VGubyte commands214[] = {$/;"	v
+commands215	test_tiger_paths.c	/^const VGubyte commands215[] = {$/;"	v
+commands216	test_tiger_paths.c	/^const VGubyte commands216[] = {$/;"	v
+commands217	test_tiger_paths.c	/^const VGubyte commands217[] = {$/;"	v
+commands218	test_tiger_paths.c	/^const VGubyte commands218[] = {$/;"	v
+commands219	test_tiger_paths.c	/^const VGubyte commands219[] = {$/;"	v
+commands22	test_tiger_paths.c	/^const VGubyte commands22[] = {$/;"	v
+commands220	test_tiger_paths.c	/^const VGubyte commands220[] = {$/;"	v
+commands221	test_tiger_paths.c	/^const VGubyte commands221[] = {$/;"	v
+commands222	test_tiger_paths.c	/^const VGubyte commands222[] = {$/;"	v
+commands223	test_tiger_paths.c	/^const VGubyte commands223[] = {$/;"	v
+commands224	test_tiger_paths.c	/^const VGubyte commands224[] = {$/;"	v
+commands225	test_tiger_paths.c	/^const VGubyte commands225[] = {$/;"	v
+commands226	test_tiger_paths.c	/^const VGubyte commands226[] = {$/;"	v
+commands227	test_tiger_paths.c	/^const VGubyte commands227[] = {$/;"	v
+commands228	test_tiger_paths.c	/^const VGubyte commands228[] = {$/;"	v
+commands229	test_tiger_paths.c	/^const VGubyte commands229[] = {$/;"	v
+commands23	test_tiger_paths.c	/^const VGubyte commands23[] = {$/;"	v
+commands230	test_tiger_paths.c	/^const VGubyte commands230[] = {$/;"	v
+commands231	test_tiger_paths.c	/^const VGubyte commands231[] = {$/;"	v
+commands232	test_tiger_paths.c	/^const VGubyte commands232[] = {$/;"	v
+commands233	test_tiger_paths.c	/^const VGubyte commands233[] = {$/;"	v
+commands234	test_tiger_paths.c	/^const VGubyte commands234[] = {$/;"	v
+commands235	test_tiger_paths.c	/^const VGubyte commands235[] = {$/;"	v
+commands236	test_tiger_paths.c	/^const VGubyte commands236[] = {$/;"	v
+commands237	test_tiger_paths.c	/^const VGubyte commands237[] = {$/;"	v
+commands238	test_tiger_paths.c	/^const VGubyte commands238[] = {$/;"	v
+commands239	test_tiger_paths.c	/^const VGubyte commands239[] = {$/;"	v
+commands24	test_tiger_paths.c	/^const VGubyte commands24[] = {$/;"	v
+commands25	test_tiger_paths.c	/^const VGubyte commands25[] = {$/;"	v
+commands26	test_tiger_paths.c	/^const VGubyte commands26[] = {$/;"	v
+commands27	test_tiger_paths.c	/^const VGubyte commands27[] = {$/;"	v
+commands28	test_tiger_paths.c	/^const VGubyte commands28[] = {$/;"	v
+commands29	test_tiger_paths.c	/^const VGubyte commands29[] = {$/;"	v
+commands3	test_tiger_paths.c	/^const VGubyte commands3[] = {$/;"	v
+commands30	test_tiger_paths.c	/^const VGubyte commands30[] = {$/;"	v
+commands31	test_tiger_paths.c	/^const VGubyte commands31[] = {$/;"	v
+commands32	test_tiger_paths.c	/^const VGubyte commands32[] = {$/;"	v
+commands33	test_tiger_paths.c	/^const VGubyte commands33[] = {$/;"	v
+commands34	test_tiger_paths.c	/^const VGubyte commands34[] = {$/;"	v
+commands35	test_tiger_paths.c	/^const VGubyte commands35[] = {$/;"	v
+commands36	test_tiger_paths.c	/^const VGubyte commands36[] = {$/;"	v
+commands37	test_tiger_paths.c	/^const VGubyte commands37[] = {$/;"	v
+commands38	test_tiger_paths.c	/^const VGubyte commands38[] = {$/;"	v
+commands39	test_tiger_paths.c	/^const VGubyte commands39[] = {$/;"	v
+commands4	test_tiger_paths.c	/^const VGubyte commands4[] = {$/;"	v
+commands40	test_tiger_paths.c	/^const VGubyte commands40[] = {$/;"	v
+commands41	test_tiger_paths.c	/^const VGubyte commands41[] = {$/;"	v
+commands42	test_tiger_paths.c	/^const VGubyte commands42[] = {$/;"	v
+commands43	test_tiger_paths.c	/^const VGubyte commands43[] = {$/;"	v
+commands44	test_tiger_paths.c	/^const VGubyte commands44[] = {$/;"	v
+commands45	test_tiger_paths.c	/^const VGubyte commands45[] = {$/;"	v
+commands46	test_tiger_paths.c	/^const VGubyte commands46[] = {$/;"	v
+commands47	test_tiger_paths.c	/^const VGubyte commands47[] = {$/;"	v
+commands48	test_tiger_paths.c	/^const VGubyte commands48[] = {$/;"	v
+commands49	test_tiger_paths.c	/^const VGubyte commands49[] = {$/;"	v
+commands5	test_tiger_paths.c	/^const VGubyte commands5[] = {$/;"	v
+commands50	test_tiger_paths.c	/^const VGubyte commands50[] = {$/;"	v
+commands51	test_tiger_paths.c	/^const VGubyte commands51[] = {$/;"	v
+commands52	test_tiger_paths.c	/^const VGubyte commands52[] = {$/;"	v
+commands53	test_tiger_paths.c	/^const VGubyte commands53[] = {$/;"	v
+commands54	test_tiger_paths.c	/^const VGubyte commands54[] = {$/;"	v
+commands55	test_tiger_paths.c	/^const VGubyte commands55[] = {$/;"	v
+commands56	test_tiger_paths.c	/^const VGubyte commands56[] = {$/;"	v
+commands57	test_tiger_paths.c	/^const VGubyte commands57[] = {$/;"	v
+commands58	test_tiger_paths.c	/^const VGubyte commands58[] = {$/;"	v
+commands59	test_tiger_paths.c	/^const VGubyte commands59[] = {$/;"	v
+commands6	test_tiger_paths.c	/^const VGubyte commands6[] = {$/;"	v
+commands60	test_tiger_paths.c	/^const VGubyte commands60[] = {$/;"	v
+commands61	test_tiger_paths.c	/^const VGubyte commands61[] = {$/;"	v
+commands62	test_tiger_paths.c	/^const VGubyte commands62[] = {$/;"	v
+commands63	test_tiger_paths.c	/^const VGubyte commands63[] = {$/;"	v
+commands64	test_tiger_paths.c	/^const VGubyte commands64[] = {$/;"	v
+commands65	test_tiger_paths.c	/^const VGubyte commands65[] = {$/;"	v
+commands66	test_tiger_paths.c	/^const VGubyte commands66[] = {$/;"	v
+commands67	test_tiger_paths.c	/^const VGubyte commands67[] = {$/;"	v
+commands68	test_tiger_paths.c	/^const VGubyte commands68[] = {$/;"	v
+commands69	test_tiger_paths.c	/^const VGubyte commands69[] = {$/;"	v
+commands7	test_tiger_paths.c	/^const VGubyte commands7[] = {$/;"	v
+commands70	test_tiger_paths.c	/^const VGubyte commands70[] = {$/;"	v
+commands71	test_tiger_paths.c	/^const VGubyte commands71[] = {$/;"	v
+commands72	test_tiger_paths.c	/^const VGubyte commands72[] = {$/;"	v
+commands73	test_tiger_paths.c	/^const VGubyte commands73[] = {$/;"	v
+commands74	test_tiger_paths.c	/^const VGubyte commands74[] = {$/;"	v
+commands75	test_tiger_paths.c	/^const VGubyte commands75[] = {$/;"	v
+commands76	test_tiger_paths.c	/^const VGubyte commands76[] = {$/;"	v
+commands77	test_tiger_paths.c	/^const VGubyte commands77[] = {$/;"	v
+commands78	test_tiger_paths.c	/^const VGubyte commands78[] = {$/;"	v
+commands79	test_tiger_paths.c	/^const VGubyte commands79[] = {$/;"	v
+commands8	test_tiger_paths.c	/^const VGubyte commands8[] = {$/;"	v
+commands80	test_tiger_paths.c	/^const VGubyte commands80[] = {$/;"	v
+commands81	test_tiger_paths.c	/^const VGubyte commands81[] = {$/;"	v
+commands82	test_tiger_paths.c	/^const VGubyte commands82[] = {$/;"	v
+commands83	test_tiger_paths.c	/^const VGubyte commands83[] = {$/;"	v
+commands84	test_tiger_paths.c	/^const VGubyte commands84[] = {$/;"	v
+commands85	test_tiger_paths.c	/^const VGubyte commands85[] = {$/;"	v
+commands86	test_tiger_paths.c	/^const VGubyte commands86[] = {$/;"	v
+commands87	test_tiger_paths.c	/^const VGubyte commands87[] = {$/;"	v
+commands88	test_tiger_paths.c	/^const VGubyte commands88[] = {$/;"	v
+commands89	test_tiger_paths.c	/^const VGubyte commands89[] = {$/;"	v
+commands9	test_tiger_paths.c	/^const VGubyte commands9[] = {$/;"	v
+commands90	test_tiger_paths.c	/^const VGubyte commands90[] = {$/;"	v
+commands91	test_tiger_paths.c	/^const VGubyte commands91[] = {$/;"	v
+commands92	test_tiger_paths.c	/^const VGubyte commands92[] = {$/;"	v
+commands93	test_tiger_paths.c	/^const VGubyte commands93[] = {$/;"	v
+commands94	test_tiger_paths.c	/^const VGubyte commands94[] = {$/;"	v
+commands95	test_tiger_paths.c	/^const VGubyte commands95[] = {$/;"	v
+commands96	test_tiger_paths.c	/^const VGubyte commands96[] = {$/;"	v
+commands97	test_tiger_paths.c	/^const VGubyte commands97[] = {$/;"	v
+commands98	test_tiger_paths.c	/^const VGubyte commands98[] = {$/;"	v
+commands99	test_tiger_paths.c	/^const VGubyte commands99[] = {$/;"	v
+data	shImage.h	/^  SHuint8 *data;$/;"	m	struct:__anon37
+data	shPath.h	/^  void *data;$/;"	m	struct:SHPath
+data0	test_tiger_paths.c	/^const VGfloat data0[] = {$/;"	v
+data1	test_tiger_paths.c	/^const VGfloat data1[] = {$/;"	v
+data10	test_tiger_paths.c	/^const VGfloat data10[] = {$/;"	v
+data100	test_tiger_paths.c	/^const VGfloat data100[] = {$/;"	v
+data101	test_tiger_paths.c	/^const VGfloat data101[] = {$/;"	v
+data102	test_tiger_paths.c	/^const VGfloat data102[] = {$/;"	v
+data103	test_tiger_paths.c	/^const VGfloat data103[] = {$/;"	v
+data104	test_tiger_paths.c	/^const VGfloat data104[] = {$/;"	v
+data105	test_tiger_paths.c	/^const VGfloat data105[] = {$/;"	v
+data106	test_tiger_paths.c	/^const VGfloat data106[] = {$/;"	v
+data107	test_tiger_paths.c	/^const VGfloat data107[] = {$/;"	v
+data108	test_tiger_paths.c	/^const VGfloat data108[] = {$/;"	v
+data109	test_tiger_paths.c	/^const VGfloat data109[] = {$/;"	v
+data11	test_tiger_paths.c	/^const VGfloat data11[] = {$/;"	v
+data110	test_tiger_paths.c	/^const VGfloat data110[] = {$/;"	v
+data111	test_tiger_paths.c	/^const VGfloat data111[] = {$/;"	v
+data112	test_tiger_paths.c	/^const VGfloat data112[] = {$/;"	v
+data113	test_tiger_paths.c	/^const VGfloat data113[] = {$/;"	v
+data114	test_tiger_paths.c	/^const VGfloat data114[] = {$/;"	v
+data115	test_tiger_paths.c	/^const VGfloat data115[] = {$/;"	v
+data116	test_tiger_paths.c	/^const VGfloat data116[] = {$/;"	v
+data117	test_tiger_paths.c	/^const VGfloat data117[] = {$/;"	v
+data118	test_tiger_paths.c	/^const VGfloat data118[] = {$/;"	v
+data119	test_tiger_paths.c	/^const VGfloat data119[] = {$/;"	v
+data12	test_tiger_paths.c	/^const VGfloat data12[] = {$/;"	v
+data120	test_tiger_paths.c	/^const VGfloat data120[] = {$/;"	v
+data121	test_tiger_paths.c	/^const VGfloat data121[] = {$/;"	v
+data122	test_tiger_paths.c	/^const VGfloat data122[] = {$/;"	v
+data123	test_tiger_paths.c	/^const VGfloat data123[] = {$/;"	v
+data124	test_tiger_paths.c	/^const VGfloat data124[] = {$/;"	v
+data125	test_tiger_paths.c	/^const VGfloat data125[] = {$/;"	v
+data126	test_tiger_paths.c	/^const VGfloat data126[] = {$/;"	v
+data127	test_tiger_paths.c	/^const VGfloat data127[] = {$/;"	v
+data128	test_tiger_paths.c	/^const VGfloat data128[] = {$/;"	v
+data129	test_tiger_paths.c	/^const VGfloat data129[] = {$/;"	v
+data13	test_tiger_paths.c	/^const VGfloat data13[] = {$/;"	v
+data130	test_tiger_paths.c	/^const VGfloat data130[] = {$/;"	v
+data131	test_tiger_paths.c	/^const VGfloat data131[] = {$/;"	v
+data132	test_tiger_paths.c	/^const VGfloat data132[] = {$/;"	v
+data133	test_tiger_paths.c	/^const VGfloat data133[] = {$/;"	v
+data134	test_tiger_paths.c	/^const VGfloat data134[] = {$/;"	v
+data135	test_tiger_paths.c	/^const VGfloat data135[] = {$/;"	v
+data136	test_tiger_paths.c	/^const VGfloat data136[] = {$/;"	v
+data137	test_tiger_paths.c	/^const VGfloat data137[] = {$/;"	v
+data138	test_tiger_paths.c	/^const VGfloat data138[] = {$/;"	v
+data139	test_tiger_paths.c	/^const VGfloat data139[] = {$/;"	v
+data14	test_tiger_paths.c	/^const VGfloat data14[] = {$/;"	v
+data140	test_tiger_paths.c	/^const VGfloat data140[] = {$/;"	v
+data141	test_tiger_paths.c	/^const VGfloat data141[] = {$/;"	v
+data142	test_tiger_paths.c	/^const VGfloat data142[] = {$/;"	v
+data143	test_tiger_paths.c	/^const VGfloat data143[] = {$/;"	v
+data144	test_tiger_paths.c	/^const VGfloat data144[] = {$/;"	v
+data145	test_tiger_paths.c	/^const VGfloat data145[] = {$/;"	v
+data146	test_tiger_paths.c	/^const VGfloat data146[] = {$/;"	v
+data147	test_tiger_paths.c	/^const VGfloat data147[] = {$/;"	v
+data148	test_tiger_paths.c	/^const VGfloat data148[] = {$/;"	v
+data149	test_tiger_paths.c	/^const VGfloat data149[] = {$/;"	v
+data15	test_tiger_paths.c	/^const VGfloat data15[] = {$/;"	v
+data150	test_tiger_paths.c	/^const VGfloat data150[] = {$/;"	v
+data151	test_tiger_paths.c	/^const VGfloat data151[] = {$/;"	v
+data152	test_tiger_paths.c	/^const VGfloat data152[] = {$/;"	v
+data153	test_tiger_paths.c	/^const VGfloat data153[] = {$/;"	v
+data154	test_tiger_paths.c	/^const VGfloat data154[] = {$/;"	v
+data155	test_tiger_paths.c	/^const VGfloat data155[] = {$/;"	v
+data156	test_tiger_paths.c	/^const VGfloat data156[] = {$/;"	v
+data157	test_tiger_paths.c	/^const VGfloat data157[] = {$/;"	v
+data158	test_tiger_paths.c	/^const VGfloat data158[] = {$/;"	v
+data159	test_tiger_paths.c	/^const VGfloat data159[] = {$/;"	v
+data16	test_tiger_paths.c	/^const VGfloat data16[] = {$/;"	v
+data160	test_tiger_paths.c	/^const VGfloat data160[] = {$/;"	v
+data161	test_tiger_paths.c	/^const VGfloat data161[] = {$/;"	v
+data162	test_tiger_paths.c	/^const VGfloat data162[] = {$/;"	v
+data163	test_tiger_paths.c	/^const VGfloat data163[] = {$/;"	v
+data164	test_tiger_paths.c	/^const VGfloat data164[] = {$/;"	v
+data165	test_tiger_paths.c	/^const VGfloat data165[] = {$/;"	v
+data166	test_tiger_paths.c	/^const VGfloat data166[] = {$/;"	v
+data167	test_tiger_paths.c	/^const VGfloat data167[] = {$/;"	v
+data168	test_tiger_paths.c	/^const VGfloat data168[] = {$/;"	v
+data169	test_tiger_paths.c	/^const VGfloat data169[] = {$/;"	v
+data17	test_tiger_paths.c	/^const VGfloat data17[] = {$/;"	v
+data170	test_tiger_paths.c	/^const VGfloat data170[] = {$/;"	v
+data171	test_tiger_paths.c	/^const VGfloat data171[] = {$/;"	v
+data172	test_tiger_paths.c	/^const VGfloat data172[] = {$/;"	v
+data173	test_tiger_paths.c	/^const VGfloat data173[] = {$/;"	v
+data174	test_tiger_paths.c	/^const VGfloat data174[] = {$/;"	v
+data175	test_tiger_paths.c	/^const VGfloat data175[] = {$/;"	v
+data176	test_tiger_paths.c	/^const VGfloat data176[] = {$/;"	v
+data177	test_tiger_paths.c	/^const VGfloat data177[] = {$/;"	v
+data178	test_tiger_paths.c	/^const VGfloat data178[] = {$/;"	v
+data179	test_tiger_paths.c	/^const VGfloat data179[] = {$/;"	v
+data18	test_tiger_paths.c	/^const VGfloat data18[] = {$/;"	v
+data180	test_tiger_paths.c	/^const VGfloat data180[] = {$/;"	v
+data181	test_tiger_paths.c	/^const VGfloat data181[] = {$/;"	v
+data182	test_tiger_paths.c	/^const VGfloat data182[] = {$/;"	v
+data183	test_tiger_paths.c	/^const VGfloat data183[] = {$/;"	v
+data184	test_tiger_paths.c	/^const VGfloat data184[] = {$/;"	v
+data185	test_tiger_paths.c	/^const VGfloat data185[] = {$/;"	v
+data186	test_tiger_paths.c	/^const VGfloat data186[] = {$/;"	v
+data187	test_tiger_paths.c	/^const VGfloat data187[] = {$/;"	v
+data188	test_tiger_paths.c	/^const VGfloat data188[] = {$/;"	v
+data189	test_tiger_paths.c	/^const VGfloat data189[] = {$/;"	v
+data19	test_tiger_paths.c	/^const VGfloat data19[] = {$/;"	v
+data190	test_tiger_paths.c	/^const VGfloat data190[] = {$/;"	v
+data191	test_tiger_paths.c	/^const VGfloat data191[] = {$/;"	v
+data192	test_tiger_paths.c	/^const VGfloat data192[] = {$/;"	v
+data193	test_tiger_paths.c	/^const VGfloat data193[] = {$/;"	v
+data194	test_tiger_paths.c	/^const VGfloat data194[] = {$/;"	v
+data195	test_tiger_paths.c	/^const VGfloat data195[] = {$/;"	v
+data196	test_tiger_paths.c	/^const VGfloat data196[] = {$/;"	v
+data197	test_tiger_paths.c	/^const VGfloat data197[] = {$/;"	v
+data198	test_tiger_paths.c	/^const VGfloat data198[] = {$/;"	v
+data199	test_tiger_paths.c	/^const VGfloat data199[] = {$/;"	v
+data2	test_tiger_paths.c	/^const VGfloat data2[] = {$/;"	v
+data20	test_tiger_paths.c	/^const VGfloat data20[] = {$/;"	v
+data200	test_tiger_paths.c	/^const VGfloat data200[] = {$/;"	v
+data201	test_tiger_paths.c	/^const VGfloat data201[] = {$/;"	v
+data202	test_tiger_paths.c	/^const VGfloat data202[] = {$/;"	v
+data203	test_tiger_paths.c	/^const VGfloat data203[] = {$/;"	v
+data204	test_tiger_paths.c	/^const VGfloat data204[] = {$/;"	v
+data205	test_tiger_paths.c	/^const VGfloat data205[] = {$/;"	v
+data206	test_tiger_paths.c	/^const VGfloat data206[] = {$/;"	v
+data207	test_tiger_paths.c	/^const VGfloat data207[] = {$/;"	v
+data208	test_tiger_paths.c	/^const VGfloat data208[] = {$/;"	v
+data209	test_tiger_paths.c	/^const VGfloat data209[] = {$/;"	v
+data21	test_tiger_paths.c	/^const VGfloat data21[] = {$/;"	v
+data210	test_tiger_paths.c	/^const VGfloat data210[] = {$/;"	v
+data211	test_tiger_paths.c	/^const VGfloat data211[] = {$/;"	v
+data212	test_tiger_paths.c	/^const VGfloat data212[] = {$/;"	v
+data213	test_tiger_paths.c	/^const VGfloat data213[] = {$/;"	v
+data214	test_tiger_paths.c	/^const VGfloat data214[] = {$/;"	v
+data215	test_tiger_paths.c	/^const VGfloat data215[] = {$/;"	v
+data216	test_tiger_paths.c	/^const VGfloat data216[] = {$/;"	v
+data217	test_tiger_paths.c	/^const VGfloat data217[] = {$/;"	v
+data218	test_tiger_paths.c	/^const VGfloat data218[] = {$/;"	v
+data219	test_tiger_paths.c	/^const VGfloat data219[] = {$/;"	v
+data22	test_tiger_paths.c	/^const VGfloat data22[] = {$/;"	v
+data220	test_tiger_paths.c	/^const VGfloat data220[] = {$/;"	v
+data221	test_tiger_paths.c	/^const VGfloat data221[] = {$/;"	v
+data222	test_tiger_paths.c	/^const VGfloat data222[] = {$/;"	v
+data223	test_tiger_paths.c	/^const VGfloat data223[] = {$/;"	v
+data224	test_tiger_paths.c	/^const VGfloat data224[] = {$/;"	v
+data225	test_tiger_paths.c	/^const VGfloat data225[] = {$/;"	v
+data226	test_tiger_paths.c	/^const VGfloat data226[] = {$/;"	v
+data227	test_tiger_paths.c	/^const VGfloat data227[] = {$/;"	v
+data228	test_tiger_paths.c	/^const VGfloat data228[] = {$/;"	v
+data229	test_tiger_paths.c	/^const VGfloat data229[] = {$/;"	v
+data23	test_tiger_paths.c	/^const VGfloat data23[] = {$/;"	v
+data230	test_tiger_paths.c	/^const VGfloat data230[] = {$/;"	v
+data231	test_tiger_paths.c	/^const VGfloat data231[] = {$/;"	v
+data232	test_tiger_paths.c	/^const VGfloat data232[] = {$/;"	v
+data233	test_tiger_paths.c	/^const VGfloat data233[] = {$/;"	v
+data234	test_tiger_paths.c	/^const VGfloat data234[] = {$/;"	v
+data235	test_tiger_paths.c	/^const VGfloat data235[] = {$/;"	v
+data236	test_tiger_paths.c	/^const VGfloat data236[] = {$/;"	v
+data237	test_tiger_paths.c	/^const VGfloat data237[] = {$/;"	v
+data238	test_tiger_paths.c	/^const VGfloat data238[] = {$/;"	v
+data239	test_tiger_paths.c	/^const VGfloat data239[] = {$/;"	v
+data24	test_tiger_paths.c	/^const VGfloat data24[] = {$/;"	v
+data25	test_tiger_paths.c	/^const VGfloat data25[] = {$/;"	v
+data26	test_tiger_paths.c	/^const VGfloat data26[] = {$/;"	v
+data27	test_tiger_paths.c	/^const VGfloat data27[] = {$/;"	v
+data28	test_tiger_paths.c	/^const VGfloat data28[] = {$/;"	v
+data29	test_tiger_paths.c	/^const VGfloat data29[] = {$/;"	v
+data3	test_tiger_paths.c	/^const VGfloat data3[] = {$/;"	v
+data30	test_tiger_paths.c	/^const VGfloat data30[] = {$/;"	v
+data31	test_tiger_paths.c	/^const VGfloat data31[] = {$/;"	v
+data32	test_tiger_paths.c	/^const VGfloat data32[] = {$/;"	v
+data33	test_tiger_paths.c	/^const VGfloat data33[] = {$/;"	v
+data34	test_tiger_paths.c	/^const VGfloat data34[] = {$/;"	v
+data35	test_tiger_paths.c	/^const VGfloat data35[] = {$/;"	v
+data36	test_tiger_paths.c	/^const VGfloat data36[] = {$/;"	v
+data37	test_tiger_paths.c	/^const VGfloat data37[] = {$/;"	v
+data38	test_tiger_paths.c	/^const VGfloat data38[] = {$/;"	v
+data39	test_tiger_paths.c	/^const VGfloat data39[] = {$/;"	v
+data4	test_tiger_paths.c	/^const VGfloat data4[] = {$/;"	v
+data40	test_tiger_paths.c	/^const VGfloat data40[] = {$/;"	v
+data41	test_tiger_paths.c	/^const VGfloat data41[] = {$/;"	v
+data42	test_tiger_paths.c	/^const VGfloat data42[] = {$/;"	v
+data43	test_tiger_paths.c	/^const VGfloat data43[] = {$/;"	v
+data44	test_tiger_paths.c	/^const VGfloat data44[] = {$/;"	v
+data45	test_tiger_paths.c	/^const VGfloat data45[] = {$/;"	v
+data46	test_tiger_paths.c	/^const VGfloat data46[] = {$/;"	v
+data47	test_tiger_paths.c	/^const VGfloat data47[] = {$/;"	v
+data48	test_tiger_paths.c	/^const VGfloat data48[] = {$/;"	v
+data49	test_tiger_paths.c	/^const VGfloat data49[] = {$/;"	v
+data5	test_tiger_paths.c	/^const VGfloat data5[] = {$/;"	v
+data50	test_tiger_paths.c	/^const VGfloat data50[] = {$/;"	v
+data51	test_tiger_paths.c	/^const VGfloat data51[] = {$/;"	v
+data52	test_tiger_paths.c	/^const VGfloat data52[] = {$/;"	v
+data53	test_tiger_paths.c	/^const VGfloat data53[] = {$/;"	v
+data54	test_tiger_paths.c	/^const VGfloat data54[] = {$/;"	v
+data55	test_tiger_paths.c	/^const VGfloat data55[] = {$/;"	v
+data56	test_tiger_paths.c	/^const VGfloat data56[] = {$/;"	v
+data57	test_tiger_paths.c	/^const VGfloat data57[] = {$/;"	v
+data58	test_tiger_paths.c	/^const VGfloat data58[] = {$/;"	v
+data59	test_tiger_paths.c	/^const VGfloat data59[] = {$/;"	v
+data6	test_tiger_paths.c	/^const VGfloat data6[] = {$/;"	v
+data60	test_tiger_paths.c	/^const VGfloat data60[] = {$/;"	v
+data61	test_tiger_paths.c	/^const VGfloat data61[] = {$/;"	v
+data62	test_tiger_paths.c	/^const VGfloat data62[] = {$/;"	v
+data63	test_tiger_paths.c	/^const VGfloat data63[] = {$/;"	v
+data64	test_tiger_paths.c	/^const VGfloat data64[] = {$/;"	v
+data65	test_tiger_paths.c	/^const VGfloat data65[] = {$/;"	v
+data66	test_tiger_paths.c	/^const VGfloat data66[] = {$/;"	v
+data67	test_tiger_paths.c	/^const VGfloat data67[] = {$/;"	v
+data68	test_tiger_paths.c	/^const VGfloat data68[] = {$/;"	v
+data69	test_tiger_paths.c	/^const VGfloat data69[] = {$/;"	v
+data7	test_tiger_paths.c	/^const VGfloat data7[] = {$/;"	v
+data70	test_tiger_paths.c	/^const VGfloat data70[] = {$/;"	v
+data71	test_tiger_paths.c	/^const VGfloat data71[] = {$/;"	v
+data72	test_tiger_paths.c	/^const VGfloat data72[] = {$/;"	v
+data73	test_tiger_paths.c	/^const VGfloat data73[] = {$/;"	v
+data74	test_tiger_paths.c	/^const VGfloat data74[] = {$/;"	v
+data75	test_tiger_paths.c	/^const VGfloat data75[] = {$/;"	v
+data76	test_tiger_paths.c	/^const VGfloat data76[] = {$/;"	v
+data77	test_tiger_paths.c	/^const VGfloat data77[] = {$/;"	v
+data78	test_tiger_paths.c	/^const VGfloat data78[] = {$/;"	v
+data79	test_tiger_paths.c	/^const VGfloat data79[] = {$/;"	v
+data8	test_tiger_paths.c	/^const VGfloat data8[] = {$/;"	v
+data80	test_tiger_paths.c	/^const VGfloat data80[] = {$/;"	v
+data81	test_tiger_paths.c	/^const VGfloat data81[] = {$/;"	v
+data82	test_tiger_paths.c	/^const VGfloat data82[] = {$/;"	v
+data83	test_tiger_paths.c	/^const VGfloat data83[] = {$/;"	v
+data84	test_tiger_paths.c	/^const VGfloat data84[] = {$/;"	v
+data85	test_tiger_paths.c	/^const VGfloat data85[] = {$/;"	v
+data86	test_tiger_paths.c	/^const VGfloat data86[] = {$/;"	v
+data87	test_tiger_paths.c	/^const VGfloat data87[] = {$/;"	v
+data88	test_tiger_paths.c	/^const VGfloat data88[] = {$/;"	v
+data89	test_tiger_paths.c	/^const VGfloat data89[] = {$/;"	v
+data9	test_tiger_paths.c	/^const VGfloat data9[] = {$/;"	v
+data90	test_tiger_paths.c	/^const VGfloat data90[] = {$/;"	v
+data91	test_tiger_paths.c	/^const VGfloat data91[] = {$/;"	v
+data92	test_tiger_paths.c	/^const VGfloat data92[] = {$/;"	v
+data93	test_tiger_paths.c	/^const VGfloat data93[] = {$/;"	v
+data94	test_tiger_paths.c	/^const VGfloat data94[] = {$/;"	v
+data95	test_tiger_paths.c	/^const VGfloat data95[] = {$/;"	v
+data96	test_tiger_paths.c	/^const VGfloat data96[] = {$/;"	v
+data97	test_tiger_paths.c	/^const VGfloat data97[] = {$/;"	v
+data98	test_tiger_paths.c	/^const VGfloat data98[] = {$/;"	v
+data99	test_tiger_paths.c	/^const VGfloat data99[] = {$/;"	v
+dataArrays	test_tiger_paths.c	/^const VGfloat* dataArrays[] = {$/;"	v
+dataCount	shPath.h	/^  SHint dataCount;$/;"	m	struct:SHPath
+dataHint	shPath.h	/^  SHint dataHint;$/;"	m	struct:SHPath
+datatype	shPath.h	/^  VGPathDatatype datatype;$/;"	m	struct:SHPath
+defaultPaint	shContext.h	/^  SHPaint           defaultPaint;$/;"	m	struct:__anon33
+display	test_tiger.c	/^void display(float interval)$/;"	f
+drag	test_tiger.c	/^void drag(int x, int y)$/;"	f
+error	shContext.h	/^  VGErrorCode       error;$/;"	m	struct:__anon33
+extensions	shContext.h	/^  char extensions[256];$/;"	m	struct:__anon33
+f	shDefs.h	/^  float f;$/;"	m	union:__anon34
+fallbackActiveTexture	shExtensions.c	/^void fallbackActiveTexture(GLenum texture) {$/;"	f
+fallbackMultiTexCoord1f	shExtensions.c	/^void fallbackMultiTexCoord1f(GLenum target, GLfloat x) {$/;"	f
+fallbackMultiTexCoord2f	shExtensions.c	/^void fallbackMultiTexCoord2f(GLenum target, GLfloat x, GLfloat y) {$/;"	f
+fd	shImage.h	/^  SHImageFormatDesc fd;$/;"	m	struct:__anon37
+fillPaint	shContext.h	/^  SHPaint*          fillPaint;$/;"	m	struct:__anon33
+fillRule	shContext.h	/^	VGFillRule          fillRule;$/;"	m	struct:__anon33
+fillTransform	shContext.h	/^  SHMatrix3x3       fillTransform;$/;"	m	struct:__anon33
+filterChannelMask	shContext.h	/^  VGbitfield        filterChannelMask;$/;"	m	struct:__anon33
+filterFormatLinear	shContext.h	/^  VGboolean         filterFormatLinear;$/;"	m	struct:__anon33
+filterFormatPremultiplied	shContext.h	/^  VGboolean         filterFormatPremultiplied;$/;"	m	struct:__anon33
+first	first.c	/^int  first(int  x, int  y)$/;"	f
+flags	shPath.h	/^  SHuint flags;$/;"	m	struct:__anon43
+format	shPath.h	/^  VGint format;$/;"	m	struct:SHPath
+fps	test.c	/^static int fps = 0;$/;"	v	file:
+fpsdraw	test.c	/^static int fpsdraw = 0;$/;"	v	file:
+g	shImage.h	/^  SHfloat r,g,b,a;$/;"	m	struct:__anon36
+g_context	shContext.c	/^static VGContext *g_context = NULL;$/;"	v	file:
+getMaxFloat	shParams.c	/^SHfloat getMaxFloat()$/;"	f
+glActiveTexture	shExtensions.h	51;"	d
+glMultiTexCoord1f	shExtensions.h	52;"	d
+glMultiTexCoord2f	shExtensions.h	53;"	d
+glformat	shImage.h	/^  GLenum glformat;$/;"	m	struct:__anon35
+glintformat	shImage.h	/^  GLenum glintformat;$/;"	m	struct:__anon35
+gltype	shImage.h	/^  GLenum gltype;$/;"	m	struct:__anon35
+gmask	shImage.h	/^  SHuint32 gmask;$/;"	m	struct:__anon35
+gmax	shImage.h	/^  SHuint8 gmax;$/;"	m	struct:__anon35
+gshift	shImage.h	/^  SHuint8 gshift;$/;"	m	struct:__anon35
+h	shVectors.h	/^  SHfloat x,y,w,h;$/;"	m	struct:__anon47
+height	shImage.h	/^  SHint height;$/;"	m	struct:__anon37
+i	shDefs.h	/^  unsigned int i;$/;"	m	union:__anon34
+imageMode	shContext.h	/^	VGImageMode         imageMode;$/;"	m	struct:__anon33
+imageQuality	shContext.h	/^	VGImageQuality      imageQuality;$/;"	m	struct:__anon33
+imageTransform	shContext.h	/^  SHMatrix3x3       imageTransform;$/;"	m	struct:__anon33
+images	shContext.h	/^  SHImageArray      images;$/;"	m	struct:__anon33
+instops	shPaint.h	/^  SHStopArray instops;$/;"	m	struct:__anon39
+int16_t	shDefs.h	63;"	d
+int32_t	shDefs.h	65;"	d
+int64_t	shDefs.h	67;"	d
+int8_t	shDefs.h	61;"	d
+isGLAvailable_ClampToEdge	shContext.h	/^  SHint isGLAvailable_ClampToEdge;$/;"	m	struct:__anon33
+isGLAvailable_MirroredRepeat	shContext.h	/^  SHint isGLAvailable_MirroredRepeat;$/;"	m	struct:__anon33
+isGLAvailable_Multitexture	shContext.h	/^  SHint isGLAvailable_Multitexture;$/;"	m	struct:__anon33
+isGLAvailable_TextureNonPowerOfTwo	shContext.h	/^  SHint isGLAvailable_TextureNonPowerOfTwo;$/;"	m	struct:__anon33
+items	shArrayBase.h	/^  _ITEM_T *items;$/;"	m	struct:__anon31
+key	test_tiger.c	/^void key(unsigned char code, int x, int y)$/;"	f
+lastdraw	test.c	/^static int lastdraw = 0;$/;"	v	file:
+lastfps	test.c	/^static int lastfps = 0;$/;"	v	file:
+length	shPath.h	/^  SHfloat length;$/;"	m	struct:__anon43
+linearGradient	shPaint.h	/^  SHfloat linearGradient[4];$/;"	m	struct:__anon39
+loadTiger	test_tiger.c	/^void loadTiger()$/;"	f
+m	shVectors.h	/^  SHfloat m[3][3];$/;"	m	struct:__anon48
+masking	shContext.h	/^  VGboolean          masking;$/;"	m	struct:__anon33
+matrixMode	shContext.h	/^  VGMatrixMode        matrixMode;$/;"	m	struct:__anon33
+max	shPath.h	/^  SHVector2 min, max;$/;"	m	struct:SHPath
+min	shPath.h	/^  SHVector2 min, max;$/;"	m	struct:SHPath
+mode	test_tiger.c	/^char mode = 'z';$/;"	v
+offset	shPaint.h	/^  float offset;$/;"	m	struct:__anon38
+outofmemory	shArrayBase.h	/^  SHint outofmemory;$/;"	m	struct:__anon31
+overcolor	test.c	/^static float overcolor[4] = {0,0,0,1};$/;"	v	file:
+overtext	test.c	/^static char *overtext = NULL;$/;"	v	file:
+p1	shPath.h	/^  SHVector2 p1;$/;"	m	struct:__anon40
+p1	shPath.h	/^  SHVector2 p1;$/;"	m	struct:__anon41
+p1	shPath.h	/^  SHVector2 p1;$/;"	m	struct:__anon42
+p2	shPath.h	/^  SHVector2 p2;$/;"	m	struct:__anon40
+p2	shPath.h	/^  SHVector2 p2;$/;"	m	struct:__anon41
+p2	shPath.h	/^  SHVector2 p2;$/;"	m	struct:__anon42
+p3	shPath.h	/^  SHVector2 p3;$/;"	m	struct:__anon40
+p3	shPath.h	/^  SHVector2 p3;$/;"	m	struct:__anon41
+p4	shPath.h	/^  SHVector2 p4;$/;"	m	struct:__anon41
+paints	shContext.h	/^  SHPaintArray      paints;$/;"	m	struct:__anon33
+pathCount	test_tiger_paths.c	/^const VGint pathCount = 240;$/;"	v
+pathTransform	shContext.h	/^  SHMatrix3x3       pathTransform;$/;"	m	struct:__anon33
+paths	shContext.h	/^  SHPathArray       paths;$/;"	m	struct:__anon33
+pattern	shPaint.h	/^  VGImage pattern;$/;"	m	struct:__anon39
+pglActiveTexture	shContext.h	/^  SH_PGLACTIVETEXTURE pglActiveTexture;$/;"	m	struct:__anon33
+pglMultiTexCoord1f	shContext.h	/^  SH_PGLMULTITEXCOORD1F pglMultiTexCoord1f;$/;"	m	struct:__anon33
+pglMultiTexCoord2f	shContext.h	/^  SH_PGLMULTITEXCOORD2F pglMultiTexCoord2f;$/;"	m	struct:__anon33
+pixelLayout	shContext.h	/^  VGPixelLayout     pixelLayout;$/;"	m	struct:__anon33
+point	shPath.h	/^  SHVector2 point;$/;"	m	struct:__anon43
+premultiplied	shPaint.h	/^  VGboolean premultiplied;$/;"	m	struct:__anon39
+r	shImage.h	/^  SHfloat r,g,b,a;$/;"	m	struct:__anon36
+radialGradient	shPaint.h	/^  SHfloat radialGradient[5];$/;"	m	struct:__anon39
+renderer	shContext.h	/^  char renderer[256];$/;"	m	struct:__anon33
+renderingQuality	shContext.h	/^	VGRenderingQuality  renderingQuality;$/;"	m	struct:__anon33
+rmask	shImage.h	/^  SHuint32 rmask;$/;"	m	struct:__anon35
+rmax	shImage.h	/^  SHuint8 rmax;$/;"	m	struct:__anon35
+rshift	shImage.h	/^  SHuint8 rshift;$/;"	m	struct:__anon35
+scale	shPath.h	/^  SHfloat scale;$/;"	m	struct:SHPath
+scissor	shContext.h	/^	SHRectArray        scissor;$/;"	m	struct:__anon33
+scissoring	shContext.h	/^  VGboolean          scissoring;$/;"	m	struct:__anon33
+segCount	shPath.h	/^  SHint segCount;$/;"	m	struct:SHPath
+segHint	shPath.h	/^  SHint segHint;$/;"	m	struct:SHPath
+segs	shPath.h	/^  SHuint8 *segs;$/;"	m	struct:SHPath
+shAddVertex	shGeometry.c	/^static int shAddVertex(SHPath *p, SHVertex *v, SHint *contourStart)$/;"	f	file:
+shAppend	shVgu.c	/^static VGUErrorCode shAppend(VGPath path, SHint commSize, const VGubyte *comm,$/;"	f	file:
+shBytesPerDatatype	shPath.c	/^static const SHint shBytesPerDatatype[] = {$/;"	v	file:
+shCentralizeArc	shPath.c	/^SHint shCentralizeArc(SHuint command, SHfloat *data)$/;"	f
+shCoordCountForData	shPath.c	/^static SHint shCoordCountForData(VGint segcount, const SHuint8 *segs)$/;"	f	file:
+shCoordsPerCommand	shPath.c	/^static const SHint shCoordsPerCommand[] = {$/;"	v	file:
+shCopyPixels	shImage.c	/^void shCopyPixels(SHuint8 *dst, VGImageFormat dstFormat, SHint dstStride,$/;"	f
+shCurrentMatrix	shContext.c	/^SHMatrix3x3* shCurrentMatrix(VGContext *c)$/;"	f
+shDrawBoundBox	shPipeline.c	/^static void shDrawBoundBox(VGContext *c, SHPath *p, VGPaintMode mode)$/;"	f	file:
+shDrawLinearGradientMesh	shPaint.c	/^int shDrawLinearGradientMesh(SHPaint *p, SHVector2 *min, SHVector2 *max,$/;"	f
+shDrawPaintMesh	shPipeline.c	/^static void shDrawPaintMesh(VGContext *c, SHVector2 *min, SHVector2 *max,$/;"	f	file:
+shDrawPatternMesh	shPaint.c	/^int shDrawPatternMesh(SHPaint *p, SHVector2 *min, SHVector2 *max,$/;"	f
+shDrawRadialGradientMesh	shPaint.c	/^int shDrawRadialGradientMesh(SHPaint *p, SHVector2 *min, SHVector2 *max,$/;"	f
+shDrawStroke	shPipeline.c	/^static void shDrawStroke(SHPath *p)$/;"	f	file:
+shDrawVertices	shPipeline.c	/^static void shDrawVertices(SHPath *p, GLenum mode)$/;"	f	file:
+shFindBoundbox	shGeometry.c	/^void shFindBoundbox(SHPath *p)$/;"	f
+shFlattenPath	shGeometry.c	/^void shFlattenPath(SHPath *p, SHint surfaceSpace)$/;"	f
+shFloatToParam	shParams.c	/^static void shFloatToParam(SHfloat f, SHint count, void *output, SHint floats, SHint index)$/;"	f	file:
+shGenerateStops	shPaint.c	/^void shGenerateStops(SHPaint *p, SHfloat minOffset, SHfloat maxOffset,$/;"	f
+shGet	shParams.c	/^static void shGet(VGContext *context, VGParamType type, SHint count, void *values, SHint floats)$/;"	f	file:
+shGetContext	shContext.c	/^VGContext* shGetContext()$/;"	f
+shGetParameter	shParams.c	/^static void shGetParameter(VGContext *context, VGHandle object,$/;"	f	file:
+shGetProcAddress	shExtensions.c	/^PFVOID shGetProcAddress(const char *name)$/;"	f
+shGetResourceType	shContext.c	/^SHResourceType shGetResourceType(VGContext *c, VGHandle h)$/;"	f
+shIntToParam	shParams.c	/^static void shIntToParam(SHint i, SHint count, void *output, SHint floats, SHint index)$/;"	f	file:
+shInterpolateSegment	shPath.c	/^static void shInterpolateSegment(SHPath *p, VGPathSegment segment,$/;"	f	file:
+shInvertMatrix	shVectors.c	/^int shInvertMatrix(SHMatrix3x3 *m, SHMatrix3x3 *mout)$/;"	f
+shIsArcSegment	shPath.c	/^static SHint shIsArcSegment(SHint s)$/;"	f	file:
+shIsEnumValid	shParams.c	/^int shIsEnumValid(SHint type, VGint val)$/;"	f
+shIsParamVector	shParams.c	/^int shIsParamVector(SHint type)$/;"	f
+shIsSupportedImageFormat	shImage.c	/^int shIsSupportedImageFormat(VGImageFormat format)$/;"	f
+shIsValidCommand	shPath.c	/^static SHint shIsValidCommand(SHint c)$/;"	f	file:
+shIsValidDatatype	shPath.c	/^static SHint shIsValidDatatype(VGPathDatatype t)$/;"	f	file:
+shIsValidImage	shContext.c	/^SHint shIsValidImage(VGContext *c, VGHandle h)$/;"	f
+shIsValidImageFormat	shImage.c	/^int shIsValidImageFormat(VGImageFormat format)$/;"	f
+shIsValidPaint	shContext.c	/^SHint shIsValidPaint(VGContext *c, VGHandle h)$/;"	f
+shIsValidPath	shContext.c	/^SHint shIsValidPath(VGContext *c, VGHandle h)$/;"	f
+shLineLineXsection	shVectors.c	/^int shLineLineXsection(SHVector2 *o1, SHVector2 *v1,$/;"	f
+shLoadColor	shImage.c	/^void shLoadColor(SHColor *c, const void *data, SHImageFormatDesc *f)$/;"	f
+shLoadExtensions	shExtensions.c	/^void shLoadExtensions(VGContext *c)$/;"	f
+shMatrixToGL	shVectors.c	/^void shMatrixToGL(SHMatrix3x3 *m, SHfloat mgl[16])$/;"	f
+shParamToFloat	shParams.c	/^static VGfloat shParamToFloat(const void *values, SHint floats, SHint index)$/;"	f	file:
+shParamToInt	shParams.c	/^static SHint shParamToInt(const void *values, SHint floats, SHint index)$/;"	f	file:
+shPremultiplyFramebuffer	shPipeline.c	/^void shPremultiplyFramebuffer()$/;"	f
+shProcessPathData	shPath.c	/^void shProcessPathData(SHPath *p,$/;"	f
+shProcessedDataCount	shPath.c	/^static void shProcessedDataCount(SHPath *p, SHint flags,$/;"	f	file:
+shPushStrokeQuad	shGeometry.c	/^static void shPushStrokeQuad(SHPath *p, SHVector2 *p1, SHVector2 *p2,$/;"	f	file:
+shPushStrokeTri	shGeometry.c	/^static void shPushStrokeTri(SHPath *p, SHVector2 *p1,$/;"	f	file:
+shRealCoordFromData	shPath.c	/^static SHfloat shRealCoordFromData(VGPathDatatype type, SHfloat scale, SHfloat bias,$/;"	f	file:
+shRealCoordToData	shPath.c	/^static void shRealCoordToData(VGPathDatatype type, SHfloat scale, SHfloat bias,$/;"	f	file:
+shRectangleSet	shVectors.c	/^void shRectangleSet(SHRectangle *r, SHfloat x,$/;"	f
+shResizePathData	shPath.c	/^static int shResizePathData(SHPath *p, SHint newSegCount, SHint newDataCount,$/;"	f	file:
+shSet	shParams.c	/^static void shSet(VGContext *context, VGParamType type, SHint count,$/;"	f	file:
+shSetError	shContext.c	/^void shSetError(VGContext *c, VGErrorCode e)$/;"	f
+shSetGradientTexGLState	shPaint.c	/^void shSetGradientTexGLState(SHPaint *p)$/;"	f
+shSetParameter	shParams.c	/^static void shSetParameter(VGContext *context, VGHandle object,$/;"	f	file:
+shSetPatternTexGLState	shPaint.c	/^void shSetPatternTexGLState(SHPaint *p, VGContext *c)$/;"	f
+shSetupImageFormat	shImage.c	/^void shSetupImageFormat(VGImageFormat vg, SHImageFormatDesc *f)$/;"	f
+shStoreColor	shImage.c	/^void shStoreColor(SHColor *c, void *data, SHImageFormatDesc *f)$/;"	f
+shStrokeCapRound	shGeometry.c	/^static void shStrokeCapRound(SHPath *p, SHVector2 *c, SHVector2 *t, SHint start)$/;"	f	file:
+shStrokeCapSquare	shGeometry.c	/^static void shStrokeCapSquare(SHPath *p, SHVector2 *c, SHVector2 *t, SHint start)$/;"	f	file:
+shStrokeJoinMiter	shGeometry.c	/^static void shStrokeJoinMiter(SHPath *p, SHVector2 *c,$/;"	f	file:
+shStrokeJoinRound	shGeometry.c	/^static void shStrokeJoinRound(SHPath *p, SHVector2 *c,$/;"	f	file:
+shStrokePath	shGeometry.c	/^void shStrokePath(VGContext* c, SHPath *p)$/;"	f
+shSubdivideSegment	shGeometry.c	/^static void shSubdivideSegment(SHPath *p, VGPathSegment segment,$/;"	f	file:
+shSubrecurseArc	shGeometry.c	/^static void shSubrecurseArc(SHPath *p, SHArc *arc,$/;"	f	file:
+shSubrecurseCubic	shGeometry.c	/^static void shSubrecurseCubic(SHPath *p, SHCubic *cubic, SHint *contourStart)$/;"	f	file:
+shSubrecurseQuad	shGeometry.c	/^static void shSubrecurseQuad(SHPath *p, SHQuad *quad, SHint *contourStart)$/;"	f	file:
+shTransformSegment	shPath.c	/^static void shTransformSegment(SHPath *p, VGPathSegment segment,$/;"	f	file:
+shTransformVertices	shGeometry.c	/^void shTransformVertices(SHMatrix3x3 *m, SHPath *p)$/;"	f
+shUnpremultiplyFramebuffer	shPipeline.c	/^void shUnpremultiplyFramebuffer()$/;"	f
+shUpdateColorRampTexture	shPaint.c	/^void shUpdateColorRampTexture(SHPaint *p)$/;"	f
+shUpdateImageTexture	shImage.c	/^void shUpdateImageTexture(SHImage *i, VGContext *c)$/;"	f
+shUpdateImageTextureSize	shImage.c	/^void shUpdateImageTextureSize(SHImage *i)$/;"	f
+shValidInputFloat	shParams.c	/^SHfloat shValidInputFloat(VGfloat f)$/;"	f
+shValidInputFloat2Int	shParams.c	/^static SHint shValidInputFloat2Int(VGfloat f)$/;"	f	file:
+shValidateInputStops	shPaint.c	/^void shValidateInputStops(SHPaint *p)$/;"	f
+shVectorOrientation	shVectors.c	/^SHfloat shVectorOrientation(SHVector2 *v) {$/;"	f
+size	shArrayBase.h	/^  SHint32 size;$/;"	m	struct:__anon31
+spreadMode	shPaint.h	/^  VGColorRampSpreadMode spreadMode;$/;"	m	struct:__anon39
+startX	test_tiger.c	/^VGfloat startX = 0.0f;$/;"	v
+startY	test_tiger.c	/^VGfloat startY = 0.0f;$/;"	v
+stops	shPaint.h	/^  SHStopArray stops;$/;"	m	struct:__anon39
+stroke	shPath.h	/^  SHVector2Array stroke;$/;"	m	struct:SHPath
+strokeCapStyle	shContext.h	/^  VGCapStyle        strokeCapStyle;$/;"	m	struct:__anon33
+strokeDashPattern	shContext.h	/^  SHFloatArray      strokeDashPattern;$/;"	m	struct:__anon33
+strokeDashPhase	shContext.h	/^  SHfloat           strokeDashPhase;$/;"	m	struct:__anon33
+strokeDashPhaseReset	shContext.h	/^  VGboolean         strokeDashPhaseReset;$/;"	m	struct:__anon33
+strokeJoinStyle	shContext.h	/^  VGJoinStyle       strokeJoinStyle;$/;"	m	struct:__anon33
+strokeLineWidth	shContext.h	/^  SHfloat           strokeLineWidth;$/;"	m	struct:__anon33
+strokeMiterLimit	shContext.h	/^  SHfloat           strokeMiterLimit;$/;"	m	struct:__anon33
+strokePaint	shContext.h	/^  SHPaint*          strokePaint;$/;"	m	struct:__anon33
+strokeTransform	shContext.h	/^  SHMatrix3x3       strokeTransform;$/;"	m	struct:__anon33
+style0	test_tiger_paths.c	/^const VGfloat style0[] = {$/;"	v
+style1	test_tiger_paths.c	/^const VGfloat style1[] = {$/;"	v
+style10	test_tiger_paths.c	/^const VGfloat style10[] = {$/;"	v
+style100	test_tiger_paths.c	/^const VGfloat style100[] = {$/;"	v
+style101	test_tiger_paths.c	/^const VGfloat style101[] = {$/;"	v
+style102	test_tiger_paths.c	/^const VGfloat style102[] = {$/;"	v
+style103	test_tiger_paths.c	/^const VGfloat style103[] = {$/;"	v
+style104	test_tiger_paths.c	/^const VGfloat style104[] = {$/;"	v
+style105	test_tiger_paths.c	/^const VGfloat style105[] = {$/;"	v
+style106	test_tiger_paths.c	/^const VGfloat style106[] = {$/;"	v
+style107	test_tiger_paths.c	/^const VGfloat style107[] = {$/;"	v
+style108	test_tiger_paths.c	/^const VGfloat style108[] = {$/;"	v
+style109	test_tiger_paths.c	/^const VGfloat style109[] = {$/;"	v
+style11	test_tiger_paths.c	/^const VGfloat style11[] = {$/;"	v
+style110	test_tiger_paths.c	/^const VGfloat style110[] = {$/;"	v
+style111	test_tiger_paths.c	/^const VGfloat style111[] = {$/;"	v
+style112	test_tiger_paths.c	/^const VGfloat style112[] = {$/;"	v
+style113	test_tiger_paths.c	/^const VGfloat style113[] = {$/;"	v
+style114	test_tiger_paths.c	/^const VGfloat style114[] = {$/;"	v
+style115	test_tiger_paths.c	/^const VGfloat style115[] = {$/;"	v
+style116	test_tiger_paths.c	/^const VGfloat style116[] = {$/;"	v
+style117	test_tiger_paths.c	/^const VGfloat style117[] = {$/;"	v
+style118	test_tiger_paths.c	/^const VGfloat style118[] = {$/;"	v
+style119	test_tiger_paths.c	/^const VGfloat style119[] = {$/;"	v
+style12	test_tiger_paths.c	/^const VGfloat style12[] = {$/;"	v
+style120	test_tiger_paths.c	/^const VGfloat style120[] = {$/;"	v
+style121	test_tiger_paths.c	/^const VGfloat style121[] = {$/;"	v
+style122	test_tiger_paths.c	/^const VGfloat style122[] = {$/;"	v
+style123	test_tiger_paths.c	/^const VGfloat style123[] = {$/;"	v
+style124	test_tiger_paths.c	/^const VGfloat style124[] = {$/;"	v
+style125	test_tiger_paths.c	/^const VGfloat style125[] = {$/;"	v
+style126	test_tiger_paths.c	/^const VGfloat style126[] = {$/;"	v
+style127	test_tiger_paths.c	/^const VGfloat style127[] = {$/;"	v
+style128	test_tiger_paths.c	/^const VGfloat style128[] = {$/;"	v
+style129	test_tiger_paths.c	/^const VGfloat style129[] = {$/;"	v
+style13	test_tiger_paths.c	/^const VGfloat style13[] = {$/;"	v
+style130	test_tiger_paths.c	/^const VGfloat style130[] = {$/;"	v
+style131	test_tiger_paths.c	/^const VGfloat style131[] = {$/;"	v
+style132	test_tiger_paths.c	/^const VGfloat style132[] = {$/;"	v
+style133	test_tiger_paths.c	/^const VGfloat style133[] = {$/;"	v
+style134	test_tiger_paths.c	/^const VGfloat style134[] = {$/;"	v
+style135	test_tiger_paths.c	/^const VGfloat style135[] = {$/;"	v
+style136	test_tiger_paths.c	/^const VGfloat style136[] = {$/;"	v
+style137	test_tiger_paths.c	/^const VGfloat style137[] = {$/;"	v
+style138	test_tiger_paths.c	/^const VGfloat style138[] = {$/;"	v
+style139	test_tiger_paths.c	/^const VGfloat style139[] = {$/;"	v
+style14	test_tiger_paths.c	/^const VGfloat style14[] = {$/;"	v
+style140	test_tiger_paths.c	/^const VGfloat style140[] = {$/;"	v
+style141	test_tiger_paths.c	/^const VGfloat style141[] = {$/;"	v
+style142	test_tiger_paths.c	/^const VGfloat style142[] = {$/;"	v
+style143	test_tiger_paths.c	/^const VGfloat style143[] = {$/;"	v
+style144	test_tiger_paths.c	/^const VGfloat style144[] = {$/;"	v
+style145	test_tiger_paths.c	/^const VGfloat style145[] = {$/;"	v
+style146	test_tiger_paths.c	/^const VGfloat style146[] = {$/;"	v
+style147	test_tiger_paths.c	/^const VGfloat style147[] = {$/;"	v
+style148	test_tiger_paths.c	/^const VGfloat style148[] = {$/;"	v
+style149	test_tiger_paths.c	/^const VGfloat style149[] = {$/;"	v
+style15	test_tiger_paths.c	/^const VGfloat style15[] = {$/;"	v
+style150	test_tiger_paths.c	/^const VGfloat style150[] = {$/;"	v
+style151	test_tiger_paths.c	/^const VGfloat style151[] = {$/;"	v
+style152	test_tiger_paths.c	/^const VGfloat style152[] = {$/;"	v
+style153	test_tiger_paths.c	/^const VGfloat style153[] = {$/;"	v
+style154	test_tiger_paths.c	/^const VGfloat style154[] = {$/;"	v
+style155	test_tiger_paths.c	/^const VGfloat style155[] = {$/;"	v
+style156	test_tiger_paths.c	/^const VGfloat style156[] = {$/;"	v
+style157	test_tiger_paths.c	/^const VGfloat style157[] = {$/;"	v
+style158	test_tiger_paths.c	/^const VGfloat style158[] = {$/;"	v
+style159	test_tiger_paths.c	/^const VGfloat style159[] = {$/;"	v
+style16	test_tiger_paths.c	/^const VGfloat style16[] = {$/;"	v
+style160	test_tiger_paths.c	/^const VGfloat style160[] = {$/;"	v
+style161	test_tiger_paths.c	/^const VGfloat style161[] = {$/;"	v
+style162	test_tiger_paths.c	/^const VGfloat style162[] = {$/;"	v
+style163	test_tiger_paths.c	/^const VGfloat style163[] = {$/;"	v
+style164	test_tiger_paths.c	/^const VGfloat style164[] = {$/;"	v
+style165	test_tiger_paths.c	/^const VGfloat style165[] = {$/;"	v
+style166	test_tiger_paths.c	/^const VGfloat style166[] = {$/;"	v
+style167	test_tiger_paths.c	/^const VGfloat style167[] = {$/;"	v
+style168	test_tiger_paths.c	/^const VGfloat style168[] = {$/;"	v
+style169	test_tiger_paths.c	/^const VGfloat style169[] = {$/;"	v
+style17	test_tiger_paths.c	/^const VGfloat style17[] = {$/;"	v
+style170	test_tiger_paths.c	/^const VGfloat style170[] = {$/;"	v
+style171	test_tiger_paths.c	/^const VGfloat style171[] = {$/;"	v
+style172	test_tiger_paths.c	/^const VGfloat style172[] = {$/;"	v
+style173	test_tiger_paths.c	/^const VGfloat style173[] = {$/;"	v
+style174	test_tiger_paths.c	/^const VGfloat style174[] = {$/;"	v
+style175	test_tiger_paths.c	/^const VGfloat style175[] = {$/;"	v
+style176	test_tiger_paths.c	/^const VGfloat style176[] = {$/;"	v
+style177	test_tiger_paths.c	/^const VGfloat style177[] = {$/;"	v
+style178	test_tiger_paths.c	/^const VGfloat style178[] = {$/;"	v
+style179	test_tiger_paths.c	/^const VGfloat style179[] = {$/;"	v
+style18	test_tiger_paths.c	/^const VGfloat style18[] = {$/;"	v
+style180	test_tiger_paths.c	/^const VGfloat style180[] = {$/;"	v
+style181	test_tiger_paths.c	/^const VGfloat style181[] = {$/;"	v
+style182	test_tiger_paths.c	/^const VGfloat style182[] = {$/;"	v
+style183	test_tiger_paths.c	/^const VGfloat style183[] = {$/;"	v
+style184	test_tiger_paths.c	/^const VGfloat style184[] = {$/;"	v
+style185	test_tiger_paths.c	/^const VGfloat style185[] = {$/;"	v
+style186	test_tiger_paths.c	/^const VGfloat style186[] = {$/;"	v
+style187	test_tiger_paths.c	/^const VGfloat style187[] = {$/;"	v
+style188	test_tiger_paths.c	/^const VGfloat style188[] = {$/;"	v
+style189	test_tiger_paths.c	/^const VGfloat style189[] = {$/;"	v
+style19	test_tiger_paths.c	/^const VGfloat style19[] = {$/;"	v
+style190	test_tiger_paths.c	/^const VGfloat style190[] = {$/;"	v
+style191	test_tiger_paths.c	/^const VGfloat style191[] = {$/;"	v
+style192	test_tiger_paths.c	/^const VGfloat style192[] = {$/;"	v
+style193	test_tiger_paths.c	/^const VGfloat style193[] = {$/;"	v
+style194	test_tiger_paths.c	/^const VGfloat style194[] = {$/;"	v
+style195	test_tiger_paths.c	/^const VGfloat style195[] = {$/;"	v
+style196	test_tiger_paths.c	/^const VGfloat style196[] = {$/;"	v
+style197	test_tiger_paths.c	/^const VGfloat style197[] = {$/;"	v
+style198	test_tiger_paths.c	/^const VGfloat style198[] = {$/;"	v
+style199	test_tiger_paths.c	/^const VGfloat style199[] = {$/;"	v
+style2	test_tiger_paths.c	/^const VGfloat style2[] = {$/;"	v
+style20	test_tiger_paths.c	/^const VGfloat style20[] = {$/;"	v
+style200	test_tiger_paths.c	/^const VGfloat style200[] = {$/;"	v
+style201	test_tiger_paths.c	/^const VGfloat style201[] = {$/;"	v
+style202	test_tiger_paths.c	/^const VGfloat style202[] = {$/;"	v
+style203	test_tiger_paths.c	/^const VGfloat style203[] = {$/;"	v
+style204	test_tiger_paths.c	/^const VGfloat style204[] = {$/;"	v
+style205	test_tiger_paths.c	/^const VGfloat style205[] = {$/;"	v
+style206	test_tiger_paths.c	/^const VGfloat style206[] = {$/;"	v
+style207	test_tiger_paths.c	/^const VGfloat style207[] = {$/;"	v
+style208	test_tiger_paths.c	/^const VGfloat style208[] = {$/;"	v
+style209	test_tiger_paths.c	/^const VGfloat style209[] = {$/;"	v
+style21	test_tiger_paths.c	/^const VGfloat style21[] = {$/;"	v
+style210	test_tiger_paths.c	/^const VGfloat style210[] = {$/;"	v
+style211	test_tiger_paths.c	/^const VGfloat style211[] = {$/;"	v
+style212	test_tiger_paths.c	/^const VGfloat style212[] = {$/;"	v
+style213	test_tiger_paths.c	/^const VGfloat style213[] = {$/;"	v
+style214	test_tiger_paths.c	/^const VGfloat style214[] = {$/;"	v
+style215	test_tiger_paths.c	/^const VGfloat style215[] = {$/;"	v
+style216	test_tiger_paths.c	/^const VGfloat style216[] = {$/;"	v
+style217	test_tiger_paths.c	/^const VGfloat style217[] = {$/;"	v
+style218	test_tiger_paths.c	/^const VGfloat style218[] = {$/;"	v
+style219	test_tiger_paths.c	/^const VGfloat style219[] = {$/;"	v
+style22	test_tiger_paths.c	/^const VGfloat style22[] = {$/;"	v
+style220	test_tiger_paths.c	/^const VGfloat style220[] = {$/;"	v
+style221	test_tiger_paths.c	/^const VGfloat style221[] = {$/;"	v
+style222	test_tiger_paths.c	/^const VGfloat style222[] = {$/;"	v
+style223	test_tiger_paths.c	/^const VGfloat style223[] = {$/;"	v
+style224	test_tiger_paths.c	/^const VGfloat style224[] = {$/;"	v
+style225	test_tiger_paths.c	/^const VGfloat style225[] = {$/;"	v
+style226	test_tiger_paths.c	/^const VGfloat style226[] = {$/;"	v
+style227	test_tiger_paths.c	/^const VGfloat style227[] = {$/;"	v
+style228	test_tiger_paths.c	/^const VGfloat style228[] = {$/;"	v
+style229	test_tiger_paths.c	/^const VGfloat style229[] = {$/;"	v
+style23	test_tiger_paths.c	/^const VGfloat style23[] = {$/;"	v
+style230	test_tiger_paths.c	/^const VGfloat style230[] = {$/;"	v
+style231	test_tiger_paths.c	/^const VGfloat style231[] = {$/;"	v
+style232	test_tiger_paths.c	/^const VGfloat style232[] = {$/;"	v
+style233	test_tiger_paths.c	/^const VGfloat style233[] = {$/;"	v
+style234	test_tiger_paths.c	/^const VGfloat style234[] = {$/;"	v
+style235	test_tiger_paths.c	/^const VGfloat style235[] = {$/;"	v
+style236	test_tiger_paths.c	/^const VGfloat style236[] = {$/;"	v
+style237	test_tiger_paths.c	/^const VGfloat style237[] = {$/;"	v
+style238	test_tiger_paths.c	/^const VGfloat style238[] = {$/;"	v
+style239	test_tiger_paths.c	/^const VGfloat style239[] = {$/;"	v
+style24	test_tiger_paths.c	/^const VGfloat style24[] = {$/;"	v
+style25	test_tiger_paths.c	/^const VGfloat style25[] = {$/;"	v
+style26	test_tiger_paths.c	/^const VGfloat style26[] = {$/;"	v
+style27	test_tiger_paths.c	/^const VGfloat style27[] = {$/;"	v
+style28	test_tiger_paths.c	/^const VGfloat style28[] = {$/;"	v
+style29	test_tiger_paths.c	/^const VGfloat style29[] = {$/;"	v
+style3	test_tiger_paths.c	/^const VGfloat style3[] = {$/;"	v
+style30	test_tiger_paths.c	/^const VGfloat style30[] = {$/;"	v
+style31	test_tiger_paths.c	/^const VGfloat style31[] = {$/;"	v
+style32	test_tiger_paths.c	/^const VGfloat style32[] = {$/;"	v
+style33	test_tiger_paths.c	/^const VGfloat style33[] = {$/;"	v
+style34	test_tiger_paths.c	/^const VGfloat style34[] = {$/;"	v
+style35	test_tiger_paths.c	/^const VGfloat style35[] = {$/;"	v
+style36	test_tiger_paths.c	/^const VGfloat style36[] = {$/;"	v
+style37	test_tiger_paths.c	/^const VGfloat style37[] = {$/;"	v
+style38	test_tiger_paths.c	/^const VGfloat style38[] = {$/;"	v
+style39	test_tiger_paths.c	/^const VGfloat style39[] = {$/;"	v
+style4	test_tiger_paths.c	/^const VGfloat style4[] = {$/;"	v
+style40	test_tiger_paths.c	/^const VGfloat style40[] = {$/;"	v
+style41	test_tiger_paths.c	/^const VGfloat style41[] = {$/;"	v
+style42	test_tiger_paths.c	/^const VGfloat style42[] = {$/;"	v
+style43	test_tiger_paths.c	/^const VGfloat style43[] = {$/;"	v
+style44	test_tiger_paths.c	/^const VGfloat style44[] = {$/;"	v
+style45	test_tiger_paths.c	/^const VGfloat style45[] = {$/;"	v
+style46	test_tiger_paths.c	/^const VGfloat style46[] = {$/;"	v
+style47	test_tiger_paths.c	/^const VGfloat style47[] = {$/;"	v
+style48	test_tiger_paths.c	/^const VGfloat style48[] = {$/;"	v
+style49	test_tiger_paths.c	/^const VGfloat style49[] = {$/;"	v
+style5	test_tiger_paths.c	/^const VGfloat style5[] = {$/;"	v
+style50	test_tiger_paths.c	/^const VGfloat style50[] = {$/;"	v
+style51	test_tiger_paths.c	/^const VGfloat style51[] = {$/;"	v
+style52	test_tiger_paths.c	/^const VGfloat style52[] = {$/;"	v
+style53	test_tiger_paths.c	/^const VGfloat style53[] = {$/;"	v
+style54	test_tiger_paths.c	/^const VGfloat style54[] = {$/;"	v
+style55	test_tiger_paths.c	/^const VGfloat style55[] = {$/;"	v
+style56	test_tiger_paths.c	/^const VGfloat style56[] = {$/;"	v
+style57	test_tiger_paths.c	/^const VGfloat style57[] = {$/;"	v
+style58	test_tiger_paths.c	/^const VGfloat style58[] = {$/;"	v
+style59	test_tiger_paths.c	/^const VGfloat style59[] = {$/;"	v
+style6	test_tiger_paths.c	/^const VGfloat style6[] = {$/;"	v
+style60	test_tiger_paths.c	/^const VGfloat style60[] = {$/;"	v
+style61	test_tiger_paths.c	/^const VGfloat style61[] = {$/;"	v
+style62	test_tiger_paths.c	/^const VGfloat style62[] = {$/;"	v
+style63	test_tiger_paths.c	/^const VGfloat style63[] = {$/;"	v
+style64	test_tiger_paths.c	/^const VGfloat style64[] = {$/;"	v
+style65	test_tiger_paths.c	/^const VGfloat style65[] = {$/;"	v
+style66	test_tiger_paths.c	/^const VGfloat style66[] = {$/;"	v
+style67	test_tiger_paths.c	/^const VGfloat style67[] = {$/;"	v
+style68	test_tiger_paths.c	/^const VGfloat style68[] = {$/;"	v
+style69	test_tiger_paths.c	/^const VGfloat style69[] = {$/;"	v
+style7	test_tiger_paths.c	/^const VGfloat style7[] = {$/;"	v
+style70	test_tiger_paths.c	/^const VGfloat style70[] = {$/;"	v
+style71	test_tiger_paths.c	/^const VGfloat style71[] = {$/;"	v
+style72	test_tiger_paths.c	/^const VGfloat style72[] = {$/;"	v
+style73	test_tiger_paths.c	/^const VGfloat style73[] = {$/;"	v
+style74	test_tiger_paths.c	/^const VGfloat style74[] = {$/;"	v
+style75	test_tiger_paths.c	/^const VGfloat style75[] = {$/;"	v
+style76	test_tiger_paths.c	/^const VGfloat style76[] = {$/;"	v
+style77	test_tiger_paths.c	/^const VGfloat style77[] = {$/;"	v
+style78	test_tiger_paths.c	/^const VGfloat style78[] = {$/;"	v
+style79	test_tiger_paths.c	/^const VGfloat style79[] = {$/;"	v
+style8	test_tiger_paths.c	/^const VGfloat style8[] = {$/;"	v
+style80	test_tiger_paths.c	/^const VGfloat style80[] = {$/;"	v
+style81	test_tiger_paths.c	/^const VGfloat style81[] = {$/;"	v
+style82	test_tiger_paths.c	/^const VGfloat style82[] = {$/;"	v
+style83	test_tiger_paths.c	/^const VGfloat style83[] = {$/;"	v
+style84	test_tiger_paths.c	/^const VGfloat style84[] = {$/;"	v
+style85	test_tiger_paths.c	/^const VGfloat style85[] = {$/;"	v
+style86	test_tiger_paths.c	/^const VGfloat style86[] = {$/;"	v
+style87	test_tiger_paths.c	/^const VGfloat style87[] = {$/;"	v
+style88	test_tiger_paths.c	/^const VGfloat style88[] = {$/;"	v
+style89	test_tiger_paths.c	/^const VGfloat style89[] = {$/;"	v
+style9	test_tiger_paths.c	/^const VGfloat style9[] = {$/;"	v
+style90	test_tiger_paths.c	/^const VGfloat style90[] = {$/;"	v
+style91	test_tiger_paths.c	/^const VGfloat style91[] = {$/;"	v
+style92	test_tiger_paths.c	/^const VGfloat style92[] = {$/;"	v
+style93	test_tiger_paths.c	/^const VGfloat style93[] = {$/;"	v
+style94	test_tiger_paths.c	/^const VGfloat style94[] = {$/;"	v
+style95	test_tiger_paths.c	/^const VGfloat style95[] = {$/;"	v
+style96	test_tiger_paths.c	/^const VGfloat style96[] = {$/;"	v
+style97	test_tiger_paths.c	/^const VGfloat style97[] = {$/;"	v
+style98	test_tiger_paths.c	/^const VGfloat style98[] = {$/;"	v
+style99	test_tiger_paths.c	/^const VGfloat style99[] = {$/;"	v
+styleArrays	test_tiger_paths.c	/^const VGfloat* styleArrays[] = {$/;"	v
+surfMax	shPath.h	/^  SHVector2 surfMin, surfMax;$/;"	m	struct:SHPath
+surfMin	shPath.h	/^  SHVector2 surfMin, surfMax;$/;"	m	struct:SHPath
+surfaceHeight	shContext.h	/^  SHint surfaceHeight;$/;"	m	struct:__anon33
+surfaceWidth	shContext.h	/^  SHint surfaceWidth;$/;"	m	struct:__anon33
+sx	test_tiger.c	/^VGfloat sx=0.5f, sy=0.5f;$/;"	v
+sy	test_tiger.c	/^VGfloat sx=0.5f, sy=0.5f;$/;"	v
+tangent	shPath.h	/^  SHVector2 tangent;$/;"	m	struct:__anon43
+testArcTo	test.c	/^void testArcTo(VGPath p, float rx, float ry, float rot, float x, float y,$/;"	f
+testButton	test.c	/^void testButton(int button, int state, int x, int y)$/;"	f
+testCallback	test.c	/^void testCallback(TestCallbackType type, CallbackFunc func)$/;"	f
+testCleanup	test.c	/^void testCleanup(void)$/;"	f
+testClosePath	test.c	/^void testClosePath(VGPath p)$/;"	f
+testCreatePath	test.c	/^VGPath testCreatePath()$/;"	f
+testCubicTo	test.c	/^void testCubicTo(VGPath p, float x1, float y1, float x2, float y2, float x3, float y3,$/;"	f
+testDisplay	test.c	/^void testDisplay(void)$/;"	f
+testDrag	test.c	/^void testDrag(int x, int y)$/;"	f
+testDrawString	test.c	/^void testDrawString(float x, float y, const char *format, ...)$/;"	f
+testH	test.c	/^static int testH = 0;$/;"	v	file:
+testHeight	test.c	/^VGint testHeight()$/;"	f
+testHlineTo	test.c	/^void testHlineTo(VGPath p, float x, VGPathAbsRel absrel)$/;"	f
+testInit	test.c	/^void testInit(int argc, char **argv,$/;"	f
+testKeyboard	test.c	/^void testKeyboard(unsigned char key, int x, int y)$/;"	f
+testLineTo	test.c	/^void testLineTo(VGPath p, float x, float y, VGPathAbsRel absrel)$/;"	f
+testMove	test.c	/^void testMove(int x, int y)$/;"	f
+testMoveTo	test.c	/^void testMoveTo(VGPath p, float x, float y, VGPathAbsRel absrel)$/;"	f
+testOverlayColor	test.c	/^void testOverlayColor(float r, float g, float b, float a)$/;"	f
+testOverlayString	test.c	/^void testOverlayString(const char *format, ...)$/;"	f
+testQuadTo	test.c	/^void testQuadTo(VGPath p, float x1, float y1, float x2, float y2,$/;"	f
+testReshape	test.c	/^void testReshape(int w, int h)$/;"	f
+testRun	test.c	/^void testRun()$/;"	f
+testScubicTo	test.c	/^void testScubicTo(VGPath p, float x2, float y2, float x3, float y3,$/;"	f
+testSpecialKeyboard	test.c	/^void testSpecialKeyboard(int key, int x, int y)$/;"	f
+testSquadTo	test.c	/^void testSquadTo(VGPath p, float x2, float y2,VGPathAbsRel absrel)$/;"	f
+testVlineTo	test.c	/^void testVlineTo(VGPath p, float y, VGPathAbsRel absrel)$/;"	f
+testW	test.c	/^static int testW = 0;$/;"	v	file:
+testWidth	test.c	/^VGint testWidth()$/;"	f
+texheight	shImage.h	/^  SHint texheight;$/;"	m	struct:__anon37
+texheightK	shImage.h	/^  SHfloat texheightK;$/;"	m	struct:__anon37
+texture	shImage.h	/^  GLuint texture;$/;"	m	struct:__anon37
+texture	shPaint.h	/^  GLuint texture;$/;"	m	struct:__anon39
+texwidth	shImage.h	/^  SHint texwidth;$/;"	m	struct:__anon37
+texwidthK	shImage.h	/^  SHfloat texwidthK;$/;"	m	struct:__anon37
+tiger	test_tiger.c	/^int tiger()$/;"	f
+tigerFill	test_tiger.c	/^VGPaint tigerFill;$/;"	v
+tigerPaths	test_tiger.c	/^VGPath *tigerPaths = NULL;$/;"	v
+tigerStroke	test_tiger.c	/^VGPaint tigerStroke;$/;"	v
+tileFillColor	shContext.h	/^  SHColor           tileFillColor;$/;"	m	struct:__anon33
+tilingMode	shPaint.h	/^  VGTilingMode tilingMode;$/;"	m	struct:__anon39
+timeinit	test.c	/^static int timeinit = 0;$/;"	v	file:
+tx	test_tiger.c	/^VGfloat tx=1.0f, ty=1.0f;$/;"	v
+ty	test_tiger.c	/^VGfloat tx=1.0f, ty=1.0f;$/;"	v
+type	shPaint.h	/^  VGPaintType type;$/;"	m	struct:__anon39
+uint16_t	shDefs.h	64;"	d
+uint32_t	shDefs.h	66;"	d
+uint64_t	shDefs.h	68;"	d
+uint8_t	shDefs.h	62;"	d
+updateBlendingStateGL	shPipeline.c	/^void updateBlendingStateGL(VGContext *c, int alphaIsOne)$/;"	f
+updateOverlayString	test_tiger.c	/^void updateOverlayString()$/;"	f
+vendor	shContext.h	/^  char vendor[256];$/;"	m	struct:__anon33
+version	shContext.h	/^  char version[256];$/;"	m	struct:__anon33
+vertices	shPath.h	/^  SHVertexArray vertices;$/;"	m	struct:SHPath
+vgAppendPath	shPath.c	/^VG_API_CALL void vgAppendPath(VGPath dstPath, VGPath srcPath)$/;"	f
+vgAppendPathData	shPath.c	/^VG_API_CALL void vgAppendPathData(VGPath dstPath, VGint newSegCount,$/;"	f
+vgChildImage	shImage.c	/^VG_API_CALL VGImage vgChildImage(VGImage parent,$/;"	f
+vgClear	shContext.c	/^VG_API_CALL void vgClear(VGint x, VGint y, VGint width, VGint height)$/;"	f
+vgClearImage	shImage.c	/^VG_API_CALL void vgClearImage(VGImage image,$/;"	f
+vgClearPath	shPath.c	/^VG_API_CALL void vgClearPath(VGPath path, VGbitfield capabilities)$/;"	f
+vgColorMatrix	shImage.c	/^VG_API_CALL void vgColorMatrix(VGImage dst, VGImage src,$/;"	f
+vgConvolve	shImage.c	/^VG_API_CALL void vgConvolve(VGImage dst, VGImage src,$/;"	f
+vgCopyImage	shImage.c	/^VG_API_CALL void vgCopyImage(VGImage dst, VGint dx, VGint dy,$/;"	f
+vgCopyPixels	shImage.c	/^VG_API_CALL void vgCopyPixels(VGint dx, VGint dy,$/;"	f
+vgCreateContextSH	shContext.c	/^VG_API_CALL VGboolean vgCreateContextSH(VGint width, VGint height)$/;"	f
+vgCreateImage	shImage.c	/^VG_API_CALL VGImage vgCreateImage(VGImageFormat format,$/;"	f
+vgCreatePaint	shPaint.c	/^VG_API_CALL VGPaint vgCreatePaint(void)$/;"	f
+vgCreatePath	shPath.c	/^VG_API_CALL VGPath vgCreatePath(VGint pathFormat,$/;"	f
+vgDestroyContextSH	shContext.c	/^VG_API_CALL void vgDestroyContextSH()$/;"	f
+vgDestroyImage	shImage.c	/^VG_API_CALL void vgDestroyImage(VGImage image)$/;"	f
+vgDestroyPaint	shPaint.c	/^VG_API_CALL void vgDestroyPaint(VGPaint paint)$/;"	f
+vgDestroyPath	shPath.c	/^VG_API_CALL void vgDestroyPath(VGPath path)$/;"	f
+vgDrawImage	shPipeline.c	/^VG_API_CALL void vgDrawImage(VGImage image)$/;"	f
+vgDrawPath	shPipeline.c	/^VG_API_CALL void vgDrawPath(VGPath path, VGbitfield paintModes)$/;"	f
+vgFinish	shContext.c	/^VG_API_CALL void vgFinish(void)$/;"	f
+vgFlush	shContext.c	/^VG_API_CALL void vgFlush(void)$/;"	f
+vgGaussianBlur	shImage.c	/^VG_API_CALL void vgGaussianBlur(VGImage dst, VGImage src,$/;"	f
+vgGetError	shContext.c	/^VG_API_CALL VGErrorCode vgGetError(void)$/;"	f
+vgGetImageSubData	shImage.c	/^VG_API_CALL void vgGetImageSubData(VGImage image,$/;"	f
+vgGetMatrix	shContext.c	/^VG_API_CALL void vgGetMatrix(VGfloat * mm)$/;"	f
+vgGetParameterVectorSize	shParams.c	/^VG_API_CALL VGint vgGetParameterVectorSize(VGHandle object, VGint ptype)$/;"	f
+vgGetParameterf	shParams.c	/^VG_API_CALL VGfloat vgGetParameterf(VGHandle object, VGint paramType)$/;"	f
+vgGetParameterfv	shParams.c	/^VG_API_CALL void vgGetParameterfv(VGHandle object, VGint paramType,$/;"	f
+vgGetParameteri	shParams.c	/^VG_API_CALL VGint vgGetParameteri(VGHandle object, VGint paramType)$/;"	f
+vgGetParameteriv	shParams.c	/^VG_API_CALL void vgGetParameteriv(VGHandle object, VGint paramType,$/;"	f
+vgGetParent	shImage.c	/^VG_API_CALL VGImage vgGetParent(VGImage image)$/;"	f
+vgGetPathCapabilities	shPath.c	/^VG_API_CALL VGbitfield vgGetPathCapabilities(VGPath path)$/;"	f
+vgGetPixels	shImage.c	/^VG_API_CALL void vgGetPixels(VGImage dst, VGint dx, VGint dy,$/;"	f
+vgGetString	shParams.c	/^VG_API_CALL const VGubyte * vgGetString(VGStringID name)$/;"	f
+vgGetVectorSize	shParams.c	/^VG_API_CALL VGint vgGetVectorSize(VGParamType type)$/;"	f
+vgGetf	shParams.c	/^VG_API_CALL VGfloat vgGetf(VGParamType type)$/;"	f
+vgGetfv	shParams.c	/^VG_API_CALL void vgGetfv(VGParamType type, VGint count, VGfloat * values)$/;"	f
+vgGeti	shParams.c	/^VG_API_CALL VGint vgGeti(VGParamType type)$/;"	f
+vgGetiv	shParams.c	/^VG_API_CALL void vgGetiv(VGParamType type, VGint count, VGint * values)$/;"	f
+vgHardwareQuery	shContext.c	/^VG_API_CALL VGHardwareQueryResult vgHardwareQuery(VGHardwareQueryType key,$/;"	f
+vgImageSubData	shImage.c	/^VG_API_CALL void vgImageSubData(VGImage image,$/;"	f
+vgInterpolatePath	shPath.c	/^VG_API_CALL VGboolean vgInterpolatePath(VGPath dstPath, VGPath startPath,$/;"	f
+vgLoadIdentity	shContext.c	/^VG_API_CALL void vgLoadIdentity(void)$/;"	f
+vgLoadMatrix	shContext.c	/^VG_API_CALL void vgLoadMatrix(const VGfloat * mm)$/;"	f
+vgLookup	shImage.c	/^VG_API_CALL void vgLookup(VGImage dst, VGImage src,$/;"	f
+vgLookupSingle	shImage.c	/^VG_API_CALL void vgLookupSingle(VGImage dst, VGImage src,$/;"	f
+vgMask	shContext.c	/^VG_API_CALL void vgMask(VGImage mask, VGMaskOperation operation,$/;"	f
+vgModifyPathCoords	shPath.c	/^VG_API_CALL void vgModifyPathCoords(VGPath dstPath, VGint startIndex,$/;"	f
+vgMultMatrix	shContext.c	/^VG_API_CALL void vgMultMatrix(const VGfloat * mm)$/;"	f
+vgPaintPattern	shPaint.c	/^VG_API_CALL void vgPaintPattern(VGPaint paint, VGImage pattern)$/;"	f
+vgPathBounds	shGeometry.c	/^VG_API_CALL void vgPathBounds(VGPath path,$/;"	f
+vgPathLength	shGeometry.c	/^VG_API_CALL VGfloat vgPathLength(VGPath path,$/;"	f
+vgPathTransformedBounds	shGeometry.c	/^VG_API_CALL void vgPathTransformedBounds(VGPath path,$/;"	f
+vgPointAlongPath	shGeometry.c	/^VG_API_CALL void vgPointAlongPath(VGPath path,$/;"	f
+vgReadPixels	shImage.c	/^VG_API_CALL void vgReadPixels(void * data, VGint dataStride,$/;"	f
+vgRemovePathCapabilities	shPath.c	/^VG_API_CALL void vgRemovePathCapabilities(VGPath path, VGbitfield capabilities)$/;"	f
+vgResizeSurfaceSH	shContext.c	/^VG_API_CALL void vgResizeSurfaceSH(VGint width, VGint height)$/;"	f
+vgRotate	shContext.c	/^VG_API_CALL void vgRotate(VGfloat angle)$/;"	f
+vgScale	shContext.c	/^VG_API_CALL void vgScale(VGfloat sx, VGfloat sy)$/;"	f
+vgSeparableConvolve	shImage.c	/^VG_API_CALL void vgSeparableConvolve(VGImage dst, VGImage src,$/;"	f
+vgSetPaint	shPaint.c	/^VG_API_CALL void vgSetPaint(VGPaint paint, VGbitfield paintModes)$/;"	f
+vgSetParameterf	shParams.c	/^VG_API_CALL void vgSetParameterf(VGHandle object, VGint paramType, VGfloat value)$/;"	f
+vgSetParameterfv	shParams.c	/^VG_API_CALL void vgSetParameterfv(VGHandle object, VGint paramType,$/;"	f
+vgSetParameteri	shParams.c	/^VG_API_CALL void vgSetParameteri(VGHandle object, VGint paramType, VGint value)$/;"	f
+vgSetParameteriv	shParams.c	/^VG_API_CALL void vgSetParameteriv(VGHandle object, VGint paramType,$/;"	f
+vgSetPixels	shImage.c	/^VG_API_CALL void vgSetPixels(VGint dx, VGint dy,$/;"	f
+vgSetf	shParams.c	/^VG_API_CALL void vgSetf (VGParamType type, VGfloat value)$/;"	f
+vgSetfv	shParams.c	/^VG_API_CALL void vgSetfv(VGParamType type, VGint count,$/;"	f
+vgSeti	shParams.c	/^VG_API_CALL void vgSeti (VGParamType type, VGint value)$/;"	f
+vgSetiv	shParams.c	/^VG_API_CALL void vgSetiv(VGParamType type, VGint count,$/;"	f
+vgShear	shContext.c	/^VG_API_CALL void vgShear(VGfloat shx, VGfloat shy)$/;"	f
+vgTransformPath	shPath.c	/^VG_API_CALL void vgTransformPath(VGPath dstPath, VGPath srcPath)$/;"	f
+vgTranslate	shContext.c	/^VG_API_CALL void vgTranslate(VGfloat tx, VGfloat ty)$/;"	f
+vgWritePixels	shImage.c	/^VG_API_CALL void vgWritePixels(const void * data, VGint dataStride,$/;"	f
+vgformat	shImage.h	/^  VGImageFormat vgformat;$/;"	m	struct:__anon35
+vguArc	shVgu.c	/^VGU_API_CALL VGUErrorCode vguArc(VGPath path,$/;"	f
+vguComputeWarpQuadToQuad	shVgu.c	/^VGU_API_CALL VGUErrorCode vguComputeWarpQuadToQuad(VGfloat dx0, VGfloat dy0,$/;"	f
+vguComputeWarpQuadToSquare	shVgu.c	/^VGU_API_CALL VGUErrorCode vguComputeWarpQuadToSquare(VGfloat sx0, VGfloat sy0,$/;"	f
+vguComputeWarpSquareToQuad	shVgu.c	/^VGU_API_CALL VGUErrorCode vguComputeWarpSquareToQuad(VGfloat dx0, VGfloat dy0,$/;"	f
+vguEllipse	shVgu.c	/^VGU_API_CALL VGUErrorCode vguEllipse(VGPath path,$/;"	f
+vguLine	shVgu.c	/^VGU_API_CALL VGUErrorCode vguLine(VGPath path,$/;"	f
+vguPolygon	shVgu.c	/^VGU_API_CALL VGUErrorCode vguPolygon(VGPath path,$/;"	f
+vguRect	shVgu.c	/^VGU_API_CALL VGUErrorCode vguRect(VGPath path,$/;"	f
+vguRoundRect	shVgu.c	/^VGU_API_CALL VGUErrorCode vguRoundRect(VGPath path,$/;"	f
+w	shVectors.h	/^  SHfloat x,y,w,h;$/;"	m	struct:__anon47
+w	shVectors.h	/^  SHfloat x,y,z,w;$/;"	m	struct:__anon46
+width	shImage.h	/^  SHint width;$/;"	m	struct:__anon37
+x	shVectors.h	/^  SHfloat x,y,w,h;$/;"	m	struct:__anon47
+x	shVectors.h	/^  SHfloat x,y,z,w;$/;"	m	struct:__anon46
+x	shVectors.h	/^  SHfloat x,y,z;$/;"	m	struct:__anon45
+x	shVectors.h	/^  SHfloat x,y;$/;"	m	struct:__anon44
+y	shVectors.h	/^  SHfloat x,y,w,h;$/;"	m	struct:__anon47
+y	shVectors.h	/^  SHfloat x,y,z,w;$/;"	m	struct:__anon46
+y	shVectors.h	/^  SHfloat x,y,z;$/;"	m	struct:__anon45
+y	shVectors.h	/^  SHfloat x,y;$/;"	m	struct:__anon44
+z	shVectors.h	/^  SHfloat x,y,z,w;$/;"	m	struct:__anon46
+z	shVectors.h	/^  SHfloat x,y,z;$/;"	m	struct:__anon45
