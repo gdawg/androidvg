@@ -23,7 +23,6 @@
 
 #include "shDefs.h"
 
-void shTriangulation(SHVertex *vertices, int nvertices, SHVector2 *triangles, int ntriangles);
 void shDrawPolygon(SHPath *p, GLenum mode);
 void shDrawQuad2f( GLfloat x0, GLfloat y0, GLfloat x1, GLfloat y1, GLfloat x2, GLfloat y2, GLfloat x3, GLfloat y3); 
 
