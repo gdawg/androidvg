@@ -153,6 +153,26 @@ VG_API_CALL void vgSetColor(VGPaint paint, VGuint rgba)
 	vgSetParameterfv(paint, VG_PAINT_COLOR, 4, rgba_f);
 }
 
+VG_API_CALL VGuint vgGetColor(VGPaint paint)
+{
+	VGuint rgba;
+	VGfloat rgba_f[4];
+	int red, green, blue, alpha;
+
+	// TODO: Check if paint is valid, if not, return VG_BAD_HANDLE_ERROR
+
+	vgGetParameterfv(paint, VG_PAINT_COLOR, 4, rgba_f);
+
+	// Clamp color and alpha values from vgGetParameterfv to the 
+	// [0, 1] range, scale to 8 bits, and round to interger
+	red 	= (int) (CLAMP(rgba_f[0]) * 255.0f + 0.5f);
+	green 	= (int) (CLAMP(rgba_f[1]) * 255.0f + 0.5f);
+	blue 	= (int) (CLAMP(rgba_f[2]) * 255.0f + 0.5f);
+	alpha 	= (int) (CLAMP(rgba_f[3]) * 255.0f + 0.5f);
+	rgba = (red << 24) | (green << 16) | (blue << 8) | alpha;
+	return rgba;
+}
+
 
 void shUpdateColorRampTexture(SHPaint *p)
 {

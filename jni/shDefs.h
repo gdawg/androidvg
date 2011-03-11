@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2007 Ivan Leben
+ * Copyright (c) 2010 Shuo-Hung Chen, Hsiao-Mei Lin
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -182,6 +183,9 @@ SHfloat getMaxFloat();
 #define LOG_TAG "OpenVG Runtime"
 #define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,LOG_TAG,__VA_ARGS__)
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR,LOG_TAG,__VA_ARGS__)
+
+// for shPaint.c: vgGetColor()
+#define CLAMP(x) ((x) < 0.0f ? 0.0f: ((x) > 1.0f ? 1.0f : (x)))
 
 
 #endif /* __SHDEFS_H */
