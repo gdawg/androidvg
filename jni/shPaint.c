@@ -143,6 +143,17 @@ VG_API_CALL void vgPaintPattern(VGPaint paint, VGImage pattern)
   VG_RETURN(VG_NO_RETVAL);
 }
 
+VG_API_CALL void vgSetColor(VGPaint paint, VGuint rgba)
+{
+	VGfloat rgba_f[4];
+	rgba_f[0] = ((rgba >> 24) & 0xff) / 255.0f;
+	rgba_f[1] = ((rgba >> 16) & 0xff) / 255.0f;
+	rgba_f[2] = ((rgba >>  8) & 0xff) / 255.0f;
+	rgba_f[3] = ( rgba        & 0xff) / 255.0f;
+	vgSetParameterfv(paint, VG_PAINT_COLOR, 4, rgba_f);
+}
+
+
 void shUpdateColorRampTexture(SHPaint *p)
 {
   SHint s=0;
