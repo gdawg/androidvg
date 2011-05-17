@@ -87,6 +87,7 @@ void shLoadExtensions(VGContext *c)
   int i;
   glGetIntegerv(GL_STENCIL_BITS, &i);
   LOGD("GL_STENCIL_BITS = %d\n", i);
+  c->gl_stencil_bits = i;
   
   /* GL_TEXTURE_CLAMP_TO_EDGE */
   if (checkExtension(ext, "GL_EXT_texture_edge_clamp"))

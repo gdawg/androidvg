@@ -288,30 +288,59 @@ VG_API_CALL void vgDrawPath(VGPath path, VGbitfield paintModes)
   
   if (paintModes & VG_FILL_PATH) {
 #ifdef ANDROIDVG
-	glClearDepthf(1.0);
-	glClear(GL_DEPTH_BUFFER_BIT);
-	glEnable(GL_DEPTH_TEST);
-	glDepthRangef(0, 1);
-	glDepthFunc(GL_ALWAYS);
-	glColorMask(GL_FALSE, GL_FALSE, GL_FALSE, GL_FALSE);
-	glDepthMask(GL_TRUE);
-//	glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
-//	glColor4f(1,0,0,1);
-//	shDrawVertices(p, GL_TRIANGLE_FAN);
-	shDrawPolygon(p, GL_TRIANGLE_FAN);
+	  if (context->gl_stencil_bits > 0) {
+		/* Tesselate into stencil */
+		glEnable(GL_STENCIL_TEST);
+		glStencilFunc(GL_ALWAYS, 0, 0);
+		glStencilOp(GL_INVERT, GL_INVERT, GL_INVERT);
+		glColorMask(GL_FALSE, GL_FALSE, GL_FALSE, GL_FALSE);
+		shDrawVertices(p, GL_TRIANGLE_FAN);
+		/* Setup blending */
+		updateBlendingStateGL(context,
+				fill->type == VG_PAINT_TYPE_COLOR &&
+				fill->color.a == 1.0f);
+		/* Draw paint where stencil odd */
+		glStencilFunc(GL_EQUAL, 1, 1);
+		glStencilOp(GL_ZERO, GL_ZERO, GL_ZERO);
+		glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
+		shDrawPaintMesh(context, &p->min, &p->max, VG_FILL_PATH, GL_TEXTURE0);
+		/* Clear stencil for sure */
+		/* TODO: Is there any way to do this safely along
+		with the paint generation pass?? */
+		glDisable(GL_BLEND);
+		glDisable(GL_MULTISAMPLE);
+		glColorMask(GL_FALSE, GL_FALSE, GL_FALSE, GL_FALSE);
+		shDrawBoundBox(context, p, VG_FILL_PATH);
+		/* Reset state */
+		glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
+		glDisable(GL_STENCIL_TEST);
+		glDisable(GL_BLEND);
+	  } else {
+		glClearDepthf(1.0);
+		glClear(GL_DEPTH_BUFFER_BIT);
+		glEnable(GL_DEPTH_TEST);
+		glDepthRangef(0, 1);
+		glDepthFunc(GL_ALWAYS);
+		glColorMask(GL_FALSE, GL_FALSE, GL_FALSE, GL_FALSE);
+		glDepthMask(GL_TRUE);
+		//	glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
+		//	glColor4f(1,0,0,1);
+		//	shDrawVertices(p, GL_TRIANGLE_FAN);
+		shDrawPolygon(p, GL_TRIANGLE_FAN);
 
-	// Setup blending
-	updateBlendingStateGL(context,
-		fill->type == VG_PAINT_TYPE_COLOR &&
-		fill->color.a == 1.0f);
-	glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
-	glDepthFunc(GL_EQUAL);
-	shDrawPaintMesh(context, &p->min, &p->max, VG_FILL_PATH, GL_TEXTURE0);
+		// Setup blending
+		updateBlendingStateGL(context,
+			fill->type == VG_PAINT_TYPE_COLOR &&
+			fill->color.a == 1.0f);
+		glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
+		glDepthFunc(GL_EQUAL);
+		shDrawPaintMesh(context, &p->min, &p->max, VG_FILL_PATH, GL_TEXTURE0);
 
-	glDisable(GL_DEPTH_TEST);
-	glDisable(GL_BLEND);
-	glDisable(GL_MULTISAMPLE);
-	glDisable(GL_BLEND);
+		glDisable(GL_DEPTH_TEST);
+		glDisable(GL_BLEND);
+		glDisable(GL_MULTISAMPLE);
+		glDisable(GL_BLEND);
+	  }
 #else
     /* Tesselate into stencil */
     glEnable(GL_STENCIL_TEST);

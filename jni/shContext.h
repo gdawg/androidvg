@@ -114,6 +114,9 @@ typedef struct
   SH_PGLACTIVETEXTURE pglActiveTexture;
   SH_PGLMULTITEXCOORD1F pglMultiTexCoord1f;
   SH_PGLMULTITEXCOORD2F pglMultiTexCoord2f;
+
+  // AndroidVG
+  int gl_stencil_bits;
   
 } VGContext;
 
